@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://worthityet.com/sitemap.xml
