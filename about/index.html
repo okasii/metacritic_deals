@@ -112,6 +112,7 @@ main{flex:1}
 .wf-sort select{padding:7px 10px;border:1px solid var(--line);background:var(--white);font:inherit;font-size:14px}
 .wf-check{display:inline-flex;align-items:center;gap:8px;font-size:14px}
 .wf-check input{width:16px;height:16px;margin:0}
+.wf-more{display:none}
 
 /* List */
 .wf-list{padding:8px var(--gutter) 32px;display:flex;flex-direction:column}
@@ -236,9 +237,13 @@ main{flex:1}
   .wf-cards>.wf-card{flex:0 0 156px}
   .wf-card img,.wf-card .hatch{height:80px}
   .wf-card .buy{padding:7px 8px;font-size:13px}
-  .wf-filters{position:static;padding:8px var(--gutter);gap:8px 12px}
   .wf-stamp.title-stamp{margin-left:8px;padding:2px 9px;font-size:13px;border-width:2.5px}
-  .wf-filters .wf-seg:first-child{flex-basis:100%;display:flex}
+  .wf-filters{position:sticky;top:0;padding:8px var(--gutter);gap:8px 10px;flex-wrap:wrap}
+  .wf-filters .wf-seg:first-child{flex:1 1 auto;display:flex;min-width:0}
+  .wf-more{display:inline-block;border:1px solid var(--line);background:var(--white);color:var(--ink);font:inherit;font-size:13px;font-weight:600;padding:9px 10px;cursor:pointer;white-space:nowrap}
+  .wf-filters.open .wf-more{background:var(--ink);color:var(--white);border-color:var(--ink)}
+  .wf-filters > .wf-seg:not(:first-child),.wf-filters > .wf-sort,.wf-filters > .wf-check{display:none}
+  .wf-filters.open > .wf-seg,.wf-filters.open > .wf-sort,.wf-filters.open > .wf-check{display:inline-flex}
   .wf-filters .wf-seg:first-child button{flex:1;padding:9px 4px;font-size:14px;white-space:nowrap}
   .wf-seg .long{display:none}.wf-seg .short{display:inline}
   .wf-seg button{padding:7px 10px;font-size:13px}
@@ -273,7 +278,7 @@ main{flex:1}
     <a href="../feed.xml">Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T14:56:09.985000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T15:49:15.106000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>
@@ -299,7 +304,7 @@ main{flex:1}
   <div class="wf-footer-cols">
     <div><strong>Worth It Yet?</strong><a href="../about/">About</a><a href="../how-it-works/">How it works</a><a href="../privacy/">Privacy &amp; cookies</a><a href="../contact/">Contact</a></div>
     <div><strong>Verdicts</strong><span>Worth it (the gold stamp): new all-time low or equal to the 2-year low. Good: within 10 % of the 2-year low. Wait: anything else, with the price it usually drops to.</span></div>
-    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
+    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop, Xbox prices from the Microsoft Store, PlayStation prices powered by <a href="https://platprices.com/" target="_blank" rel="noopener">PlatPrices</a>. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
     <div><strong>Follow</strong><a href="../feed.xml">RSS feed of finds</a></div>
   </div>
   <div class="wf-footer-bar">
