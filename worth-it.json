@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T17:00:09.428000+00:00",
+ "updated": "2026-11-01T18:51:25.630000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -10,7 +10,8 @@
     "amount": 8.03,
     "regular": 37.99,
     "shop": "Zapagames",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a08df7-cde1-7010-b1c7-f0a365f42a48/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -35,7 +36,8 @@
     "amount": 14.94,
     "regular": 22.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca268b591/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -60,7 +62,8 @@
     "amount": 47.99,
     "regular": 59.99,
     "shop": "PlayerLand",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019c0b72-8233-7182-876e-a5d36d1403c8/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -93,7 +96,8 @@
     "amount": 41.99,
     "regular": 59.99,
     "shop": "GOG",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-2caa-7166-99c3-53160d559490/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -126,7 +130,8 @@
     "amount": 69.99,
     "regular": 69.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html"
    },
    "platforms": [
     {
@@ -151,7 +156,8 @@
     "amount": 48.21,
     "regular": 53.56,
     "shop": "GamesPlanet US",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -176,7 +182,8 @@
     "amount": 18.99,
     "regular": 18.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html"
    },
    "platforms": [
     {
@@ -201,7 +208,8 @@
     "amount": 28.99,
     "regular": 28.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9591-4f72-72a0-b0c5-80e096ae077f/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -226,7 +234,8 @@
     "amount": 16.99,
     "regular": 33.99,
     "shop": "Humble Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018da3fd-9349-73a4-b9bc-792dea8bf041/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -251,7 +260,8 @@
     "amount": 49.55,
     "regular": 53.56,
     "shop": "WinGameStore",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -276,7 +286,8 @@
     "amount": 23.74,
     "regular": 49.99,
     "shop": "Muve",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -301,7 +312,8 @@
     "amount": 39.99,
     "regular": 39.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html"
    },
    "platforms": [
     {
@@ -337,7 +349,8 @@
     "amount": 33.03,
     "regular": 35.71,
     "shop": "WinGameStore",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -362,7 +375,8 @@
     "amount": 55.8,
     "regular": 62.49,
     "shop": "WinGameStore",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -387,7 +401,8 @@
     "amount": 39.99,
     "regular": 39.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959f-13b2-700a-98f9-1bc976fba523/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -412,7 +427,8 @@
     "amount": 24.5,
     "regular": 24.5,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -445,7 +461,8 @@
     "amount": 57.99,
     "regular": 57.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-7131-70e0-80fb-26f7e3697e2d/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -470,7 +487,8 @@
     "amount": 7.49,
     "regular": 29.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Ori-and-the-Will-of-the-Wisps-1842518.html"
    },
    "platforms": [
     {
@@ -503,7 +521,8 @@
     "amount": 42.23,
     "regular": 44.64,
     "shop": "WinGameStore",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -528,7 +547,8 @@
     "amount": 28.99,
     "regular": 28.99,
     "shop": "Humble Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-53ae-7319-bba4-49ad59b53121/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -553,7 +573,8 @@
     "amount": 40.17,
     "regular": 44.64,
     "shop": "GamesPlanet US",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -578,7 +599,8 @@
     "amount": 21.99,
     "regular": 21.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-d138-7333-b604-f364d41918c7/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -603,7 +625,8 @@
     "amount": 9.99,
     "regular": 39.99,
     "shop": "Microsoft Store",
-    "platform": "Xbox"
+    "platform": "Xbox",
+    "url": "https://www.xbox.com/fi-FI/games/store/x/9N7JCPPCPN37"
    },
    "platforms": [
     {
@@ -658,7 +681,8 @@
     "amount": 55.96,
     "regular": 58.9,
     "shop": "Muve",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019eb6e4-ea55-725c-abc0-b1f3e0b930bc/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -683,7 +707,8 @@
     "amount": 5.59,
     "regular": 7.99,
     "shop": "Humble Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c700e5f5/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -708,7 +733,8 @@
     "amount": 13.6,
     "regular": 39.99,
     "shop": "GreenManGaming",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da68b01b5/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -733,7 +759,8 @@
     "amount": 59.99,
     "regular": 59.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html"
    },
    "platforms": [
     {
@@ -769,7 +796,8 @@
     "amount": 49.99,
     "regular": 49.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01949389-b340-70dc-a746-73c2169885a7/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -794,7 +822,8 @@
     "amount": 18.91,
     "regular": 19.9,
     "shop": "Muve",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019eb6e5-04b7-733f-9738-e8a7dcb6ee3c/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -824,17 +853,18 @@
    "year": 2024,
    "metascore": 92,
    "price": {
-    "amount": 15.35,
+    "amount": 15.97,
     "regular": 53.56,
-    "shop": "GamesPlanet US",
-    "platform": "PC"
+    "shop": "WinGameStore",
+    "platform": "PC",
+    "url": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.35,
+     "amount": 15.97,
      "regular": 53.56,
-     "shop": "GamesPlanet US",
+     "shop": "WinGameStore",
      "low": 14.93,
      "verdict": "good"
     },
@@ -849,7 +879,7 @@
    ],
    "low": 14.93,
    "verdict": "good",
-   "reason": "€0.42 above the 2-year low of €14.93"
+   "reason": "€1.04 above the 2-year low of €14.93"
   },
   {
    "slug": "blue-prince",
@@ -860,7 +890,8 @@
     "amount": 22.69,
     "regular": 29.99,
     "shop": "Zapagames",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a08df7-d9b2-71bb-b0af-cd9e0612a61d/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -893,7 +924,8 @@
     "amount": 32.04,
     "regular": 49.99,
     "shop": "Zapagames",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a08df7-da51-7371-847c-534f6791df31/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -923,17 +955,18 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 12.73,
-    "regular": 44.64,
-    "shop": "GamesPlanet US",
-    "platform": "PC"
+    "amount": 13.99,
+    "regular": 49.99,
+    "shop": "Fanatical",
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-448e-7241-9acb-20dbb95512de/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 12.73,
-     "regular": 44.64,
-     "shop": "GamesPlanet US",
+     "amount": 13.99,
+     "regular": 49.99,
+     "shop": "Fanatical",
      "low": 11.08,
      "verdict": "wait"
     }
@@ -962,7 +995,8 @@
     "amount": 69.99,
     "regular": 69.99,
     "shop": "GreenManGaming",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-96cb-7068-8e0b-56eb4e521c00/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -987,7 +1021,8 @@
     "amount": 16.79,
     "regular": 16.79,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-cfe2-72aa-8f50-561a9752f251/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1012,7 +1047,8 @@
     "amount": 20.99,
     "regular": 59.99,
     "shop": "GOG",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-b276-7290-91a1-7017f6363112/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1045,7 +1081,8 @@
     "amount": 7.49,
     "regular": 24.99,
     "shop": "GOG",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-797d-7196-afe7-0c18cd7b271d/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1070,7 +1107,8 @@
     "amount": 8.99,
     "regular": 29.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959e-6853-717a-8926-2e87c6fbb4f4/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1095,7 +1133,8 @@
     "amount": 49.99,
     "regular": 49.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018ffe28-a29b-7311-a3c5-486f6836dcab/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1131,7 +1170,8 @@
     "amount": 23.19,
     "regular": 28.99,
     "shop": "GOG",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-3c5a-7304-b549-bd5e7dfc9fd7/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1153,17 +1193,18 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 23.76,
+    "amount": 24.1,
     "regular": 35.71,
-    "shop": "GamesPlanet US",
-    "platform": "PC"
+    "shop": "WinGameStore",
+    "platform": "PC",
+    "url": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 23.76,
+     "amount": 24.1,
      "regular": 35.71,
-     "shop": "GamesPlanet US",
+     "shop": "WinGameStore",
      "low": 14.99,
      "verdict": "wait"
     }
@@ -1181,7 +1222,8 @@
     "amount": 24.5,
     "regular": 24.5,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019205a6-043e-73ec-a9da-3b0e9525051a/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1206,7 +1248,8 @@
     "amount": 69.99,
     "regular": 69.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html"
    },
    "platforms": [
     {
@@ -1231,7 +1274,8 @@
     "amount": 32.49,
     "regular": 49.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01956c30-7295-7026-a86a-999d0fe9d73b/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1264,7 +1308,8 @@
     "amount": 18.99,
     "regular": 18.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1297,7 +1342,8 @@
     "amount": 10.0,
     "regular": 19.99,
     "shop": "Humble Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019f3d94-9eee-7047-8e01-51a482126e16/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1322,7 +1368,8 @@
     "amount": 59.99,
     "regular": 59.99,
     "shop": "Nintendo eShop",
-    "platform": "Switch"
+    "platform": "Switch",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html"
    },
    "platforms": [
     {
@@ -1347,7 +1394,8 @@
     "amount": 44.99,
     "regular": 44.99,
     "shop": "Microsoft Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1372,7 +1420,8 @@
     "amount": 10.99,
     "regular": 19.99,
     "shop": "GOG",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1405,7 +1454,8 @@
     "amount": 15.99,
     "regular": 15.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1430,7 +1480,8 @@
     "amount": 59.99,
     "regular": 59.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959d-d25b-706b-bb73-818a4c85fa0b/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1455,7 +1506,8 @@
     "amount": 19.99,
     "regular": 19.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1488,7 +1540,8 @@
     "amount": 39.99,
     "regular": 39.99,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d959d-63eb-714a-8ad1-73ede1483581/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1513,7 +1566,8 @@
     "amount": 7.5,
     "regular": 22.99,
     "shop": "Playsum",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019dd045-0897-71a4-a2d6-03b06836893c/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1538,7 +1592,8 @@
     "amount": 15.89,
     "regular": 19.99,
     "shop": "Fanatical",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1563,7 +1618,8 @@
     "amount": 50.44,
     "regular": 53.56,
     "shop": "WinGameStore",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1588,7 +1644,8 @@
     "amount": 16.99,
     "regular": 33.99,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-c294-720d-9964-41245ff228bb/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1621,7 +1678,8 @@
     "amount": 5.26,
     "regular": 11.69,
     "shop": "Epic Game Store",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018ecc0c-b380-721b-b66b-0f8bbede662d/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1646,7 +1704,8 @@
     "amount": 17.15,
     "regular": 24.5,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1671,7 +1730,8 @@
     "amount": 10.07,
     "regular": 13.99,
     "shop": "GamersGate",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/018dc752-2524-70fc-896e-d678c8df180b/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1696,7 +1756,8 @@
     "amount": 23.99,
     "regular": 39.99,
     "shop": "DLGamer",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a08bec-f41d-73c3-b7dc-ea735092d86b/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1729,7 +1790,8 @@
     "amount": 11.31,
     "regular": 11.9,
     "shop": "Muve",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a01e80-e538-7070-ae86-de2b608b37f1/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1754,7 +1816,8 @@
     "amount": 59.28,
     "regular": 69.99,
     "shop": "PlayerLand",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019eb6e3-d2b8-70c4-9bd0-66477b911871/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1779,7 +1842,8 @@
     "amount": 16.39,
     "regular": 20.49,
     "shop": "Steam",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/019e71f1-7a3b-7003-888f-eee4df610e2e/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -1804,7 +1868,8 @@
     "amount": 45.51,
     "regular": 47.9,
     "shop": "Muve",
-    "platform": "PC"
+    "platform": "PC",
+    "url": "https://itad.link/01a12fa4-8796-70f4-817a-47f3cbcc347a/?app=w5ppeb"
    },
    "platforms": [
     {

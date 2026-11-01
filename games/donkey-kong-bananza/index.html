@@ -167,6 +167,10 @@ main{flex:1}
 .wf-alert-row{display:flex;gap:8px}
 .wf-alert-row input{flex:1;min-width:0;padding:8px 10px;border:1px solid var(--line);font:inherit;font-size:13px}
 .wf-alert-box .wf-btn{align-self:flex-start}
+.wf-email{display:flex;flex-direction:column;gap:6px;margin:4px 0}
+.wf-email .hp{position:absolute;left:-9999px;width:1px;height:1px}
+.wf-email .msg{margin:0}
+.wf-panel .wf-email{border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
 .wf-openbox .wf-btn.primary{padding:9px 12px;font-size:13px;line-height:1.25;text-align:center;align-self:stretch;white-space:nowrap}
 .wf-tail{padding:20px 12px;font-size:13px;color:var(--muted);border:1px dashed var(--line);margin:8px 0 0;text-align:center}
 
@@ -278,7 +282,7 @@ main{flex:1}
     <a href="../../feed.xml">Alerts</a>
     <a href="../../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T17:00:09.428000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T18:51:25.630000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../../#list" data-nav="top">Top 20</a>
     <a href="../../#list" data-nav="pc">PC</a>
@@ -319,6 +323,11 @@ main{flex:1}
     <a class="wf-btn primary" href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html" target="_blank" rel="nofollow sponsored noopener">To Nintendo eShop · €69.99</a>
     <span class="sub"><a href="None" target="_blank" rel="noopener">All PC stores on IsThereAnyDeal</a> · <a href="../../how-it-works/">How the verdict is calculated</a></span>
     
+    <form class="wf-email" data-game="donkey-kong-bananza" autocomplete="off">
+  <label class="sub" for="em-donkey-kong-bananza">Email me when this game is Worth it</label>
+  <div class="wf-alert-row"><input id="em-donkey-kong-bananza" type="email" name="email" placeholder="you@example.com" required><input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button type="submit" class="wf-btn primary">Email me</button></div>
+  <p class="sub msg">One mail per day at most, only on days something is Worth it. You confirm by clicking a link; every mail has an unsubscribe link.</p>
+</form>
   </aside>
 </section>
 
@@ -365,6 +374,13 @@ main{flex:1}
 var now=new Date(),day=function(x){return new Date(x.getFullYear(),x.getMonth(),x.getDate()).getTime()},diff=Math.round((day(now)-day(d))/864e5);
 var hm=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
 t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'updated '+d.toLocaleDateString([], {day:'numeric',month:'short'})+' '+hm;})();
+// Email alerts: forms post to the alerts Worker (double opt-in there).
+(function(){var URL='https://worthityet-alerts.plektra.workers.dev';document.querySelectorAll('form.wf-email').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();
+  var msg=f.querySelector('.msg'),btn=f.querySelector('button'),email=f.querySelector('input[type=email]').value.trim();
+  btn.disabled=true;msg.textContent='Sending…';
+  fetch(URL+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,game:f.dataset.game||'*',website:f.querySelector('input[name=website]').value})})
+  .then(function(r){return r.json();}).then(function(j){msg.textContent=j.error||j.message||'Done.';if(j.ok){f.querySelector('input[type=email]').value='';}})
+  .catch(function(){msg.textContent='Could not reach the alert service. Try again later, or use the RSS feed.';}).then(function(){btn.disabled=false;});});});})();
 // Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.
 (function(){document.querySelectorAll('a[href]').forEach(function(a){if(a.origin&&a.origin!==location.origin&&/^https?:/.test(a.href)){a.target='_blank';a.rel=(a.rel?a.rel+' ':'')+'noopener';}});})();
 </script>
