@@ -272,7 +272,7 @@ main{flex:1}
     <a href="../feed.xml">Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:23:18.645000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:47:13.338000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>
@@ -289,7 +289,7 @@ main{flex:1}
 <p>Worth It Yet? is a one-person site made in Finland. It answers one question: of the best-reviewed games of the last few years, which one is worth buying <em>today</em>?</p>
 <p>Deal sites list everything on sale. That is useful if you already know what you want. This site is for the other moment: you have an evening free, you would like to play something great, and you do not want to open four stores and a price-history chart to find out whether €24.99 is a real low or a Tuesday. We check the prices every morning, compare them with two years of history, and put a gold stamp on the few games that are at their low. Most days that is zero to five games. When it is zero, the front page says so.</p>
 <h2>What it is not</h2>
-<p>Not a store, not a key reseller, not a coupon site. We do not sell anything, take payments or run ads. Store links go to the shop that has the price (through <a href="https://isthereanydeal.com/">IsThereAnyDeal</a> for PC, straight to the eShop for Switch), and we may earn a small commission on some of them; it never changes which price or which shop is shown.</p>
+<p>Not a store, not a key reseller, not a coupon site. We do not sell anything, take payments or run ads. Store links go to the shop that has the price (through <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a> for PC, straight to the eShop for Switch), and we may earn a small commission on some of them; it never changes which price or which shop is shown.</p>
 <h2>Who</h2>
 <p>Kalle Salonen, Finland. The verdict rules are on the <a href="../how-it-works/">How it works</a> page. Questions, corrections, a game we missed: <a href="../contact/">contact</a>.</p>
 </main>
@@ -298,7 +298,7 @@ main{flex:1}
   <div class="wf-footer-cols">
     <div><strong>Worth It Yet?</strong><a href="../about/">About</a><a href="../how-it-works/">How it works</a><a href="../privacy/">Privacy &amp; cookies</a><a href="../contact/">Contact</a></div>
     <div><strong>Verdicts</strong><span>Worth it (the gold stamp): new all-time low or equal to the 2-year low. Good: within 10 % of the 2-year low. Wait: anything else, with the price it usually drops to.</span></div>
-    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
+    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
     <div><strong>Follow</strong><a href="../feed.xml">RSS feed of finds</a></div>
   </div>
   <div class="wf-footer-bar">
@@ -311,6 +311,8 @@ main{flex:1}
 var now=new Date(),day=function(x){return new Date(x.getFullYear(),x.getMonth(),x.getDate()).getTime()},diff=Math.round((day(now)-day(d))/864e5);
 var hm=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
 t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'updated '+d.toLocaleDateString([], {day:'numeric',month:'short'})+' '+hm;})();
+// Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.
+(function(){document.querySelectorAll('a[href]').forEach(function(a){if(a.origin&&a.origin!==location.origin&&/^https?:/.test(a.href)){a.target='_blank';a.rel=(a.rel?a.rel+' ':'')+'noopener';}});})();
 </script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c0667d0a65224e36abdd1fd63af29cf2"}'></script>
 </body>

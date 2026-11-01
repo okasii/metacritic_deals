@@ -272,7 +272,7 @@ main{flex:1}
     <a href="../feed.xml">Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:23:18.645000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:47:13.338000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>
@@ -290,13 +290,13 @@ main{flex:1}
 <h2>Cookies</h2>
 <p>None. There is no cookie banner because there is nothing to consent to. If that changes, this page will say so first and a consent choice will be shown before anything is set.</p>
 <h2>Visitor statistics</h2>
-<p>We count visits with <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics</a>. It sets no cookies, uses no fingerprinting and stores no personal data; it tells us how many people visit, which pages they read and how fast the pages load. That is all we use it for.</p>
+<p>We count visits with <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">Cloudflare Web Analytics</a>. It sets no cookies, uses no fingerprinting and stores no personal data; it tells us how many people visit, which pages they read and how fast the pages load. That is all we use it for.</p>
 <h2>What stays in your browser</h2>
 <p>When you press <em>Alert me</em> or <em>Watch this game</em>, the list of games you watch is saved in your browser's local storage (not a cookie). It never leaves your device and we cannot see it. Clear your browser's site data to remove it.</p>
 <h2>What our host sees</h2>
-<p>The pages are static files served by GitHub Pages. Like any web server it receives your IP address and browser type when it sends a page. We do not have access to those logs and keep no copy. GitHub's own policy is at <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">docs.github.com</a>.</p>
+<p>The pages are static files served by GitHub Pages. Like any web server it receives your IP address and browser type when it sends a page. We do not have access to those logs and keep no copy. GitHub's own policy is at <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">docs.github.com</a>.</p>
 <h2>Links to stores</h2>
-<p>Buy links take you to the shop that has the price, in some cases via <a href="https://isthereanydeal.com/">IsThereAnyDeal</a>, which may record the click as an affiliate referral. From that point on the store's privacy policy applies, not ours.</p>
+<p>Buy links take you to the shop that has the price, in some cases via <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, which may record the click as an affiliate referral. From that point on the store's privacy policy applies, not ours.</p>
 <h2>Feeds and email</h2>
 <p>The RSS feeds are plain files; subscribing to one tells us nothing. If you write to us by email we keep the message to answer it and nothing else.</p>
 <p>Last updated: 01 Nov 2026.</p>
@@ -306,7 +306,7 @@ main{flex:1}
   <div class="wf-footer-cols">
     <div><strong>Worth It Yet?</strong><a href="../about/">About</a><a href="../how-it-works/">How it works</a><a href="../privacy/">Privacy &amp; cookies</a><a href="../contact/">Contact</a></div>
     <div><strong>Verdicts</strong><span>Worth it (the gold stamp): new all-time low or equal to the 2-year low. Good: within 10 % of the 2-year low. Wait: anything else, with the price it usually drops to.</span></div>
-    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
+    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
     <div><strong>Follow</strong><a href="../feed.xml">RSS feed of finds</a></div>
   </div>
   <div class="wf-footer-bar">
@@ -319,6 +319,8 @@ main{flex:1}
 var now=new Date(),day=function(x){return new Date(x.getFullYear(),x.getMonth(),x.getDate()).getTime()},diff=Math.round((day(now)-day(d))/864e5);
 var hm=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
 t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'updated '+d.toLocaleDateString([], {day:'numeric',month:'short'})+' '+hm;})();
+// Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.
+(function(){document.querySelectorAll('a[href]').forEach(function(a){if(a.origin&&a.origin!==location.origin&&/^https?:/.test(a.href)){a.target='_blank';a.rel=(a.rel?a.rel+' ':'')+'noopener';}});})();
 </script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c0667d0a65224e36abdd1fd63af29cf2"}'></script>
 </body>

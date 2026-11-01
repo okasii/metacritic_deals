@@ -272,7 +272,7 @@ main{flex:1}
     <a href="../../feed.xml">Alerts</a>
     <a href="../../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:23:18.645000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T13:47:13.338000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../../#list" data-nav="top">Top 20</a>
     <a href="../../#list" data-nav="pc">PC</a>
@@ -292,7 +292,7 @@ main{flex:1}
     <div class="text">
       <h1>Chicory: A Colorful Tale</h1>
       <span class="sub">2021 · PC</span>
-      <div class="scoreline"><span class="box">90</span><span class="sub"><a href="https://www.metacritic.com/game/chicory-a-colorful-tale/" rel="noopener">Metascore on Metacritic</a> · PC · rank 56 of 71 since 2020</span></div>
+      <div class="scoreline"><span class="box">90</span><span class="sub"><a href="https://www.metacritic.com/game/chicory-a-colorful-tale/" target="_blank" rel="noopener">Metascore on Metacritic</a> · PC · rank 56 of 71 since 2020</span></div>
     </div>
   </div>
   <aside class="wf-panel" aria-label="Verdict">
@@ -310,8 +310,8 @@ main{flex:1}
       <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
       <div class="ends"><span>all-time low €8.49</span><span>regular €15.99</span></div>
     </div>
-    <a class="wf-btn primary" href="https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb" rel="nofollow sponsored">To Epic Game Store · €15.99</a>
-    <span class="sub"><a href="https://isthereanydeal.com/game/id:018d937e-e9f9-734c-8413-5a447e0528ea/">All PC stores on IsThereAnyDeal</a> · <a href="../../how-it-works/">How the verdict is calculated</a></span>
+    <a class="wf-btn primary" href="https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb" target="_blank" rel="nofollow sponsored noopener">To Epic Game Store · €15.99</a>
+    <span class="sub"><a href="https://isthereanydeal.com/game/id:018d937e-e9f9-734c-8413-5a447e0528ea/" target="_blank" rel="noopener">All PC stores on IsThereAnyDeal</a> · <a href="../../how-it-works/">How the verdict is calculated</a></span>
     
   </aside>
 </section>
@@ -346,7 +346,7 @@ main{flex:1}
   <div class="wf-footer-cols">
     <div><strong>Worth It Yet?</strong><a href="../../about/">About</a><a href="../../how-it-works/">How it works</a><a href="../../privacy/">Privacy &amp; cookies</a><a href="../../contact/">Contact</a></div>
     <div><strong>Verdicts</strong><span>Worth it (the gold stamp): new all-time low or equal to the 2-year low. Good: within 10 % of the 2-year low. Wait: anything else, with the price it usually drops to.</span></div>
-    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
+    <div><strong>Data</strong><span>Metascores from Metacritic's yearly roundups. PC prices by <a href="https://isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal</a>, Switch prices from the Nintendo eShop; PlayStation and Xbox coming. Euro prices from EU stores; other regions may differ. Updated every morning.</span></div>
     <div><strong>Follow</strong><a href="../../feed.xml">RSS feed of finds</a></div>
   </div>
   <div class="wf-footer-bar">
@@ -359,6 +359,8 @@ main{flex:1}
 var now=new Date(),day=function(x){return new Date(x.getFullYear(),x.getMonth(),x.getDate()).getTime()},diff=Math.round((day(now)-day(d))/864e5);
 var hm=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
 t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'updated '+d.toLocaleDateString([], {day:'numeric',month:'short'})+' '+hm;})();
+// Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.
+(function(){document.querySelectorAll('a[href]').forEach(function(a){if(a.origin&&a.origin!==location.origin&&/^https?:/.test(a.href)){a.target='_blank';a.rel=(a.rel?a.rel+' ':'')+'noopener';}});})();
 </script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c0667d0a65224e36abdd1fd63af29cf2"}'></script>
 </body>
