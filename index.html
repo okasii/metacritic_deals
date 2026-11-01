@@ -67,7 +67,7 @@ main{flex:1}
 .wf-hero p{margin:0;max-width:60ch;color:var(--text)}
 
 /* Banner: today's finds as the picture */
-.wf-banner{position:relative;overflow:hidden;background:#111827;color:#fff;min-height:170px;max-height:260px;display:flex;align-items:flex-end}
+.wf-banner{position:relative;overflow:hidden;background:#111827;color:#fff;min-height:170px;display:flex;align-items:flex-end}
 .wf-banner-art{position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr);filter:saturate(1.1)}
 .wf-banner-art img{width:100%;height:100%;object-fit:cover;opacity:.85}
 .wf-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,24,39,.96) 0,rgba(17,24,39,.85) 34%,rgba(17,24,39,.35) 70%,rgba(17,24,39,.15) 100%)}
@@ -75,6 +75,12 @@ main{flex:1}
 .wf-banner h1{margin:0;font-size:40px;line-height:1.05;font-weight:800;letter-spacing:-.025em}
 .wf-banner h1::first-letter{color:#f5c542}
 .wf-banner p{margin:8px 0 0;font-size:15px;color:#d1d5db}
+.wf-hero-email{margin-top:16px;max-width:520px}
+.wf-hero-email label{font-size:14px;font-weight:600;color:#fff}
+.wf-hero-email .wf-alert-row input[type=email]{font-size:15px;padding:10px 12px;border:2px solid var(--gold-bright);background:#fff;color:var(--ink)}
+.wf-hero-email .wf-btn.primary{background:var(--gold-bright);color:var(--ink);border-color:var(--gold-bright);padding:10px 18px;font-weight:800;white-space:nowrap}
+.wf-hero-email .msg{color:#d1d5db;font-size:12px}
+.wf-hero-email .msg.ok{color:#fff;border-left-color:var(--gold-bright)}
 /* Worth it right now */
 .wf-now{padding:20px var(--gutter) 18px;display:flex;flex-direction:column;gap:12px}
 .wf-now-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
@@ -228,7 +234,9 @@ main{flex:1}
   .wf-header .wf-mnav a{flex:0 0 auto;padding:10px 14px 10px 0;font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
   .wf-header .wf-mnav a:last-child{padding-right:var(--gutter)}
   .wf-hero h1{font-size:32px}
-  .wf-banner{min-height:150px;max-height:200px}
+  .wf-banner{min-height:150px}
+  .wf-hero-email .wf-alert-row{flex-direction:column}
+  .wf-hero-email .wf-btn.primary{align-self:stretch;text-align:center}
   .wf-banner-text{padding:20px var(--gutter) 16px}
   .wf-banner h1{font-size:30px}
   .wf-banner p{font-size:14px}
@@ -280,17 +288,17 @@ main{flex:1}
     <a href="./#list" data-nav="playstation">PlayStation</a>
     <a href="./#list" data-nav="xbox">Xbox</a>
     <a href="./#list" data-nav="year">By year</a>
-    <a href="./feed.xml">Alerts</a>
+    <a href="./feed.xml" data-alerts>Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T19:01:10.866000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T19:15:12.161000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="./#list" data-nav="top">Top 20</a>
     <a href="./#list" data-nav="pc">PC</a>
     <a href="./#list" data-nav="switch">Switch</a>
     <a href="./#list" data-nav="playstation">PlayStation</a>
     <a href="./#list" data-nav="xbox">Xbox</a>
-    <a href="./feed.xml">Alerts</a>
+    <a href="./feed.xml" data-alerts>Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
 </header>
@@ -302,11 +310,16 @@ main{flex:1}
   <div class="wf-banner-text">
     <h1>8 finds today.</h1>
     <p>The best-reviewed games since 2020, at their all-time low. The other 57 can wait.</p>
+    <form class="wf-email wf-hero-email" data-game="*" autocomplete="off">
+      <label for="em-hero">Get an email when the next one drops</label>
+      <div class="wf-alert-row"><input id="em-hero" type="email" name="email" placeholder="you@example.com" required><input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button type="submit" class="wf-btn primary">Email me</button></div>
+      <p class="sub msg">Only on days a game is Worth it. One click to confirm, one to leave. No cookies, no accounts.</p>
+    </form>
   </div>
 </section>
 
 <section class="wf-now" aria-label="Worth it right now">
-  <div class="wf-now-head"><h2>Worth it right now</h2><span>8 of 65 best-reviewed games (Metascore 90+, 2020–) at their all-time low</span><a class="wf-alertlink" href="./feed.xml" id="alertAll">Get told when the next one drops →</a></div>
+  <div class="wf-now-head"><h2>Worth it right now</h2><span>8 of 65 best-reviewed games (Metascore 90+, 2020–) at their all-time low</span><a class="wf-alertlink" href="./feed.xml" id="alertAll">RSS and per-game alerts →</a></div>
   <div class="wf-cards">
     
     <div class="wf-card">
@@ -1289,7 +1302,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="shin-megami-tensei-v-vengeance" data-platforms="pc xbox" data-tier="good" data-rank="34" data-kind="other" data-year="2024" data-price="15.97" data-cut="70">
+<article class="wf-row" id="shin-megami-tensei-v-vengeance" data-platforms="pc xbox" data-tier="wait" data-rank="34" data-kind="other" data-year="2024" data-price="17.99" data-cut="70">
   <span class="rank">34</span>
   <img class="cover" src="https://assets.isthereanydeal.com/018deb4b-fc79-712e-a822-7612a09aaf89/banner400.jpg?t=1786386343" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1299,13 +1312,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">Xbox (PC 91)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€15.97</span><span class="reg">€53.56</span><span class="sub">WinGameStore · PC</span></div>
-    <div class="wf-scale"><i style="width:97%"></i><b style="left:3%"></b></div>
-    <div class="ends"><span>low €14.93</span><span>regular €53.56</span></div>
+    <div class="now"><span class="amt">€17.99</span><span class="reg">€59.99</span><span class="sub">Humble Store · PC</span></div>
+    <div class="wf-scale"><i style="width:93%"></i><b style="left:7%"></b></div>
+    <div class="ends"><span>low €14.93</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.04 above the 2-year low of €14.93</span>
+    <span class="wf-word wait">WAIT</span>
+    <span class="sub">2-year low is €14.93</span>
   </div>
   <div class="wf-openbox">
     
@@ -1539,7 +1552,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="satisfactory" data-platforms="pc" data-tier="wait" data-rank="47" data-kind="new" data-year="2024" data-price="24.1" data-cut="33">
+<article class="wf-row" id="satisfactory" data-platforms="pc" data-tier="wait" data-rank="47" data-kind="new" data-year="2024" data-price="24.56" data-cut="37">
   <span class="rank">47</span>
   <img class="cover" src="https://assets.isthereanydeal.com/018d937f-19b2-7210-8ae4-a36784a06232/banner400.jpg?t=1791193526" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1549,9 +1562,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">91</span><span class="sub">PC</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€24.10</span><span class="reg">€35.71</span><span class="sub">WinGameStore · PC</span></div>
-    <div class="wf-scale"><i style="width:56%"></i><b style="left:44%"></b></div>
-    <div class="ends"><span>low €14.99</span><span>regular €35.71</span></div>
+    <div class="now"><span class="amt">€24.56</span><span class="reg">€38.99</span><span class="sub">GreenManGaming · PC</span></div>
+    <div class="wf-scale"><i style="width:60%"></i><b style="left:40%"></b></div>
+    <div class="ends"><span>low €14.99</span><span>regular €38.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -2203,6 +2216,7 @@ main{flex:1}
     panel.hidden=false;paint();}
   document.querySelectorAll('.wf-alert-btn').forEach(function(b){b.addEventListener('click',function(){openPanel(b.dataset.slug,b.dataset.title);});});
   document.getElementById('alertAll').addEventListener('click',function(e){e.preventDefault();openPanel('*','every find');});
+  document.querySelectorAll('[data-alerts]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();openPanel('*','every find');});});
   document.getElementById('alertClose').addEventListener('click',function(){panel.hidden=true;});
   panel.addEventListener('click',function(e){if(e.target===panel)panel.hidden=true;});
   document.getElementById('alertCopy').addEventListener('click',function(){var i=document.getElementById('alertRss');i.select();try{navigator.clipboard.writeText(i.value);}catch(e){document.execCommand('copy');}this.textContent='Copied';var self=this;setTimeout(function(){self.textContent='Copy link';},1500);});

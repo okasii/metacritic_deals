@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:01:10.866000+00:00",
+ "updated": "2026-11-01T19:15:12.161000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -853,20 +853,20 @@
    "year": 2024,
    "metascore": 92,
    "price": {
-    "amount": 15.97,
-    "regular": 53.56,
-    "shop": "WinGameStore",
+    "amount": 17.99,
+    "regular": 59.99,
+    "shop": "Humble Store",
     "platform": "PC",
-    "url": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb"
+    "url": "https://itad.link/018df041-f80c-7036-bd65-c5a45f52f338/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.97,
-     "regular": 53.56,
-     "shop": "WinGameStore",
+     "amount": 17.99,
+     "regular": 59.99,
+     "shop": "Humble Store",
      "low": 14.93,
-     "verdict": "good"
+     "verdict": "wait"
     },
     {
      "platform": "xbox",
@@ -878,8 +878,8 @@
     }
    ],
    "low": 14.93,
-   "verdict": "good",
-   "reason": "€1.04 above the 2-year low of €14.93"
+   "verdict": "wait",
+   "reason": "2-year low is €14.93"
   },
   {
    "slug": "blue-prince",
@@ -1193,18 +1193,18 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 24.1,
-    "regular": 35.71,
-    "shop": "WinGameStore",
+    "amount": 24.56,
+    "regular": 38.99,
+    "shop": "GreenManGaming",
     "platform": "PC",
-    "url": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb"
+    "url": "https://itad.link/01a08b63-204f-716f-9fa0-e82eeb586e45/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 24.1,
-     "regular": 35.71,
-     "shop": "WinGameStore",
+     "amount": 24.56,
+     "regular": 38.99,
+     "shop": "GreenManGaming",
      "low": 14.99,
      "verdict": "wait"
     }

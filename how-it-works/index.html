@@ -67,7 +67,7 @@ main{flex:1}
 .wf-hero p{margin:0;max-width:60ch;color:var(--text)}
 
 /* Banner: today's finds as the picture */
-.wf-banner{position:relative;overflow:hidden;background:#111827;color:#fff;min-height:170px;max-height:260px;display:flex;align-items:flex-end}
+.wf-banner{position:relative;overflow:hidden;background:#111827;color:#fff;min-height:170px;display:flex;align-items:flex-end}
 .wf-banner-art{position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr);filter:saturate(1.1)}
 .wf-banner-art img{width:100%;height:100%;object-fit:cover;opacity:.85}
 .wf-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,24,39,.96) 0,rgba(17,24,39,.85) 34%,rgba(17,24,39,.35) 70%,rgba(17,24,39,.15) 100%)}
@@ -75,6 +75,12 @@ main{flex:1}
 .wf-banner h1{margin:0;font-size:40px;line-height:1.05;font-weight:800;letter-spacing:-.025em}
 .wf-banner h1::first-letter{color:#f5c542}
 .wf-banner p{margin:8px 0 0;font-size:15px;color:#d1d5db}
+.wf-hero-email{margin-top:16px;max-width:520px}
+.wf-hero-email label{font-size:14px;font-weight:600;color:#fff}
+.wf-hero-email .wf-alert-row input[type=email]{font-size:15px;padding:10px 12px;border:2px solid var(--gold-bright);background:#fff;color:var(--ink)}
+.wf-hero-email .wf-btn.primary{background:var(--gold-bright);color:var(--ink);border-color:var(--gold-bright);padding:10px 18px;font-weight:800;white-space:nowrap}
+.wf-hero-email .msg{color:#d1d5db;font-size:12px}
+.wf-hero-email .msg.ok{color:#fff;border-left-color:var(--gold-bright)}
 /* Worth it right now */
 .wf-now{padding:20px var(--gutter) 18px;display:flex;flex-direction:column;gap:12px}
 .wf-now-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
@@ -228,7 +234,9 @@ main{flex:1}
   .wf-header .wf-mnav a{flex:0 0 auto;padding:10px 14px 10px 0;font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
   .wf-header .wf-mnav a:last-child{padding-right:var(--gutter)}
   .wf-hero h1{font-size:32px}
-  .wf-banner{min-height:150px;max-height:200px}
+  .wf-banner{min-height:150px}
+  .wf-hero-email .wf-alert-row{flex-direction:column}
+  .wf-hero-email .wf-btn.primary{align-self:stretch;text-align:center}
   .wf-banner-text{padding:20px var(--gutter) 16px}
   .wf-banner h1{font-size:30px}
   .wf-banner p{font-size:14px}
@@ -280,17 +288,17 @@ main{flex:1}
     <a href="../#list" data-nav="playstation">PlayStation</a>
     <a href="../#list" data-nav="xbox">Xbox</a>
     <a href="../#list" data-nav="year">By year</a>
-    <a href="../feed.xml">Alerts</a>
+    <a href="../feed.xml" data-alerts>Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T19:01:10.866000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T19:15:12.161000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>
     <a href="../#list" data-nav="switch">Switch</a>
     <a href="../#list" data-nav="playstation">PlayStation</a>
     <a href="../#list" data-nav="xbox">Xbox</a>
-    <a href="../feed.xml">Alerts</a>
+    <a href="../feed.xml" data-alerts>Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
 </header>
