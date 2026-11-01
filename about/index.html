@@ -170,6 +170,7 @@ main{flex:1}
 .wf-email{display:flex;flex-direction:column;gap:6px;margin:4px 0}
 .wf-email .hp{position:absolute;left:-9999px;width:1px;height:1px}
 .wf-email .msg{margin:0}
+.wf-email .msg.ok{color:var(--ink);font-size:14px;border-left:3px solid var(--gold-bright);padding-left:10px}
 .wf-panel .wf-email{border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
 .wf-openbox .wf-btn.primary{padding:9px 12px;font-size:13px;line-height:1.25;text-align:center;align-self:stretch;white-space:nowrap}
 .wf-tail{padding:20px 12px;font-size:13px;color:var(--muted);border:1px dashed var(--line);margin:8px 0 0;text-align:center}
@@ -282,7 +283,7 @@ main{flex:1}
     <a href="../feed.xml">Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T18:51:25.630000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T19:01:10.866000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>
@@ -326,7 +327,7 @@ t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'upd
   var msg=f.querySelector('.msg'),btn=f.querySelector('button'),email=f.querySelector('input[type=email]').value.trim();
   btn.disabled=true;msg.textContent='Sending…';
   fetch(URL+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,game:f.dataset.game||'*',website:f.querySelector('input[name=website]').value})})
-  .then(function(r){return r.json();}).then(function(j){msg.textContent=j.error||j.message||'Done.';if(j.ok){f.querySelector('input[type=email]').value='';}})
+  .then(function(r){return r.json();}).then(function(j){if(j.ok){f.querySelector('.wf-alert-row').hidden=true;f.querySelector('label').hidden=true;msg.className='sub msg ok';msg.innerHTML='<strong>✓ Sent to '+email.replace(/</g,'&lt;')+'</strong> — open the mail and click <em>Confirm alert</em>. Not there in a minute? Check the spam folder.';if(j.state==='already'){msg.innerHTML='<strong>✓ Already subscribed</strong> — this game was added to your alerts.';}}else{msg.textContent=j.error||j.message||'Something went wrong.';}})
   .catch(function(){msg.textContent='Could not reach the alert service. Try again later, or use the RSS feed.';}).then(function(){btn.disabled=false;});});});})();
 // Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.
 (function(){document.querySelectorAll('a[href]').forEach(function(a){if(a.origin&&a.origin!==location.origin&&/^https?:/.test(a.href)){a.target='_blank';a.rel=(a.rel?a.rel+' ':'')+'noopener';}});})();
