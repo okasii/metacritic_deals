@@ -1,0 +1,15 @@
+{
+  "name": "Worth It Yet?",
+  "short_name": "Worth It Yet",
+  "description": "The best-reviewed games since 2020 and a plain verdict for each: Worth it, Good or Wait.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "icons": [
+    { "src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/static/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

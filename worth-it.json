@@ -1,0 +1,1824 @@
+{
+ "updated": "2026-11-01T13:23:18.645000+00:00",
+ "games": [
+  {
+   "slug": "disco-elysium-the-final-cut",
+   "title": "Disco Elysium: The Final Cut",
+   "year": 2021,
+   "metascore": 97,
+   "price": {
+    "amount": 8.03,
+    "regular": 37.99,
+    "shop": "Zapagames",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 8.03,
+     "regular": 37.99,
+     "shop": "Zapagames",
+     "low": 3.59,
+     "verdict": "wait"
+    }
+   ],
+   "low": 3.59,
+   "verdict": "wait",
+   "reason": "2-year low is €3.59"
+  },
+  {
+   "slug": "the-house-in-fata-morgana",
+   "title": "The House in Fata Morgana",
+   "year": 2021,
+   "metascore": 96,
+   "price": {
+    "amount": 14.94,
+    "regular": 22.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 14.94,
+     "regular": 22.99,
+     "shop": "Steam",
+     "low": 10.39,
+     "verdict": "wait"
+    }
+   ],
+   "low": 10.39,
+   "verdict": "wait",
+   "reason": "2-year low is €10.39"
+  },
+  {
+   "slug": "elden-ring",
+   "title": "Elden Ring",
+   "year": 2022,
+   "metascore": 96,
+   "price": {
+    "amount": 47.99,
+    "regular": 59.99,
+    "shop": "PlayerLand",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 47.99,
+     "regular": 59.99,
+     "shop": "PlayerLand",
+     "low": 27.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 59.99,
+     "regular": 59.99,
+     "shop": "Microsoft Store",
+     "low": 59.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 27.99,
+   "verdict": "wait",
+   "reason": "2-year low is €27.99"
+  },
+  {
+   "slug": "baldurs-gate-3",
+   "title": "Baldur's Gate 3",
+   "year": 2023,
+   "metascore": 96,
+   "price": {
+    "amount": 41.99,
+    "regular": 59.99,
+    "shop": "GOG",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 41.99,
+     "regular": 59.99,
+     "shop": "GOG",
+     "low": 41.99,
+     "verdict": "worth"
+    },
+    {
+     "platform": "xbox",
+     "amount": 69.99,
+     "regular": 69.99,
+     "shop": "Microsoft Store",
+     "low": 69.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 41.99,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+   "title": "The Legend of Zelda: Tears of the Kingdom",
+   "year": 2023,
+   "metascore": 96,
+   "price": {
+    "amount": 69.99,
+    "regular": 69.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 69.99,
+     "regular": 69.99,
+     "shop": "Nintendo eShop",
+     "low": 69.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 69.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "persona-5-royal",
+   "title": "Persona 5 Royal",
+   "year": 2020,
+   "metascore": 95,
+   "price": {
+    "amount": 48.21,
+    "regular": 53.56,
+    "shop": "GamesPlanet US",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 48.21,
+     "regular": 53.56,
+     "shop": "GamesPlanet US",
+     "low": 9.94,
+     "verdict": "wait"
+    }
+   ],
+   "low": 9.94,
+   "verdict": "wait",
+   "reason": "2-year low is €9.94"
+  },
+  {
+   "slug": "portal-companion-collection",
+   "title": "Portal: Companion Collection",
+   "year": 2022,
+   "metascore": 95,
+   "price": {
+    "amount": 18.99,
+    "regular": 18.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 18.99,
+     "regular": 18.99,
+     "shop": "Nintendo eShop",
+     "low": 18.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 18.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "hades-ii",
+   "title": "Hades II",
+   "year": 2025,
+   "metascore": 95,
+   "price": {
+    "amount": 28.99,
+    "regular": 28.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 28.99,
+     "regular": 28.99,
+     "shop": "Epic Game Store",
+     "low": 20.29,
+     "verdict": "wait"
+    }
+   ],
+   "low": 20.29,
+   "verdict": "wait",
+   "reason": "2-year low is €20.29"
+  },
+  {
+   "slug": "tetris-effect-connected",
+   "title": "Tetris Effect: Connected",
+   "year": 2020,
+   "metascore": 94,
+   "price": {
+    "amount": 16.99,
+    "regular": 33.99,
+    "shop": "Humble Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 16.99,
+     "regular": 33.99,
+     "shop": "Humble Store",
+     "low": 15.99,
+     "verdict": "good"
+    }
+   ],
+   "low": 15.99,
+   "verdict": "good",
+   "reason": "€1.00 above the 2-year low of €15.99"
+  },
+  {
+   "slug": "god-of-war-ragnar-k",
+   "title": "God of War Ragnarök",
+   "year": 2022,
+   "metascore": 94,
+   "price": {
+    "amount": 49.55,
+    "regular": 53.56,
+    "shop": "WinGameStore",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 49.55,
+     "regular": 53.56,
+     "shop": "WinGameStore",
+     "low": 32.46,
+     "verdict": "wait"
+    }
+   ],
+   "low": 32.46,
+   "verdict": "wait",
+   "reason": "2-year low is €32.46"
+  },
+  {
+   "slug": "the-witcher-3-wild-hunt-complete-edition",
+   "title": "The Witcher 3: Wild Hunt – Complete Edition",
+   "year": 2022,
+   "metascore": 94,
+   "price": {
+    "amount": 23.74,
+    "regular": 49.99,
+    "shop": "Muve",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 23.74,
+     "regular": 49.99,
+     "shop": "Muve",
+     "low": 9.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 9.99,
+   "verdict": "wait",
+   "reason": "2-year low is €9.99"
+  },
+  {
+   "slug": "metroid-prime-remastered",
+   "title": "Metroid Prime Remastered",
+   "year": 2023,
+   "metascore": 94,
+   "price": {
+    "amount": 39.99,
+    "regular": 39.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 39.99,
+     "regular": 39.99,
+     "shop": "Nintendo eShop",
+     "low": 39.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 39.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "astro-bot",
+   "title": "Astro Bot",
+   "year": 2024,
+   "metascore": 94,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "elden-ring-shadow-of-the-erdtree",
+   "title": "Elden Ring: Shadow of the Erdtree",
+   "year": 2024,
+   "metascore": 94,
+   "price": {
+    "amount": 33.03,
+    "regular": 35.71,
+    "shop": "WinGameStore",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 33.03,
+     "regular": 35.71,
+     "shop": "WinGameStore",
+     "low": 29.98,
+     "verdict": "wait"
+    }
+   ],
+   "low": 29.98,
+   "verdict": "wait",
+   "reason": "2-year low is €29.98"
+  },
+  {
+   "slug": "metaphor-refantazio",
+   "title": "Metaphor: ReFantazio",
+   "year": 2024,
+   "metascore": 94,
+   "price": {
+    "amount": 55.8,
+    "regular": 62.49,
+    "shop": "WinGameStore",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 55.8,
+     "regular": 62.49,
+     "shop": "WinGameStore",
+     "low": 23.11,
+     "verdict": "wait"
+    }
+   ],
+   "low": 23.11,
+   "verdict": "wait",
+   "reason": "2-year low is €23.11"
+  },
+  {
+   "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
+   "title": "Dragon Quest XI S: Echoes of an Elusive Age",
+   "year": 2020,
+   "metascore": 93,
+   "price": {
+    "amount": 39.99,
+    "regular": 39.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 39.99,
+     "regular": 39.99,
+     "shop": "Epic Game Store",
+     "low": 19.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 19.99,
+   "verdict": "wait",
+   "reason": "2-year low is €19.99"
+  },
+  {
+   "slug": "hades",
+   "title": "Hades",
+   "year": 2020,
+   "metascore": 93,
+   "price": {
+    "amount": 24.5,
+    "regular": 24.5,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 24.5,
+     "regular": 24.5,
+     "shop": "Epic Game Store",
+     "low": 6.12,
+     "verdict": "wait"
+    },
+    {
+     "platform": "switch",
+     "amount": 24.99,
+     "regular": 24.99,
+     "shop": "Nintendo eShop",
+     "low": 24.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 6.12,
+   "verdict": "wait",
+   "reason": "2-year low is €6.12"
+  },
+  {
+   "slug": "half-life-alyx",
+   "title": "Half-Life: Alyx",
+   "year": 2020,
+   "metascore": 93,
+   "price": {
+    "amount": 57.99,
+    "regular": 57.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 57.99,
+     "regular": 57.99,
+     "shop": "Steam",
+     "low": 14.74,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.74,
+   "verdict": "wait",
+   "reason": "2-year low is €14.74"
+  },
+  {
+   "slug": "ori-and-the-will-of-the-wisps",
+   "title": "Ori and the Will of the Wisps",
+   "year": 2020,
+   "metascore": 93,
+   "price": {
+    "amount": 7.49,
+    "regular": 29.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 9.41,
+     "regular": 9.9,
+     "shop": "Muve",
+     "low": 2.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "switch",
+     "amount": 7.49,
+     "regular": 29.99,
+     "shop": "Nintendo eShop",
+     "low": 7.49,
+     "verdict": "wait"
+    }
+   ],
+   "low": 7.49,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "the-last-of-us-part-ii",
+   "title": "The Last of Us Part II",
+   "year": 2020,
+   "metascore": 93,
+   "price": {
+    "amount": 42.23,
+    "regular": 44.64,
+    "shop": "WinGameStore",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 42.23,
+     "regular": 44.64,
+     "shop": "WinGameStore",
+     "low": 27.15,
+     "verdict": "wait"
+    }
+   ],
+   "low": 27.15,
+   "verdict": "wait",
+   "reason": "2-year low is €27.15"
+  },
+  {
+   "slug": "dwarf-fortress",
+   "title": "Dwarf Fortress",
+   "year": 2022,
+   "metascore": 93,
+   "price": {
+    "amount": 28.99,
+    "regular": 28.99,
+    "shop": "Humble Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 28.99,
+     "regular": 28.99,
+     "shop": "Humble Store",
+     "low": 23.19,
+     "verdict": "wait"
+    }
+   ],
+   "low": 23.19,
+   "verdict": "wait",
+   "reason": "2-year low is €23.19"
+  },
+  {
+   "slug": "god-of-war-2018",
+   "title": "God of War (2018)",
+   "year": 2022,
+   "metascore": 93,
+   "price": {
+    "amount": 40.17,
+    "regular": 44.64,
+    "shop": "GamesPlanet US",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 40.17,
+     "regular": 44.64,
+     "shop": "GamesPlanet US",
+     "low": 15.76,
+     "verdict": "wait"
+    }
+   ],
+   "low": 15.76,
+   "verdict": "wait",
+   "reason": "2-year low is €15.76"
+  },
+  {
+   "slug": "the-stanley-parable-ultra-deluxe",
+   "title": "The Stanley Parable: Ultra Deluxe",
+   "year": 2022,
+   "metascore": 93,
+   "price": {
+    "amount": 21.99,
+    "regular": 21.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 21.99,
+     "regular": 21.99,
+     "shop": "Steam",
+     "low": 7.69,
+     "verdict": "wait"
+    }
+   ],
+   "low": 7.69,
+   "verdict": "wait",
+   "reason": "2-year low is €7.69"
+  },
+  {
+   "slug": "resident-evil-4",
+   "title": "Resident Evil 4",
+   "year": 2023,
+   "metascore": 93,
+   "price": {
+    "amount": 9.99,
+    "regular": 39.99,
+    "shop": "Microsoft Store",
+    "platform": "Xbox"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 8.5,
+     "regular": 39.99,
+     "shop": "GreenManGaming",
+     "low": 2.49,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 9.99,
+     "regular": 39.99,
+     "shop": "Microsoft Store",
+     "low": 9.99,
+     "verdict": "worth"
+    }
+   ],
+   "low": 9.99,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "demons-souls",
+   "title": "Demon's Souls",
+   "year": 2020,
+   "metascore": 92,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "final-fantasy-xiv-endwalker",
+   "title": "Final Fantasy XIV: Endwalker",
+   "year": 2021,
+   "metascore": 92,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "forza-horizon-5",
+   "title": "Forza Horizon 5",
+   "year": 2021,
+   "metascore": 92,
+   "price": {
+    "amount": 55.96,
+    "regular": 58.9,
+    "shop": "Muve",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 55.96,
+     "regular": 58.9,
+     "shop": "Muve",
+     "low": 23.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 23.99,
+   "verdict": "wait",
+   "reason": "2-year low is €23.99"
+  },
+  {
+   "slug": "cuphead-the-delicious-last-course",
+   "title": "Cuphead: The Delicious Last Course",
+   "year": 2022,
+   "metascore": 92,
+   "price": {
+    "amount": 5.59,
+    "regular": 7.99,
+    "shop": "Humble Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 5.59,
+     "regular": 7.99,
+     "shop": "Humble Store",
+     "low": 4.79,
+     "verdict": "wait"
+    }
+   ],
+   "low": 4.79,
+   "verdict": "wait",
+   "reason": "2-year low is €4.79"
+  },
+  {
+   "slug": "street-fighter-6",
+   "title": "Street Fighter 6",
+   "year": 2023,
+   "metascore": 92,
+   "price": {
+    "amount": 13.6,
+    "regular": 39.99,
+    "shop": "GreenManGaming",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 13.6,
+     "regular": 39.99,
+     "shop": "GreenManGaming",
+     "low": 12.66,
+     "verdict": "good"
+    }
+   ],
+   "low": 12.66,
+   "verdict": "good",
+   "reason": "€0.94 above the 2-year low of €12.66"
+  },
+  {
+   "slug": "super-mario-bros-wonder",
+   "title": "Super Mario Bros. Wonder",
+   "year": 2023,
+   "metascore": 92,
+   "price": {
+    "amount": 59.99,
+    "regular": 59.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 59.99,
+     "regular": 59.99,
+     "shop": "Nintendo eShop",
+     "low": 59.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 59.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "xenoblade-chronicles-3-future-redeemed",
+   "title": "Xenoblade Chronicles 3: Future Redeemed",
+   "year": 2023,
+   "metascore": 92,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "final-fantasy-vii-rebirth",
+   "title": "Final Fantasy VII Rebirth",
+   "year": 2024,
+   "metascore": 92,
+   "price": {
+    "amount": 49.99,
+    "regular": 49.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 49.99,
+     "regular": 49.99,
+     "shop": "Epic Game Store",
+     "low": 14.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.99,
+   "verdict": "wait",
+   "reason": "2-year low is €14.99"
+  },
+  {
+   "slug": "like-a-dragon-infinite-wealth",
+   "title": "Like a Dragon: Infinite Wealth",
+   "year": 2024,
+   "metascore": 92,
+   "price": {
+    "amount": 18.91,
+    "regular": 19.9,
+    "shop": "Muve",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 18.91,
+     "regular": 19.9,
+     "shop": "Muve",
+     "low": 14.55,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 55.99,
+     "regular": 69.99,
+     "shop": "Microsoft Store",
+     "low": 55.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.55,
+   "verdict": "wait",
+   "reason": "2-year low is €14.55"
+  },
+  {
+   "slug": "shin-megami-tensei-v-vengeance",
+   "title": "Shin Megami Tensei V: Vengeance",
+   "year": 2024,
+   "metascore": 92,
+   "price": {
+    "amount": 15.35,
+    "regular": 53.56,
+    "shop": "GamesPlanet US",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 15.35,
+     "regular": 53.56,
+     "shop": "GamesPlanet US",
+     "low": 14.93,
+     "verdict": "good"
+    },
+    {
+     "platform": "xbox",
+     "amount": 59.95,
+     "regular": 59.95,
+     "shop": "Microsoft Store",
+     "low": 59.95,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.93,
+   "verdict": "good",
+   "reason": "€0.42 above the 2-year low of €14.93"
+  },
+  {
+   "slug": "blue-prince",
+   "title": "Blue Prince",
+   "year": 2025,
+   "metascore": 92,
+   "price": {
+    "amount": 22.69,
+    "regular": 29.99,
+    "shop": "Zapagames",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 22.69,
+     "regular": 29.99,
+     "shop": "Zapagames",
+     "low": 13.55,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 23.99,
+     "regular": 29.99,
+     "shop": "Microsoft Store",
+     "low": 23.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 13.55,
+   "verdict": "wait",
+   "reason": "2-year low is €13.55"
+  },
+  {
+   "slug": "clair-obscur-expedition-33",
+   "title": "Clair Obscur: Expedition 33",
+   "year": 2025,
+   "metascore": 92,
+   "price": {
+    "amount": 32.04,
+    "regular": 49.99,
+    "shop": "Zapagames",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 32.04,
+     "regular": 49.99,
+     "shop": "Zapagames",
+     "low": 30.48,
+     "verdict": "good"
+    },
+    {
+     "platform": "xbox",
+     "amount": 49.99,
+     "regular": 49.99,
+     "shop": "Microsoft Store",
+     "low": 49.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 30.48,
+   "verdict": "good",
+   "reason": "€1.56 above the 2-year low of €30.48"
+  },
+  {
+   "slug": "crusader-kings-iii",
+   "title": "Crusader Kings III",
+   "year": 2020,
+   "metascore": 91,
+   "price": {
+    "amount": 12.73,
+    "regular": 44.64,
+    "shop": "GamesPlanet US",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 12.73,
+     "regular": 44.64,
+     "shop": "GamesPlanet US",
+     "low": 11.08,
+     "verdict": "wait"
+    }
+   ],
+   "low": 11.08,
+   "verdict": "wait",
+   "reason": "2-year low is €11.08"
+  },
+  {
+   "slug": "f1-2020",
+   "title": "F1 2020",
+   "year": 2020,
+   "metascore": 91,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "microsoft-flight-simulator",
+   "title": "Microsoft Flight Simulator",
+   "year": 2020,
+   "metascore": 91,
+   "price": {
+    "amount": 69.99,
+    "regular": 69.99,
+    "shop": "GreenManGaming",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 69.99,
+     "regular": 69.99,
+     "shop": "GreenManGaming",
+     "low": 55.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 55.99,
+   "verdict": "wait",
+   "reason": "2-year low is €55.99"
+  },
+  {
+   "slug": "spelunky-2",
+   "title": "Spelunky 2",
+   "year": 2020,
+   "metascore": 91,
+   "price": {
+    "amount": 16.79,
+    "regular": 16.79,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 16.79,
+     "regular": 16.79,
+     "shop": "Steam",
+     "low": 5.87,
+     "verdict": "wait"
+    }
+   ],
+   "low": 5.87,
+   "verdict": "wait",
+   "reason": "2-year low is €5.87"
+  },
+  {
+   "slug": "psychonauts-2",
+   "title": "Psychonauts 2",
+   "year": 2021,
+   "metascore": 91,
+   "price": {
+    "amount": 20.99,
+    "regular": 59.99,
+    "shop": "GOG",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 20.99,
+     "regular": 59.99,
+     "shop": "GOG",
+     "low": 5.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 47.99,
+     "regular": 59.99,
+     "shop": "Microsoft Store",
+     "low": 47.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 5.99,
+   "verdict": "wait",
+   "reason": "2-year low is €5.99"
+  },
+  {
+   "slug": "chained-echoes",
+   "title": "Chained Echoes",
+   "year": 2022,
+   "metascore": 91,
+   "price": {
+    "amount": 7.49,
+    "regular": 24.99,
+    "shop": "GOG",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 7.49,
+     "regular": 24.99,
+     "shop": "GOG",
+     "low": 7.49,
+     "verdict": "worth"
+    }
+   ],
+   "low": 7.49,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "against-the-storm",
+   "title": "Against the Storm",
+   "year": 2023,
+   "metascore": 91,
+   "price": {
+    "amount": 8.99,
+    "regular": 29.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 8.99,
+     "regular": 29.99,
+     "shop": "Epic Game Store",
+     "low": 7.49,
+     "verdict": "wait"
+    }
+   ],
+   "low": 7.49,
+   "verdict": "wait",
+   "reason": "2-year low is €7.49"
+  },
+  {
+   "slug": "diablo-iv",
+   "title": "Diablo IV",
+   "year": 2023,
+   "metascore": 91,
+   "price": {
+    "amount": 49.99,
+    "regular": 49.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 49.99,
+     "regular": 49.99,
+     "shop": "Steam",
+     "low": 12.49,
+     "verdict": "wait"
+    }
+   ],
+   "low": 12.49,
+   "verdict": "wait",
+   "reason": "2-year low is €12.49"
+  },
+  {
+   "slug": "slay-the-princess",
+   "title": "Slay the Princess",
+   "year": 2023,
+   "metascore": 91,
+   "price": null,
+   "platforms": [],
+   "low": null,
+   "verdict": "wait",
+   "reason": "no price yet"
+  },
+  {
+   "slug": "caves-of-qud",
+   "title": "Caves of Qud",
+   "year": 2024,
+   "metascore": 91,
+   "price": {
+    "amount": 23.19,
+    "regular": 28.99,
+    "shop": "GOG",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 23.19,
+     "regular": 28.99,
+     "shop": "GOG",
+     "low": 8.02,
+     "verdict": "wait"
+    }
+   ],
+   "low": 8.02,
+   "verdict": "wait",
+   "reason": "2-year low is €8.02"
+  },
+  {
+   "slug": "satisfactory",
+   "title": "Satisfactory",
+   "year": 2024,
+   "metascore": 91,
+   "price": {
+    "amount": 23.76,
+    "regular": 35.71,
+    "shop": "GamesPlanet US",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 23.76,
+     "regular": 35.71,
+     "shop": "GamesPlanet US",
+     "low": 14.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.99,
+   "verdict": "wait",
+   "reason": "2-year low is €14.99"
+  },
+  {
+   "slug": "ufo-50",
+   "title": "UFO 50",
+   "year": 2024,
+   "metascore": 91,
+   "price": {
+    "amount": 24.5,
+    "regular": 24.5,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 24.5,
+     "regular": 24.5,
+     "shop": "Steam",
+     "low": 17.15,
+     "verdict": "wait"
+    }
+   ],
+   "low": 17.15,
+   "verdict": "wait",
+   "reason": "2-year low is €17.15"
+  },
+  {
+   "slug": "donkey-kong-bananza",
+   "title": "Donkey Kong Bananza",
+   "year": 2025,
+   "metascore": 91,
+   "price": {
+    "amount": 69.99,
+    "regular": 69.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 69.99,
+     "regular": 69.99,
+     "shop": "Nintendo eShop",
+     "low": 69.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 69.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "split-fiction",
+   "title": "Split Fiction",
+   "year": 2025,
+   "metascore": 91,
+   "price": {
+    "amount": 32.49,
+    "regular": 49.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 32.49,
+     "regular": 49.99,
+     "shop": "Epic Game Store",
+     "low": 32.49,
+     "verdict": "worth"
+    },
+    {
+     "platform": "xbox",
+     "amount": 32.49,
+     "regular": 49.99,
+     "shop": "Microsoft Store",
+     "low": 32.49,
+     "verdict": "worth"
+    }
+   ],
+   "low": 32.49,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "big-walk",
+   "title": "Big Walk",
+   "year": 2026,
+   "metascore": 91,
+   "price": {
+    "amount": 18.99,
+    "regular": 18.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 18.99,
+     "regular": 18.99,
+     "shop": "Steam",
+     "low": 14.24,
+     "verdict": "wait"
+    },
+    {
+     "platform": "switch",
+     "amount": 18.99,
+     "regular": 18.99,
+     "shop": "Nintendo eShop",
+     "low": 18.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 14.24,
+   "verdict": "wait",
+   "reason": "2-year low is €14.24"
+  },
+  {
+   "slug": "doom-the-dark-ages-revelations",
+   "title": "Doom: The Dark Ages – Revelations",
+   "year": 2026,
+   "metascore": 91,
+   "price": {
+    "amount": 10.0,
+    "regular": 19.99,
+    "shop": "Humble Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 10.0,
+     "regular": 19.99,
+     "shop": "Humble Store",
+     "low": 8.02,
+     "verdict": "wait"
+    }
+   ],
+   "low": 8.02,
+   "verdict": "wait",
+   "reason": "2-year low is €8.02"
+  },
+  {
+   "slug": "animal-crossing-new-horizons",
+   "title": "Animal Crossing: New Horizons",
+   "year": 2020,
+   "metascore": 90,
+   "price": {
+    "amount": 59.99,
+    "regular": 59.99,
+    "shop": "Nintendo eShop",
+    "platform": "Switch"
+   },
+   "platforms": [
+    {
+     "platform": "switch",
+     "amount": 59.99,
+     "regular": 59.99,
+     "shop": "Nintendo eShop",
+     "low": 59.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 59.99,
+   "verdict": "wait",
+   "reason": "no price history yet"
+  },
+  {
+   "slug": "tony-hawks-pro-skater-1-2",
+   "title": "Tony Hawk's Pro Skater 1 + 2",
+   "year": 2020,
+   "metascore": 90,
+   "price": {
+    "amount": 44.99,
+    "regular": 44.99,
+    "shop": "Microsoft Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 44.99,
+     "regular": 44.99,
+     "shop": "Microsoft Store",
+     "low": 8.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 8.99,
+   "verdict": "wait",
+   "reason": "2-year low is €8.99"
+  },
+  {
+   "slug": "yakuza-0",
+   "title": "Yakuza 0",
+   "year": 2020,
+   "metascore": 90,
+   "price": {
+    "amount": 10.99,
+    "regular": 19.99,
+    "shop": "GOG",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 10.99,
+     "regular": 19.99,
+     "shop": "GOG",
+     "low": 1.0,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 49.99,
+     "regular": 49.99,
+     "shop": "Microsoft Store",
+     "low": 49.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 1.0,
+   "verdict": "wait",
+   "reason": "2-year low is €1.00"
+  },
+  {
+   "slug": "chicory-a-colorful-tale",
+   "title": "Chicory: A Colorful Tale",
+   "year": 2021,
+   "metascore": 90,
+   "price": {
+    "amount": 15.99,
+    "regular": 15.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 15.99,
+     "regular": 15.99,
+     "shop": "Epic Game Store",
+     "low": 8.49,
+     "verdict": "wait"
+    }
+   ],
+   "low": 8.49,
+   "verdict": "wait",
+   "reason": "2-year low is €8.49"
+  },
+  {
+   "slug": "mass-effect-legendary-edition",
+   "title": "Mass Effect Legendary Edition",
+   "year": 2021,
+   "metascore": 90,
+   "price": {
+    "amount": 59.99,
+    "regular": 59.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 59.99,
+     "regular": 59.99,
+     "shop": "Epic Game Store",
+     "low": 4.79,
+     "verdict": "wait"
+    }
+   ],
+   "low": 4.79,
+   "verdict": "wait",
+   "reason": "2-year low is €4.79"
+  },
+  {
+   "slug": "rogue-legacy-2",
+   "title": "Rogue Legacy 2",
+   "year": 2022,
+   "metascore": 90,
+   "price": {
+    "amount": 19.99,
+    "regular": 19.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 19.99,
+     "regular": 19.99,
+     "shop": "Epic Game Store",
+     "low": 7.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 24.99,
+     "regular": 24.99,
+     "shop": "Microsoft Store",
+     "low": 24.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 7.99,
+   "verdict": "wait",
+   "reason": "2-year low is €7.99"
+  },
+  {
+   "slug": "the-legend-of-heroes-trails-from-zero",
+   "title": "The Legend of Heroes: Trails from Zero",
+   "year": 2022,
+   "metascore": 90,
+   "price": {
+    "amount": 39.99,
+    "regular": 39.99,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 39.99,
+     "regular": 39.99,
+     "shop": "Epic Game Store",
+     "low": 27.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 27.99,
+   "verdict": "wait",
+   "reason": "2-year low is €27.99"
+  },
+  {
+   "slug": "cocoon",
+   "title": "Cocoon",
+   "year": 2023,
+   "metascore": 90,
+   "price": {
+    "amount": 7.5,
+    "regular": 22.99,
+    "shop": "Playsum",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 7.5,
+     "regular": 22.99,
+     "shop": "Playsum",
+     "low": 7.26,
+     "verdict": "good"
+    }
+   ],
+   "low": 7.26,
+   "verdict": "good",
+   "reason": "€0.24 above the 2-year low of €7.26"
+  },
+  {
+   "slug": "dave-the-diver",
+   "title": "Dave the Diver",
+   "year": 2023,
+   "metascore": 90,
+   "price": {
+    "amount": 15.89,
+    "regular": 19.99,
+    "shop": "Fanatical",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 15.89,
+     "regular": 19.99,
+     "shop": "Fanatical",
+     "low": 7.38,
+     "verdict": "wait"
+    }
+   ],
+   "low": 7.38,
+   "verdict": "wait",
+   "reason": "2-year low is €7.38"
+  },
+  {
+   "slug": "marvels-spider-man-2",
+   "title": "Marvel's Spider-Man 2",
+   "year": 2023,
+   "metascore": 90,
+   "price": {
+    "amount": 50.44,
+    "regular": 53.56,
+    "shop": "WinGameStore",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 50.44,
+     "regular": 53.56,
+     "shop": "WinGameStore",
+     "low": 32.51,
+     "verdict": "wait"
+    }
+   ],
+   "low": 32.51,
+   "verdict": "wait",
+   "reason": "2-year low is €32.51"
+  },
+  {
+   "slug": "sea-of-stars",
+   "title": "Sea of Stars",
+   "year": 2023,
+   "metascore": 90,
+   "price": {
+    "amount": 16.99,
+    "regular": 33.99,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 16.99,
+     "regular": 33.99,
+     "shop": "Steam",
+     "low": 16.99,
+     "verdict": "worth"
+    },
+    {
+     "platform": "switch",
+     "amount": 33.99,
+     "regular": 33.99,
+     "shop": "Nintendo eShop",
+     "low": 33.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 16.99,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "videoverse",
+   "title": "Videoverse",
+   "year": 2023,
+   "metascore": 90,
+   "price": {
+    "amount": 5.26,
+    "regular": 11.69,
+    "shop": "Epic Game Store",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 5.26,
+     "regular": 11.69,
+     "shop": "Epic Game Store",
+     "low": 5.26,
+     "verdict": "worth"
+    }
+   ],
+   "low": 5.26,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "animal-well",
+   "title": "Animal Well",
+   "year": 2024,
+   "metascore": 90,
+   "price": {
+    "amount": 17.15,
+    "regular": 24.5,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 17.15,
+     "regular": 24.5,
+     "shop": "Steam",
+     "low": 16.41,
+     "verdict": "good"
+    }
+   ],
+   "low": 16.41,
+   "verdict": "good",
+   "reason": "€0.74 above the 2-year low of €16.41"
+  },
+  {
+   "slug": "balatro",
+   "title": "Balatro",
+   "year": 2024,
+   "metascore": 90,
+   "price": {
+    "amount": 10.07,
+    "regular": 13.99,
+    "shop": "GamersGate",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 10.07,
+     "regular": 13.99,
+     "shop": "GamersGate",
+     "low": 9.57,
+     "verdict": "good"
+    }
+   ],
+   "low": 9.57,
+   "verdict": "good",
+   "reason": "€0.50 above the 2-year low of €9.57"
+  },
+  {
+   "slug": "tekken-8",
+   "title": "Tekken 8",
+   "year": 2024,
+   "metascore": 90,
+   "price": {
+    "amount": 23.99,
+    "regular": 39.99,
+    "shop": "DLGamer",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 23.99,
+     "regular": 39.99,
+     "shop": "DLGamer",
+     "low": 18.48,
+     "verdict": "wait"
+    },
+    {
+     "platform": "xbox",
+     "amount": 39.99,
+     "regular": 39.99,
+     "shop": "Microsoft Store",
+     "low": 39.99,
+     "verdict": "wait"
+    }
+   ],
+   "low": 18.48,
+   "verdict": "wait",
+   "reason": "2-year low is €18.48"
+  },
+  {
+   "slug": "hollow-knight-silksong",
+   "title": "Hollow Knight: Silksong",
+   "year": 2025,
+   "metascore": 90,
+   "price": {
+    "amount": 11.31,
+    "regular": 11.9,
+    "shop": "Muve",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 11.31,
+     "regular": 11.9,
+     "shop": "Muve",
+     "low": 10.9,
+     "verdict": "good"
+    }
+   ],
+   "low": 10.9,
+   "verdict": "good",
+   "reason": "€0.41 above the 2-year low of €10.90"
+  },
+  {
+   "slug": "forza-horizon-6",
+   "title": "Forza Horizon 6",
+   "year": 2026,
+   "metascore": 90,
+   "price": {
+    "amount": 59.28,
+    "regular": 69.99,
+    "shop": "PlayerLand",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 59.28,
+     "regular": 69.99,
+     "shop": "PlayerLand",
+     "low": 55.99,
+     "verdict": "good"
+    }
+   ],
+   "low": 55.99,
+   "verdict": "good",
+   "reason": "€3.29 above the 2-year low of €55.99"
+  },
+  {
+   "slug": "mina-the-hollower",
+   "title": "Mina the Hollower",
+   "year": 2026,
+   "metascore": 90,
+   "price": {
+    "amount": 16.39,
+    "regular": 20.49,
+    "shop": "Steam",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 16.39,
+     "regular": 20.49,
+     "shop": "Steam",
+     "low": 16.39,
+     "verdict": "worth"
+    }
+   ],
+   "low": 16.39,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
+  },
+  {
+   "slug": "the-legend-of-heroes-trails-in-the-sky-2nd-chapter",
+   "title": "The Legend of Heroes: Trails in the Sky 2nd Chapter",
+   "year": 2026,
+   "metascore": 90,
+   "price": {
+    "amount": 45.51,
+    "regular": 47.9,
+    "shop": "Muve",
+    "platform": "PC"
+   },
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 45.51,
+     "regular": 47.9,
+     "shop": "Muve",
+     "low": 46.9,
+     "verdict": "worth"
+    }
+   ],
+   "low": 46.9,
+   "verdict": "worth",
+   "reason": "new all-time low, €1.39 under the previous €46.90"
+  }
+ ]
+}
