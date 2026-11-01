@@ -238,7 +238,7 @@ main{flex:1}
   .wf-card img,.wf-card .hatch{height:80px}
   .wf-card .buy{padding:7px 8px;font-size:13px}
   .wf-stamp.title-stamp{margin-left:8px;padding:2px 9px;font-size:13px;border-width:2.5px}
-  .wf-filters{position:sticky;top:0;padding:8px var(--gutter);gap:8px 10px;flex-wrap:wrap}
+  .wf-filters{position:sticky;top:0;padding:calc(12px + env(safe-area-inset-top, 0px)) var(--gutter) 8px;gap:8px 10px;flex-wrap:wrap}
   .wf-filters .wf-seg:first-child{flex:1 1 auto;display:flex;min-width:0}
   .wf-more{display:inline-block;border:1px solid var(--line);background:var(--white);color:var(--ink);font:inherit;font-size:13px;font-weight:600;padding:9px 10px;cursor:pointer;white-space:nowrap}
   .wf-filters.open .wf-more{background:var(--ink);color:var(--white);border-color:var(--ink)}
@@ -278,7 +278,7 @@ main{flex:1}
     <a href="./feed.xml">Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T15:49:15.106000+00:00">updated 01 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-01T17:00:09.428000+00:00">updated 01 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="./#list" data-nav="top">Top 20</a>
     <a href="./#list" data-nav="pc">PC</a>
