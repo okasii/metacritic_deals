@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:15:12.161000+00:00",
+ "updated": "2026-11-01T19:28:41.023000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -7,18 +7,18 @@
    "year": 2021,
    "metascore": 97,
    "price": {
-    "amount": 8.03,
+    "amount": 9.49,
     "regular": 37.99,
-    "shop": "Zapagames",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/01a08df7-cde1-7010-b1c7-f0a365f42a48/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-4e5d-715f-a47b-15778fe1472a/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 8.03,
+     "amount": 9.49,
      "regular": 37.99,
-     "shop": "Zapagames",
+     "shop": "GOG",
      "low": 3.59,
      "verdict": "wait"
     }
@@ -921,20 +921,20 @@
    "year": 2025,
    "metascore": 92,
    "price": {
-    "amount": 32.04,
+    "amount": 35.19,
     "regular": 49.99,
-    "shop": "Zapagames",
+    "shop": "GreenManGaming",
     "platform": "PC",
-    "url": "https://itad.link/01a08df7-da51-7371-847c-534f6791df31/?app=w5ppeb"
+    "url": "https://itad.link/0195945e-461a-71e1-aaaf-e22d197222bd/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.04,
+     "amount": 35.19,
      "regular": 49.99,
-     "shop": "Zapagames",
+     "shop": "GreenManGaming",
      "low": 30.48,
-     "verdict": "good"
+     "verdict": "wait"
     },
     {
      "platform": "xbox",
@@ -946,8 +946,8 @@
     }
    ],
    "low": 30.48,
-   "verdict": "good",
-   "reason": "€1.56 above the 2-year low of €30.48"
+   "verdict": "wait",
+   "reason": "2-year low is €30.48"
   },
   {
    "slug": "crusader-kings-iii",
@@ -955,18 +955,18 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 13.99,
+    "amount": 15.0,
     "regular": 49.99,
-    "shop": "Fanatical",
+    "shop": "PlanetPlay",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-448e-7241-9acb-20dbb95512de/?app=w5ppeb"
+    "url": "https://itad.link/019ae7ca-eb3e-7125-9c87-e743d091da7c/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 13.99,
+     "amount": 15.0,
      "regular": 49.99,
-     "shop": "Fanatical",
+     "shop": "PlanetPlay",
      "low": 11.08,
      "verdict": "wait"
     }
