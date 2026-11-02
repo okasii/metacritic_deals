@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:28:41.023000+00:00",
+ "updated": "2026-11-02T10:14:04.676000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -25,7 +25,7 @@
    ],
    "low": 3.59,
    "verdict": "wait",
-   "reason": "2-year low is €3.59"
+   "reason": "usually drops to €9.49, once in 12 months"
   },
   {
    "slug": "the-house-in-fata-morgana",
@@ -51,7 +51,7 @@
    ],
    "low": 10.39,
    "verdict": "wait",
-   "reason": "2-year low is €10.39"
+   "reason": "usually drops to €14.94, once in 12 months"
   },
   {
    "slug": "elden-ring",
@@ -59,18 +59,18 @@
    "year": 2022,
    "metascore": 96,
    "price": {
-    "amount": 47.99,
-    "regular": 59.99,
-    "shop": "PlayerLand",
+    "amount": 50.89,
+    "regular": 53.57,
+    "shop": "Muve",
     "platform": "PC",
-    "url": "https://itad.link/019c0b72-8233-7182-876e-a5d36d1403c8/?app=w5ppeb"
+    "url": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 47.99,
-     "regular": 59.99,
-     "shop": "PlayerLand",
+     "amount": 50.89,
+     "regular": 53.57,
+     "shop": "Muve",
      "low": 27.99,
      "verdict": "wait"
     },
@@ -85,7 +85,7 @@
    ],
    "low": 27.99,
    "verdict": "wait",
-   "reason": "2-year low is €27.99"
+   "reason": "usually drops to €47.99, once in 12 months"
   },
   {
    "slug": "baldurs-gate-3",
@@ -119,7 +119,7 @@
    ],
    "low": 41.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "the-legend-of-zelda-tears-of-the-kingdom",
@@ -145,7 +145,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -153,25 +153,25 @@
    "year": 2020,
    "metascore": 95,
    "price": {
-    "amount": 48.21,
-    "regular": 53.56,
-    "shop": "GamesPlanet US",
+    "amount": 16.79,
+    "regular": 59.99,
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61040420/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 48.21,
-     "regular": 53.56,
-     "shop": "GamesPlanet US",
+     "amount": 16.79,
+     "regular": 59.99,
+     "shop": "Fanatical",
      "low": 9.94,
      "verdict": "wait"
     }
    ],
    "low": 9.94,
    "verdict": "wait",
-   "reason": "2-year low is €9.94"
+   "reason": "usually drops to €48.21, once in 12 months"
   },
   {
    "slug": "portal-companion-collection",
@@ -197,7 +197,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -257,8 +257,8 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 49.55,
-    "regular": 53.56,
+    "amount": 49.45,
+    "regular": 53.45,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb"
@@ -266,8 +266,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 49.55,
-     "regular": 53.56,
+     "amount": 49.45,
+     "regular": 53.45,
      "shop": "WinGameStore",
      "low": 32.46,
      "verdict": "wait"
@@ -275,7 +275,7 @@
    ],
    "low": 32.46,
    "verdict": "wait",
-   "reason": "2-year low is €32.46"
+   "reason": "usually drops to €49.55, once in 12 months"
   },
   {
    "slug": "the-witcher-3-wild-hunt-complete-edition",
@@ -301,7 +301,7 @@
    ],
    "low": 9.99,
    "verdict": "wait",
-   "reason": "2-year low is €9.99"
+   "reason": "usually drops to €23.74, once in 12 months"
   },
   {
    "slug": "metroid-prime-remastered",
@@ -327,7 +327,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.03,
-    "regular": 35.71,
+    "amount": 32.96,
+    "regular": 35.63,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,16 +355,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.03,
-     "regular": 35.71,
+     "amount": 32.96,
+     "regular": 35.63,
      "shop": "WinGameStore",
      "low": 29.98,
-     "verdict": "wait"
+     "verdict": "good"
     }
    ],
    "low": 29.98,
-   "verdict": "wait",
-   "reason": "2-year low is €29.98"
+   "verdict": "good",
+   "reason": "€2.98 above the 2-year low of €29.98"
   },
   {
    "slug": "metaphor-refantazio",
@@ -372,25 +372,25 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 55.8,
-    "regular": 62.49,
-    "shop": "WinGameStore",
+    "amount": 25.89,
+    "regular": 69.99,
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb"
+    "url": "https://itad.link/019279ce-7640-70b0-88ef-79abaa40b2c3/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 55.8,
-     "regular": 62.49,
-     "shop": "WinGameStore",
+     "amount": 25.89,
+     "regular": 69.99,
+     "shop": "Fanatical",
      "low": 23.11,
      "verdict": "wait"
     }
    ],
    "low": 23.11,
    "verdict": "wait",
-   "reason": "2-year low is €23.11"
+   "reason": "usually drops to €55.80, once in 12 months"
   },
   {
    "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
@@ -484,11 +484,11 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 7.49,
-    "regular": 29.99,
-    "shop": "Nintendo eShop",
-    "platform": "Switch",
-    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Ori-and-the-Will-of-the-Wisps-1842518.html"
+    "amount": 9.41,
+    "regular": 9.9,
+    "shop": "Muve",
+    "platform": "PC",
+    "url": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb"
    },
    "platforms": [
     {
@@ -501,16 +501,16 @@
     },
     {
      "platform": "switch",
-     "amount": 7.49,
+     "amount": 29.99,
      "regular": 29.99,
      "shop": "Nintendo eShop",
      "low": 7.49,
      "verdict": "wait"
     }
    ],
-   "low": 7.49,
+   "low": 2.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "usually drops to €9.41, once in 12 months"
   },
   {
    "slug": "the-last-of-us-part-ii",
@@ -518,8 +518,8 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 42.23,
-    "regular": 44.64,
+    "amount": 42.14,
+    "regular": 44.54,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb"
@@ -527,8 +527,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 42.23,
-     "regular": 44.64,
+     "amount": 42.14,
+     "regular": 44.54,
      "shop": "WinGameStore",
      "low": 27.15,
      "verdict": "wait"
@@ -536,7 +536,7 @@
    ],
    "low": 27.15,
    "verdict": "wait",
-   "reason": "2-year low is €27.15"
+   "reason": "usually drops to €42.23, once in 12 months"
   },
   {
    "slug": "dwarf-fortress",
@@ -570,8 +570,8 @@
    "year": 2022,
    "metascore": 93,
    "price": {
-    "amount": 40.17,
-    "regular": 44.64,
+    "amount": 40.09,
+    "regular": 44.54,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
@@ -579,8 +579,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.17,
-     "regular": 44.64,
+     "amount": 40.09,
+     "regular": 44.54,
      "shop": "GamesPlanet US",
      "low": 15.76,
      "verdict": "wait"
@@ -588,7 +588,7 @@
    ],
    "low": 15.76,
    "verdict": "wait",
-   "reason": "2-year low is €15.76"
+   "reason": "usually drops to €40.17, once in 12 months"
   },
   {
    "slug": "the-stanley-parable-ultra-deluxe",
@@ -648,7 +648,7 @@
    ],
    "low": 9.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "demons-souls",
@@ -696,7 +696,7 @@
    ],
    "low": 23.99,
    "verdict": "wait",
-   "reason": "2-year low is €23.99"
+   "reason": "usually drops to €55.96, once in 12 months"
   },
   {
    "slug": "cuphead-the-delicious-last-course",
@@ -722,7 +722,7 @@
    ],
    "low": 4.79,
    "verdict": "wait",
-   "reason": "2-year low is €4.79"
+   "reason": "usually drops to €5.59, once in 12 months"
   },
   {
    "slug": "street-fighter-6",
@@ -774,7 +774,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -819,18 +819,18 @@
    "year": 2024,
    "metascore": 92,
    "price": {
-    "amount": 18.91,
-    "regular": 19.9,
-    "shop": "Muve",
+    "amount": 16.44,
+    "regular": 69.99,
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/019eb6e5-04b7-733f-9738-e8a7dcb6ee3c/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-8d1a-713d-be96-784fa4b4d272/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 18.91,
-     "regular": 19.9,
-     "shop": "Muve",
+     "amount": 16.44,
+     "regular": 69.99,
+     "shop": "Fanatical",
      "low": 14.55,
      "verdict": "wait"
     },
@@ -853,18 +853,18 @@
    "year": 2024,
    "metascore": 92,
    "price": {
-    "amount": 17.99,
+    "amount": 16.79,
     "regular": 59.99,
-    "shop": "Humble Store",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/018df041-f80c-7036-bd65-c5a45f52f338/?app=w5ppeb"
+    "url": "https://itad.link/019038fd-1818-70fe-a21d-20d521210225/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 17.99,
+     "amount": 16.79,
      "regular": 59.99,
-     "shop": "Humble Store",
+     "shop": "Fanatical",
      "low": 14.93,
      "verdict": "wait"
     },
@@ -879,7 +879,7 @@
    ],
    "low": 14.93,
    "verdict": "wait",
-   "reason": "2-year low is €14.93"
+   "reason": "usually drops to €17.99, once in 12 months"
   },
   {
    "slug": "blue-prince",
@@ -887,20 +887,20 @@
    "year": 2025,
    "metascore": 92,
    "price": {
-    "amount": 22.69,
+    "amount": 14.69,
     "regular": 29.99,
-    "shop": "Zapagames",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/01a08df7-d9b2-71bb-b0af-cd9e0612a61d/?app=w5ppeb"
+    "url": "https://itad.link/01962434-dd53-7141-ae4b-ff59234ec870/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 22.69,
+     "amount": 14.69,
      "regular": 29.99,
-     "shop": "Zapagames",
+     "shop": "Fanatical",
      "low": 13.55,
-     "verdict": "wait"
+     "verdict": "good"
     },
     {
      "platform": "xbox",
@@ -912,8 +912,8 @@
     }
    ],
    "low": 13.55,
-   "verdict": "wait",
-   "reason": "2-year low is €13.55"
+   "verdict": "good",
+   "reason": "€1.14 above the 2-year low of €13.55"
   },
   {
    "slug": "clair-obscur-expedition-33",
@@ -947,7 +947,7 @@
    ],
    "low": 30.48,
    "verdict": "wait",
-   "reason": "2-year low is €30.48"
+   "reason": "usually drops to €35.19, once in 12 months"
   },
   {
    "slug": "crusader-kings-iii",
@@ -955,25 +955,25 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 15.0,
-    "regular": 49.99,
-    "shop": "PlanetPlay",
+    "amount": 40.09,
+    "regular": 44.54,
+    "shop": "GamesPlanet US",
     "platform": "PC",
-    "url": "https://itad.link/019ae7ca-eb3e-7125-9c87-e743d091da7c/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.0,
-     "regular": 49.99,
-     "shop": "PlanetPlay",
+     "amount": 40.09,
+     "regular": 44.54,
+     "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
     }
    ],
    "low": 11.08,
    "verdict": "wait",
-   "reason": "2-year low is €11.08"
+   "reason": "usually drops to €15.00, once in 12 months"
   },
   {
    "slug": "f1-2020",
@@ -1070,7 +1070,7 @@
    ],
    "low": 5.99,
    "verdict": "wait",
-   "reason": "2-year low is €5.99"
+   "reason": "usually drops to €20.99, once in 12 months"
   },
   {
    "slug": "chained-echoes",
@@ -1096,7 +1096,7 @@
    ],
    "low": 7.49,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "against-the-storm",
@@ -1122,7 +1122,7 @@
    ],
    "low": 7.49,
    "verdict": "wait",
-   "reason": "2-year low is €7.49"
+   "reason": "usually drops to €8.99, once in 12 months"
   },
   {
    "slug": "diablo-iv",
@@ -1185,7 +1185,7 @@
    ],
    "low": 8.02,
    "verdict": "wait",
-   "reason": "2-year low is €8.02"
+   "reason": "usually drops to €23.19, once in 12 months"
   },
   {
    "slug": "satisfactory",
@@ -1193,25 +1193,25 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 24.56,
-    "regular": 38.99,
-    "shop": "GreenManGaming",
+    "amount": 33.85,
+    "regular": 35.63,
+    "shop": "GamesPlanet US",
     "platform": "PC",
-    "url": "https://itad.link/01a08b63-204f-716f-9fa0-e82eeb586e45/?app=w5ppeb"
+    "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 24.56,
-     "regular": 38.99,
-     "shop": "GreenManGaming",
+     "amount": 33.85,
+     "regular": 35.63,
+     "shop": "GamesPlanet US",
      "low": 14.99,
      "verdict": "wait"
     }
    ],
    "low": 14.99,
    "verdict": "wait",
-   "reason": "2-year low is €14.99"
+   "reason": "usually drops to €24.56, once in 12 months"
   },
   {
    "slug": "ufo-50",
@@ -1263,7 +1263,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -1297,7 +1297,7 @@
    ],
    "low": 32.49,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "big-walk",
@@ -1357,7 +1357,7 @@
    ],
    "low": 8.02,
    "verdict": "wait",
-   "reason": "2-year low is €8.02"
+   "reason": "usually drops to €10.00, once in 12 months"
   },
   {
    "slug": "animal-crossing-new-horizons",
@@ -1383,7 +1383,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "no price history yet"
+   "reason": "only 2 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -1443,7 +1443,7 @@
    ],
    "low": 1.0,
    "verdict": "wait",
-   "reason": "2-year low is €1.00"
+   "reason": "usually drops to €10.99, once in 12 months"
   },
   {
    "slug": "chicory-a-colorful-tale",
@@ -1589,7 +1589,7 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 15.89,
+    "amount": 7.79,
     "regular": 19.99,
     "shop": "Fanatical",
     "platform": "PC",
@@ -1598,16 +1598,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.89,
+     "amount": 7.79,
      "regular": 19.99,
      "shop": "Fanatical",
      "low": 7.38,
-     "verdict": "wait"
+     "verdict": "good"
     }
    ],
    "low": 7.38,
-   "verdict": "wait",
-   "reason": "2-year low is €7.38"
+   "verdict": "good",
+   "reason": "€0.41 above the 2-year low of €7.38"
   },
   {
    "slug": "marvels-spider-man-2",
@@ -1615,8 +1615,8 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 50.44,
-    "regular": 53.56,
+    "amount": 50.34,
+    "regular": 53.45,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
@@ -1624,8 +1624,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.44,
-     "regular": 53.56,
+     "amount": 50.34,
+     "regular": 53.45,
      "shop": "WinGameStore",
      "low": 32.51,
      "verdict": "wait"
@@ -1633,7 +1633,7 @@
    ],
    "low": 32.51,
    "verdict": "wait",
-   "reason": "2-year low is €32.51"
+   "reason": "usually drops to €50.44, once in 12 months"
   },
   {
    "slug": "sea-of-stars",
@@ -1667,7 +1667,7 @@
    ],
    "low": 16.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "videoverse",
@@ -1693,7 +1693,7 @@
    ],
    "low": 5.26,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "animal-well",
@@ -1779,7 +1779,7 @@
    ],
    "low": 18.48,
    "verdict": "wait",
-   "reason": "2-year low is €18.48"
+   "reason": "usually drops to €23.99, once in 12 months"
   },
   {
    "slug": "hollow-knight-silksong",
@@ -1857,7 +1857,7 @@
    ],
    "low": 16.39,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "the-legend-of-heroes-trails-in-the-sky-2nd-chapter",
@@ -1877,13 +1877,13 @@
      "amount": 45.51,
      "regular": 47.9,
      "shop": "Muve",
-     "low": 46.9,
+     "low": 45.51,
      "verdict": "worth"
     }
    ],
-   "low": 46.9,
+   "low": 45.51,
    "verdict": "worth",
-   "reason": "new all-time low, €1.39 under the previous €46.90"
+   "reason": "matches the all-time low (Nov 2026)"
   }
  ]
 }
