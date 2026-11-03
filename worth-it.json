@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:53:12.390000+00:00",
+ "updated": "2026-11-03T15:28:43.146000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -257,8 +257,8 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 49.62,
-    "regular": 53.64,
+    "amount": 49.56,
+    "regular": 53.57,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb"
@@ -266,8 +266,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 49.62,
-     "regular": 53.64,
+     "amount": 49.56,
+     "regular": 53.57,
      "shop": "WinGameStore",
      "low": 32.46,
      "verdict": "wait"
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.08,
-    "regular": 35.76,
+    "amount": 33.03,
+    "regular": 35.71,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.08,
-     "regular": 35.76,
+     "amount": 33.03,
+     "regular": 35.71,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -518,8 +518,8 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 42.29,
-    "regular": 44.7,
+    "amount": 42.23,
+    "regular": 44.64,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb"
@@ -527,8 +527,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 42.29,
-     "regular": 44.7,
+     "amount": 42.23,
+     "regular": 44.64,
      "shop": "WinGameStore",
      "low": 27.15,
      "verdict": "wait"
@@ -570,8 +570,8 @@
    "year": 2022,
    "metascore": 93,
    "price": {
-    "amount": 40.23,
-    "regular": 44.7,
+    "amount": 40.18,
+    "regular": 44.64,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
@@ -579,8 +579,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.23,
-     "regular": 44.7,
+     "amount": 40.18,
+     "regular": 44.64,
      "shop": "GamesPlanet US",
      "low": 15.76,
      "verdict": "wait"
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.23,
-    "regular": 44.7,
+    "amount": 40.18,
+    "regular": 44.64,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.23,
-     "regular": 44.7,
+     "amount": 40.18,
+     "regular": 44.64,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1193,8 +1193,8 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 33.97,
-    "regular": 35.76,
+    "amount": 33.93,
+    "regular": 35.71,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
@@ -1202,8 +1202,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.97,
-     "regular": 35.76,
+     "amount": 33.93,
+     "regular": 35.71,
      "shop": "GamesPlanet US",
      "low": 14.99,
      "verdict": "wait"
@@ -1615,8 +1615,8 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 50.51,
-    "regular": 53.64,
+    "amount": 50.45,
+    "regular": 53.57,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
@@ -1624,8 +1624,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.51,
-     "regular": 53.64,
+     "amount": 50.45,
+     "regular": 53.57,
      "shop": "WinGameStore",
      "low": 32.51,
      "verdict": "wait"
