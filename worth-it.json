@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T13:38:48.445000+00:00",
+ "updated": "2026-11-03T12:53:12.390000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -7,18 +7,18 @@
    "year": 2021,
    "metascore": 97,
    "price": {
-    "amount": 9.49,
+    "amount": 7.59,
     "regular": 37.99,
-    "shop": "GOG",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-4e5d-715f-a47b-15778fe1472a/?app=w5ppeb"
+    "url": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 9.49,
+     "amount": 7.59,
      "regular": 37.99,
-     "shop": "GOG",
+     "shop": "Fanatical",
      "low": 3.59,
      "verdict": "wait"
     }
@@ -33,18 +33,18 @@
    "year": 2021,
    "metascore": 96,
    "price": {
-    "amount": 14.94,
+    "amount": 17.25,
     "regular": 22.99,
-    "shop": "Steam",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca268b591/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca161ac35/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 14.94,
+     "amount": 17.25,
      "regular": 22.99,
-     "shop": "Steam",
+     "shop": "GOG",
      "low": 10.39,
      "verdict": "wait"
     }
@@ -145,7 +145,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -171,7 +171,7 @@
    ],
    "low": 9.94,
    "verdict": "wait",
-   "reason": "usually drops to €48.21, once in 12 months"
+   "reason": "usually drops to €16.79, once in 12 months"
   },
   {
    "slug": "portal-companion-collection",
@@ -197,7 +197,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -257,8 +257,8 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 49.49,
-    "regular": 53.51,
+    "amount": 49.62,
+    "regular": 53.64,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb"
@@ -266,8 +266,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 49.49,
-     "regular": 53.51,
+     "amount": 49.62,
+     "regular": 53.64,
      "shop": "WinGameStore",
      "low": 32.46,
      "verdict": "wait"
@@ -275,7 +275,7 @@
    ],
    "low": 32.46,
    "verdict": "wait",
-   "reason": "usually drops to €49.55, once in 12 months"
+   "reason": "usually drops to €49.49, once in 12 months"
   },
   {
    "slug": "the-witcher-3-wild-hunt-complete-edition",
@@ -327,7 +327,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 32.99,
-    "regular": 35.67,
+    "amount": 33.08,
+    "regular": 35.76,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.99,
-     "regular": 35.67,
+     "amount": 33.08,
+     "regular": 35.76,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -364,7 +364,7 @@
    ],
    "low": 29.98,
    "verdict": "wait",
-   "reason": "usually drops to €33.03, once in 12 months"
+   "reason": "usually drops to €32.99, once in 12 months"
   },
   {
    "slug": "metaphor-refantazio",
@@ -390,7 +390,7 @@
    ],
    "low": 23.11,
    "verdict": "wait",
-   "reason": "usually drops to €55.80, once in 12 months"
+   "reason": "usually drops to €25.89, once in 12 months"
   },
   {
    "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
@@ -518,8 +518,8 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 42.18,
-    "regular": 44.59,
+    "amount": 42.29,
+    "regular": 44.7,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb"
@@ -527,8 +527,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 42.18,
-     "regular": 44.59,
+     "amount": 42.29,
+     "regular": 44.7,
      "shop": "WinGameStore",
      "low": 27.15,
      "verdict": "wait"
@@ -536,7 +536,7 @@
    ],
    "low": 27.15,
    "verdict": "wait",
-   "reason": "usually drops to €42.23, once in 12 months"
+   "reason": "usually drops to €42.18, once in 12 months"
   },
   {
    "slug": "dwarf-fortress",
@@ -570,8 +570,8 @@
    "year": 2022,
    "metascore": 93,
    "price": {
-    "amount": 40.13,
-    "regular": 44.59,
+    "amount": 40.23,
+    "regular": 44.7,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
@@ -579,8 +579,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.13,
-     "regular": 44.59,
+     "amount": 40.23,
+     "regular": 44.7,
      "shop": "GamesPlanet US",
      "low": 15.76,
      "verdict": "wait"
@@ -588,7 +588,7 @@
    ],
    "low": 15.76,
    "verdict": "wait",
-   "reason": "usually drops to €40.17, once in 12 months"
+   "reason": "usually drops to €40.13, once in 12 months"
   },
   {
    "slug": "the-stanley-parable-ultra-deluxe",
@@ -631,9 +631,9 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 8.5,
+     "amount": 9.0,
      "regular": 39.99,
-     "shop": "GreenManGaming",
+     "shop": "GamersGate",
      "low": 2.49,
      "verdict": "wait"
     },
@@ -730,25 +730,25 @@
    "year": 2023,
    "metascore": 92,
    "price": {
-    "amount": 13.6,
+    "amount": 14.4,
     "regular": 39.99,
-    "shop": "GreenManGaming",
+    "shop": "GamersGate",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da68b01b5/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-d551-7173-84ae-8087032ab69a/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 13.6,
+     "amount": 14.4,
      "regular": 39.99,
-     "shop": "GreenManGaming",
+     "shop": "GamersGate",
      "low": 12.66,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 12.66,
-   "verdict": "good",
-   "reason": "€0.94 above the 2-year low of €12.66"
+   "verdict": "wait",
+   "reason": "usually drops to €13.60, once in 12 months"
   },
   {
    "slug": "super-mario-bros-wonder",
@@ -774,7 +774,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -845,7 +845,7 @@
    ],
    "low": 14.55,
    "verdict": "wait",
-   "reason": "2-year low is €14.55"
+   "reason": "usually drops to €16.44, once in 12 months"
   },
   {
    "slug": "shin-megami-tensei-v-vengeance",
@@ -879,7 +879,7 @@
    ],
    "low": 14.93,
    "verdict": "wait",
-   "reason": "usually drops to €17.99, once in 12 months"
+   "reason": "usually drops to €16.79, once in 12 months"
   },
   {
    "slug": "blue-prince",
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.13,
-    "regular": 44.59,
+    "amount": 40.23,
+    "regular": 44.7,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.13,
-     "regular": 44.59,
+     "amount": 40.23,
+     "regular": 44.7,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1106,16 +1106,16 @@
    "price": {
     "amount": 8.99,
     "regular": 29.99,
-    "shop": "Epic Game Store",
+    "shop": "Humble Store",
     "platform": "PC",
-    "url": "https://itad.link/018d959e-6853-717a-8926-2e87c6fbb4f4/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478bb4db7f/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
      "amount": 8.99,
      "regular": 29.99,
-     "shop": "Epic Game Store",
+     "shop": "Humble Store",
      "low": 7.49,
      "verdict": "wait"
     }
@@ -1193,8 +1193,8 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 33.88,
-    "regular": 35.67,
+    "amount": 33.97,
+    "regular": 35.76,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
@@ -1202,8 +1202,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.88,
-     "regular": 35.67,
+     "amount": 33.97,
+     "regular": 35.76,
      "shop": "GamesPlanet US",
      "low": 14.99,
      "verdict": "wait"
@@ -1263,7 +1263,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -1273,18 +1273,18 @@
    "price": {
     "amount": 32.49,
     "regular": 49.99,
-    "shop": "Epic Game Store",
-    "platform": "PC",
-    "url": "https://itad.link/01956c30-7295-7026-a86a-999d0fe9d73b/?app=w5ppeb"
+    "shop": "Microsoft Store",
+    "platform": "Xbox",
+    "url": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.49,
+     "amount": 49.99,
      "regular": 49.99,
-     "shop": "Epic Game Store",
+     "shop": "EA Store",
      "low": 32.49,
-     "verdict": "worth"
+     "verdict": "wait"
     },
     {
      "platform": "xbox",
@@ -1383,7 +1383,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 2 days of price history, verdicts start after 60"
+   "reason": "only 3 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -1451,18 +1451,18 @@
    "year": 2021,
    "metascore": 90,
    "price": {
-    "amount": 15.99,
-    "regular": 15.99,
-    "shop": "Epic Game Store",
+    "amount": 9.75,
+    "regular": 19.5,
+    "shop": "Steam",
     "platform": "PC",
-    "url": "https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-7aec-718e-82b0-98394eb6893d/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.99,
-     "regular": 15.99,
-     "shop": "Epic Game Store",
+     "amount": 9.75,
+     "regular": 19.5,
+     "shop": "Steam",
      "low": 8.49,
      "verdict": "wait"
     }
@@ -1563,25 +1563,25 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 7.5,
+    "amount": 9.2,
     "regular": 22.99,
-    "shop": "Playsum",
+    "shop": "GreenManGaming",
     "platform": "PC",
-    "url": "https://itad.link/019dd045-0897-71a4-a2d6-03b06836893c/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d8b63a338/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 7.5,
+     "amount": 9.2,
      "regular": 22.99,
-     "shop": "Playsum",
+     "shop": "GreenManGaming",
      "low": 7.26,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 7.26,
-   "verdict": "good",
-   "reason": "€0.24 above the 2-year low of €7.26"
+   "verdict": "wait",
+   "reason": "usually drops to €7.50, once in 12 months"
   },
   {
    "slug": "dave-the-diver",
@@ -1615,8 +1615,8 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 50.38,
-    "regular": 53.51,
+    "amount": 50.51,
+    "regular": 53.64,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
@@ -1624,8 +1624,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.38,
-     "regular": 53.51,
+     "amount": 50.51,
+     "regular": 53.64,
      "shop": "WinGameStore",
      "low": 32.51,
      "verdict": "wait"
@@ -1633,7 +1633,7 @@
    ],
    "low": 32.51,
    "verdict": "wait",
-   "reason": "usually drops to €50.44, once in 12 months"
+   "reason": "usually drops to €50.38, once in 12 months"
   },
   {
    "slug": "sea-of-stars",
@@ -1641,20 +1641,20 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 16.99,
+    "amount": 33.99,
     "regular": 33.99,
-    "shop": "Steam",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-c294-720d-9964-41245ff228bb/?app=w5ppeb"
+    "url": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 16.99,
+     "amount": 33.99,
      "regular": 33.99,
-     "shop": "Steam",
+     "shop": "GOG",
      "low": 16.99,
-     "verdict": "worth"
+     "verdict": "wait"
     },
     {
      "platform": "switch",
@@ -1666,8 +1666,8 @@
     }
    ],
    "low": 16.99,
-   "verdict": "worth",
-   "reason": "matches the all-time low (Nov 2026)"
+   "verdict": "wait",
+   "reason": "usually drops to €16.99, once in 12 months"
   },
   {
    "slug": "videoverse",
@@ -1675,25 +1675,25 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 5.75,
+    "amount": 6.39,
     "regular": 12.79,
-    "shop": "Humble Store",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-ef2f-7233-8c00-dc6cb470c6d0/?app=w5ppeb"
+    "url": "https://itad.link/018dfa55-48e7-73a9-b64c-310f7b1eccd1/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 5.75,
+     "amount": 6.39,
      "regular": 12.79,
-     "shop": "Humble Store",
+     "shop": "GOG",
      "low": 5.26,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 5.26,
-   "verdict": "good",
-   "reason": "€0.49 above the 2-year low of €5.26"
+   "verdict": "wait",
+   "reason": "usually drops to €5.26, once in 12 months"
   },
   {
    "slug": "animal-well",
