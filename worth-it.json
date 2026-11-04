@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:28:43.146000+00:00",
+ "updated": "2026-11-04T13:05:08.607000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -7,25 +7,25 @@
    "year": 2021,
    "metascore": 97,
    "price": {
-    "amount": 7.59,
-    "regular": 37.99,
-    "shop": "Fanatical",
+    "amount": 7.58,
+    "regular": 39.99,
+    "shop": "Playsum",
     "platform": "PC",
-    "url": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb"
+    "url": "https://itad.link/019e1c40-0f81-703b-bcdc-e1df3f401965/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 7.59,
-     "regular": 37.99,
-     "shop": "Fanatical",
+     "amount": 7.58,
+     "regular": 39.99,
+     "shop": "Playsum",
      "low": 3.59,
      "verdict": "wait"
     }
    ],
    "low": 3.59,
    "verdict": "wait",
-   "reason": "usually drops to €9.49, once in 12 months"
+   "reason": "usually drops to €7.59, once in 12 months"
   },
   {
    "slug": "the-house-in-fata-morgana",
@@ -145,7 +145,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -197,7 +197,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -257,18 +257,18 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 49.56,
-    "regular": 53.57,
-    "shop": "WinGameStore",
+    "amount": 40.19,
+    "regular": 59.99,
+    "shop": "Epic Game Store",
     "platform": "PC",
-    "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb"
+    "url": "https://itad.link/01920ae8-92e7-7296-aa09-4c7d12e95344/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 49.56,
-     "regular": 53.57,
-     "shop": "WinGameStore",
+     "amount": 40.19,
+     "regular": 59.99,
+     "shop": "Epic Game Store",
      "low": 32.46,
      "verdict": "wait"
     }
@@ -327,7 +327,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.03,
-    "regular": 35.71,
+    "amount": 32.84,
+    "regular": 35.5,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,16 +355,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.03,
-     "regular": 35.71,
+     "amount": 32.84,
+     "regular": 35.5,
      "shop": "WinGameStore",
      "low": 29.98,
-     "verdict": "wait"
+     "verdict": "good"
     }
    ],
    "low": 29.98,
-   "verdict": "wait",
-   "reason": "usually drops to €32.99, once in 12 months"
+   "verdict": "good",
+   "reason": "€2.86 above the 2-year low of €29.98"
   },
   {
    "slug": "metaphor-refantazio",
@@ -398,7 +398,7 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 39.99,
+    "amount": 19.99,
     "regular": 39.99,
     "shop": "Epic Game Store",
     "platform": "PC",
@@ -407,16 +407,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 39.99,
+     "amount": 19.99,
      "regular": 39.99,
      "shop": "Epic Game Store",
      "low": 19.99,
-     "verdict": "wait"
+     "verdict": "worth"
     }
    ],
    "low": 19.99,
-   "verdict": "wait",
-   "reason": "2-year low is €19.99"
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "hades",
@@ -518,18 +518,18 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 42.23,
-    "regular": 44.64,
-    "shop": "WinGameStore",
+    "amount": 33.49,
+    "regular": 49.99,
+    "shop": "Epic Game Store",
     "platform": "PC",
-    "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb"
+    "url": "https://itad.link/0195fcab-2536-712b-9929-bafb192fe82c/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 42.23,
-     "regular": 44.64,
-     "shop": "WinGameStore",
+     "amount": 33.49,
+     "regular": 49.99,
+     "shop": "Epic Game Store",
      "low": 27.15,
      "verdict": "wait"
     }
@@ -570,18 +570,18 @@
    "year": 2022,
    "metascore": 93,
    "price": {
-    "amount": 40.18,
-    "regular": 44.64,
-    "shop": "GamesPlanet US",
+    "amount": 19.99,
+    "regular": 49.99,
+    "shop": "Epic Game Store",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
+    "url": "https://itad.link/018d959e-08aa-72e2-985a-00abccfae400/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.18,
-     "regular": 44.64,
-     "shop": "GamesPlanet US",
+     "amount": 19.99,
+     "regular": 49.99,
+     "shop": "Epic Game Store",
      "low": 15.76,
      "verdict": "wait"
     }
@@ -774,7 +774,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -793,7 +793,7 @@
    "year": 2024,
    "metascore": 92,
    "price": {
-    "amount": 49.99,
+    "amount": 7.49,
     "regular": 49.99,
     "shop": "Epic Game Store",
     "platform": "PC",
@@ -802,16 +802,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 49.99,
+     "amount": 7.49,
      "regular": 49.99,
      "shop": "Epic Game Store",
-     "low": 14.99,
-     "verdict": "wait"
+     "low": 7.49,
+     "verdict": "worth"
     }
    ],
-   "low": 14.99,
-   "verdict": "wait",
-   "reason": "2-year low is €14.99"
+   "low": 7.49,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "like-a-dragon-infinite-wealth",
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.18,
-    "regular": 44.64,
+    "amount": 39.94,
+    "regular": 44.38,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.18,
-     "regular": 44.64,
+     "amount": 39.94,
+     "regular": 44.38,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1193,8 +1193,8 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 33.93,
-    "regular": 35.71,
+    "amount": 33.73,
+    "regular": 35.5,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
@@ -1202,8 +1202,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.93,
-     "regular": 35.71,
+     "amount": 33.73,
+     "regular": 35.5,
      "shop": "GamesPlanet US",
      "low": 14.99,
      "verdict": "wait"
@@ -1263,7 +1263,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -1383,7 +1383,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 3 days of price history, verdicts start after 60"
+   "reason": "only 4 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -1469,7 +1469,7 @@
    ],
    "low": 8.49,
    "verdict": "wait",
-   "reason": "2-year low is €8.49"
+   "reason": "usually drops to €9.75, once in 12 months"
   },
   {
    "slug": "mass-effect-legendary-edition",
@@ -1615,18 +1615,18 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 50.45,
-    "regular": 53.57,
-    "shop": "WinGameStore",
+    "amount": 40.19,
+    "regular": 59.99,
+    "shop": "Epic Game Store",
     "platform": "PC",
-    "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
+    "url": "https://itad.link/0192a181-a10b-730a-9322-15f029e4857c/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.45,
-     "regular": 53.57,
-     "shop": "WinGameStore",
+     "amount": 40.19,
+     "regular": 59.99,
+     "shop": "Epic Game Store",
      "low": 32.51,
      "verdict": "wait"
     }
@@ -1727,25 +1727,25 @@
    "year": 2024,
    "metascore": 90,
    "price": {
-    "amount": 10.07,
-    "regular": 13.99,
-    "shop": "GamersGate",
+    "amount": 10.04,
+    "regular": 13.31,
+    "shop": "GamesPlanet US",
     "platform": "PC",
-    "url": "https://itad.link/018dc752-2524-70fc-896e-d678c8df180b/?app=w5ppeb"
+    "url": "https://itad.link/018dc708-d7bb-70ce-95fe-f7bcc9f17eb3/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 10.07,
-     "regular": 13.99,
-     "shop": "GamersGate",
+     "amount": 10.04,
+     "regular": 13.31,
+     "shop": "GamesPlanet US",
      "low": 9.57,
      "verdict": "good"
     }
    ],
    "low": 9.57,
    "verdict": "good",
-   "reason": "€0.50 above the 2-year low of €9.57"
+   "reason": "€0.47 above the 2-year low of €9.57"
   },
   {
    "slug": "tekken-8",
