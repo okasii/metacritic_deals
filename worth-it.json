@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:05:08.607000+00:00",
+ "updated": "2026-11-04T15:45:07.404000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 32.84,
-    "regular": 35.5,
+    "amount": 32.88,
+    "regular": 35.55,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.84,
-     "regular": 35.5,
+     "amount": 32.88,
+     "regular": 35.55,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "good"
@@ -364,7 +364,7 @@
    ],
    "low": 29.98,
    "verdict": "good",
-   "reason": "€2.86 above the 2-year low of €29.98"
+   "reason": "€2.90 above the 2-year low of €29.98"
   },
   {
    "slug": "metaphor-refantazio",
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 39.94,
-    "regular": 44.38,
+    "amount": 39.99,
+    "regular": 44.44,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 39.94,
-     "regular": 44.38,
+     "amount": 39.99,
+     "regular": 44.44,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1193,8 +1193,8 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 33.73,
-    "regular": 35.5,
+    "amount": 33.77,
+    "regular": 35.55,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
@@ -1202,8 +1202,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.73,
-     "regular": 35.5,
+     "amount": 33.77,
+     "regular": 35.55,
      "shop": "GamesPlanet US",
      "low": 14.99,
      "verdict": "wait"
@@ -1727,8 +1727,8 @@
    "year": 2024,
    "metascore": 90,
    "price": {
-    "amount": 10.04,
-    "regular": 13.31,
+    "amount": 10.05,
+    "regular": 13.32,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018dc708-d7bb-70ce-95fe-f7bcc9f17eb3/?app=w5ppeb"
@@ -1736,8 +1736,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 10.04,
-     "regular": 13.31,
+     "amount": 10.05,
+     "regular": 13.32,
      "shop": "GamesPlanet US",
      "low": 9.57,
      "verdict": "good"
@@ -1745,7 +1745,7 @@
    ],
    "low": 9.57,
    "verdict": "good",
-   "reason": "€0.47 above the 2-year low of €9.57"
+   "reason": "€0.48 above the 2-year low of €9.57"
   },
   {
    "slug": "tekken-8",
