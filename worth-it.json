@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:45:07.404000+00:00",
+ "updated": "2026-11-04T16:11:57.167000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -25,7 +25,7 @@
    ],
    "low": 3.59,
    "verdict": "wait",
-   "reason": "usually drops to €7.59, once in 12 months"
+   "reason": "2-year low is €3.59"
   },
   {
    "slug": "the-house-in-fata-morgana",
@@ -51,7 +51,7 @@
    ],
    "low": 10.39,
    "verdict": "wait",
-   "reason": "usually drops to €14.94, once in 12 months"
+   "reason": "2-year low is €10.39"
   },
   {
    "slug": "elden-ring",
@@ -85,7 +85,7 @@
    ],
    "low": 27.99,
    "verdict": "wait",
-   "reason": "usually drops to €47.99, once in 12 months"
+   "reason": "2-year low is €27.99"
   },
   {
    "slug": "baldurs-gate-3",
@@ -171,7 +171,7 @@
    ],
    "low": 9.94,
    "verdict": "wait",
-   "reason": "usually drops to €16.79, once in 12 months"
+   "reason": "2-year low is €9.94"
   },
   {
    "slug": "portal-companion-collection",
@@ -275,7 +275,7 @@
    ],
    "low": 32.46,
    "verdict": "wait",
-   "reason": "usually drops to €49.49, once in 12 months"
+   "reason": "2-year low is €32.46"
   },
   {
    "slug": "the-witcher-3-wild-hunt-complete-edition",
@@ -301,7 +301,7 @@
    ],
    "low": 9.99,
    "verdict": "wait",
-   "reason": "usually drops to €23.74, once in 12 months"
+   "reason": "2-year low is €9.99"
   },
   {
    "slug": "metroid-prime-remastered",
@@ -390,7 +390,7 @@
    ],
    "low": 23.11,
    "verdict": "wait",
-   "reason": "usually drops to €25.89, once in 12 months"
+   "reason": "2-year low is €23.11"
   },
   {
    "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
@@ -510,7 +510,7 @@
    ],
    "low": 2.99,
    "verdict": "wait",
-   "reason": "usually drops to €9.41, once in 12 months"
+   "reason": "2-year low is €2.99"
   },
   {
    "slug": "the-last-of-us-part-ii",
@@ -536,7 +536,7 @@
    ],
    "low": 27.15,
    "verdict": "wait",
-   "reason": "usually drops to €42.18, once in 12 months"
+   "reason": "2-year low is €27.15"
   },
   {
    "slug": "dwarf-fortress",
@@ -588,7 +588,7 @@
    ],
    "low": 15.76,
    "verdict": "wait",
-   "reason": "usually drops to €40.13, once in 12 months"
+   "reason": "2-year low is €15.76"
   },
   {
    "slug": "the-stanley-parable-ultra-deluxe",
@@ -696,7 +696,7 @@
    ],
    "low": 23.99,
    "verdict": "wait",
-   "reason": "usually drops to €55.96, once in 12 months"
+   "reason": "2-year low is €23.99"
   },
   {
    "slug": "cuphead-the-delicious-last-course",
@@ -722,7 +722,7 @@
    ],
    "low": 4.79,
    "verdict": "wait",
-   "reason": "usually drops to €5.59, once in 12 months"
+   "reason": "2-year low is €4.79"
   },
   {
    "slug": "street-fighter-6",
@@ -748,7 +748,7 @@
    ],
    "low": 12.66,
    "verdict": "wait",
-   "reason": "usually drops to €13.60, once in 12 months"
+   "reason": "2-year low is €12.66"
   },
   {
    "slug": "super-mario-bros-wonder",
@@ -845,7 +845,7 @@
    ],
    "low": 14.55,
    "verdict": "wait",
-   "reason": "usually drops to €16.44, once in 12 months"
+   "reason": "2-year low is €14.55"
   },
   {
    "slug": "shin-megami-tensei-v-vengeance",
@@ -879,7 +879,7 @@
    ],
    "low": 14.93,
    "verdict": "wait",
-   "reason": "usually drops to €16.79, once in 12 months"
+   "reason": "2-year low is €14.93"
   },
   {
    "slug": "blue-prince",
@@ -947,7 +947,7 @@
    ],
    "low": 30.48,
    "verdict": "wait",
-   "reason": "usually drops to €35.19, once in 12 months"
+   "reason": "2-year low is €30.48"
   },
   {
    "slug": "crusader-kings-iii",
@@ -973,7 +973,7 @@
    ],
    "low": 11.08,
    "verdict": "wait",
-   "reason": "usually drops to €15.00, once in 12 months"
+   "reason": "2-year low is €11.08"
   },
   {
    "slug": "f1-2020",
@@ -1070,7 +1070,7 @@
    ],
    "low": 5.99,
    "verdict": "wait",
-   "reason": "usually drops to €20.99, once in 12 months"
+   "reason": "2-year low is €5.99"
   },
   {
    "slug": "chained-echoes",
@@ -1122,7 +1122,7 @@
    ],
    "low": 7.49,
    "verdict": "wait",
-   "reason": "usually drops to €8.99, once in 12 months"
+   "reason": "2-year low is €7.49"
   },
   {
    "slug": "diablo-iv",
@@ -1185,7 +1185,7 @@
    ],
    "low": 8.02,
    "verdict": "wait",
-   "reason": "usually drops to €23.19, once in 12 months"
+   "reason": "2-year low is €8.02"
   },
   {
    "slug": "satisfactory",
@@ -1193,25 +1193,25 @@
    "year": 2024,
    "metascore": 91,
    "price": {
-    "amount": 33.77,
-    "regular": 35.55,
-    "shop": "GamesPlanet US",
+    "amount": 33.14,
+    "regular": 38.99,
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb"
+    "url": "https://itad.link/01a1a73b-782a-73f9-8fb1-a1579e0775f7/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.77,
-     "regular": 35.55,
-     "shop": "GamesPlanet US",
+     "amount": 33.14,
+     "regular": 38.99,
+     "shop": "Fanatical",
      "low": 14.99,
      "verdict": "wait"
     }
    ],
    "low": 14.99,
    "verdict": "wait",
-   "reason": "usually drops to €24.56, once in 12 months"
+   "reason": "2-year low is €14.99"
   },
   {
    "slug": "ufo-50",
@@ -1357,7 +1357,7 @@
    ],
    "low": 8.02,
    "verdict": "wait",
-   "reason": "usually drops to €10.00, once in 12 months"
+   "reason": "2-year low is €8.02"
   },
   {
    "slug": "animal-crossing-new-horizons",
@@ -1443,7 +1443,7 @@
    ],
    "low": 1.0,
    "verdict": "wait",
-   "reason": "usually drops to €10.99, once in 12 months"
+   "reason": "2-year low is €1.00"
   },
   {
    "slug": "chicory-a-colorful-tale",
@@ -1469,7 +1469,7 @@
    ],
    "low": 8.49,
    "verdict": "wait",
-   "reason": "usually drops to €9.75, once in 12 months"
+   "reason": "2-year low is €8.49"
   },
   {
    "slug": "mass-effect-legendary-edition",
@@ -1581,7 +1581,7 @@
    ],
    "low": 7.26,
    "verdict": "wait",
-   "reason": "usually drops to €7.50, once in 12 months"
+   "reason": "2-year low is €7.26"
   },
   {
    "slug": "dave-the-diver",
@@ -1633,7 +1633,7 @@
    ],
    "low": 32.51,
    "verdict": "wait",
-   "reason": "usually drops to €50.38, once in 12 months"
+   "reason": "2-year low is €32.51"
   },
   {
    "slug": "sea-of-stars",
@@ -1667,7 +1667,7 @@
    ],
    "low": 16.99,
    "verdict": "wait",
-   "reason": "usually drops to €16.99, once in 12 months"
+   "reason": "2-year low is €16.99"
   },
   {
    "slug": "videoverse",
@@ -1693,7 +1693,7 @@
    ],
    "low": 5.26,
    "verdict": "wait",
-   "reason": "usually drops to €5.26, once in 12 months"
+   "reason": "2-year low is €5.26"
   },
   {
    "slug": "animal-well",
@@ -1779,7 +1779,7 @@
    ],
    "low": 18.48,
    "verdict": "wait",
-   "reason": "usually drops to €23.99, once in 12 months"
+   "reason": "2-year low is €18.48"
   },
   {
    "slug": "hollow-knight-silksong",
