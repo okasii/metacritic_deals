@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:19:00.962000+00:00",
+ "updated": "2026-11-05T15:48:56.184000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 32.95,
-    "regular": 35.62,
+    "amount": 32.98,
+    "regular": 35.66,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,16 +355,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.95,
-     "regular": 35.62,
+     "amount": 32.98,
+     "regular": 35.66,
      "shop": "WinGameStore",
      "low": 29.98,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 29.98,
-   "verdict": "good",
-   "reason": "€2.97 above the 2-year low of €29.98"
+   "verdict": "wait",
+   "reason": "2-year low is €29.98"
   },
   {
    "slug": "metaphor-refantazio",
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.08,
-    "regular": 44.53,
+    "amount": 40.12,
+    "regular": 44.57,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.08,
-     "regular": 44.53,
+     "amount": 40.12,
+     "regular": 44.57,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
