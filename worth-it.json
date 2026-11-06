@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:02:59.946000+00:00",
+ "updated": "2026-11-06T15:23:25.768000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.12,
-    "regular": 35.81,
+    "amount": 33.17,
+    "regular": 35.86,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.12,
-     "regular": 35.81,
+     "amount": 33.17,
+     "regular": 35.86,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.28,
-    "regular": 44.76,
+    "amount": 40.35,
+    "regular": 44.83,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.28,
-     "regular": 44.76,
+     "amount": 40.35,
+     "regular": 44.83,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
