@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T15:48:56.184000+00:00",
+ "updated": "2026-11-06T13:02:59.946000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -145,7 +145,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -197,7 +197,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -231,25 +231,25 @@
    "year": 2020,
    "metascore": 94,
    "price": {
-    "amount": 16.99,
-    "regular": 33.99,
-    "shop": "Humble Store",
+    "amount": 31.99,
+    "regular": 31.99,
+    "shop": "Epic Game Store",
     "platform": "PC",
-    "url": "https://itad.link/018da3fd-9349-73a4-b9bc-792dea8bf041/?app=w5ppeb"
+    "url": "https://itad.link/018d959f-736d-7220-acb3-676ae4b7f441/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 16.99,
-     "regular": 33.99,
-     "shop": "Humble Store",
+     "amount": 31.99,
+     "regular": 31.99,
+     "shop": "Epic Game Store",
      "low": 15.99,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 15.99,
-   "verdict": "good",
-   "reason": "€1.00 above the 2-year low of €15.99"
+   "verdict": "wait",
+   "reason": "2-year low is €15.99"
   },
   {
    "slug": "god-of-war-ragnar-k",
@@ -283,7 +283,7 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 23.74,
+    "amount": 47.49,
     "regular": 49.99,
     "shop": "Muve",
     "platform": "PC",
@@ -292,7 +292,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 23.74,
+     "amount": 47.49,
      "regular": 49.99,
      "shop": "Muve",
      "low": 9.99,
@@ -327,7 +327,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 32.98,
-    "regular": 35.66,
+    "amount": 33.12,
+    "regular": 35.81,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.98,
-     "regular": 35.66,
+     "amount": 33.12,
+     "regular": 35.81,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -706,16 +706,16 @@
    "price": {
     "amount": 5.59,
     "regular": 7.99,
-    "shop": "Humble Store",
+    "shop": "GreenManGaming",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c700e5f5/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c76379b7/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
      "amount": 5.59,
      "regular": 7.99,
-     "shop": "Humble Store",
+     "shop": "GreenManGaming",
      "low": 4.79,
      "verdict": "wait"
     }
@@ -730,18 +730,18 @@
    "year": 2023,
    "metascore": 92,
    "price": {
-    "amount": 15.99,
+    "amount": 16.0,
     "regular": 39.99,
-    "shop": "Humble Store",
+    "shop": "DLGamer",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da70df4cb/?app=w5ppeb"
+    "url": "https://itad.link/01a08bec-f2bb-71ca-850e-4698195a520f/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 15.99,
+     "amount": 16.0,
      "regular": 39.99,
-     "shop": "Humble Store",
+     "shop": "DLGamer",
      "low": 12.66,
      "verdict": "wait"
     }
@@ -774,7 +774,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.12,
-    "regular": 44.57,
+    "amount": 40.28,
+    "regular": 44.76,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.12,
-     "regular": 44.57,
+     "amount": 40.28,
+     "regular": 44.76,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1070,7 +1070,7 @@
    ],
    "low": 47.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "chained-echoes",
@@ -1106,16 +1106,16 @@
    "price": {
     "amount": 8.99,
     "regular": 29.99,
-    "shop": "Humble Store",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478bb4db7f/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
      "amount": 8.99,
      "regular": 29.99,
-     "shop": "Humble Store",
+     "shop": "GOG",
      "low": 7.49,
      "verdict": "good"
     }
@@ -1263,7 +1263,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -1271,7 +1271,7 @@
    "year": 2025,
    "metascore": 91,
    "price": {
-    "amount": 32.49,
+    "amount": 44.99,
     "regular": 49.99,
     "shop": "Microsoft Store",
     "platform": "Xbox",
@@ -1288,16 +1288,16 @@
     },
     {
      "platform": "xbox",
-     "amount": 32.49,
+     "amount": 44.99,
      "regular": 49.99,
      "shop": "Microsoft Store",
      "low": 32.49,
-     "verdict": "worth"
+     "verdict": "wait"
     }
    ],
    "low": 32.49,
-   "verdict": "worth",
-   "reason": "matches the all-time low (Nov 2026)"
+   "verdict": "wait",
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "big-walk",
@@ -1339,18 +1339,18 @@
    "year": 2026,
    "metascore": 91,
    "price": {
-    "amount": 10.0,
+    "amount": 12.59,
     "regular": 19.99,
-    "shop": "Humble Store",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/019f3d94-9eee-7047-8e01-51a482126e16/?app=w5ppeb"
+    "url": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 10.0,
+     "amount": 12.59,
      "regular": 19.99,
-     "shop": "Humble Store",
+     "shop": "Fanatical",
      "low": 8.02,
      "verdict": "wait"
     }
@@ -1383,7 +1383,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 5 days of price history, verdicts start after 60"
+   "reason": "only 6 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -1727,25 +1727,25 @@
    "year": 2024,
    "metascore": 90,
    "price": {
-    "amount": 10.07,
+    "amount": 11.19,
     "regular": 13.99,
-    "shop": "GamersGate",
+    "shop": "GameBillet",
     "platform": "PC",
-    "url": "https://itad.link/018dc752-2524-70fc-896e-d678c8df180b/?app=w5ppeb"
+    "url": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 10.07,
+     "amount": 11.19,
      "regular": 13.99,
-     "shop": "GamersGate",
+     "shop": "GameBillet",
      "low": 9.57,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 9.57,
-   "verdict": "good",
-   "reason": "€0.50 above the 2-year low of €9.57"
+   "verdict": "wait",
+   "reason": "2-year low is €9.57"
   },
   {
    "slug": "tekken-8",
@@ -1839,25 +1839,25 @@
    "year": 2026,
    "metascore": 90,
    "price": {
-    "amount": 16.39,
+    "amount": 20.49,
     "regular": 20.49,
-    "shop": "Steam",
+    "shop": "GOG",
     "platform": "PC",
-    "url": "https://itad.link/019e71f1-7a3b-7003-888f-eee4df610e2e/?app=w5ppeb"
+    "url": "https://itad.link/019e3b2c-3823-73c2-b943-93357a4ac2aa/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 16.39,
+     "amount": 20.49,
      "regular": 20.49,
-     "shop": "Steam",
+     "shop": "GOG",
      "low": 16.39,
-     "verdict": "worth"
+     "verdict": "wait"
     }
    ],
    "low": 16.39,
-   "verdict": "worth",
-   "reason": "matches the all-time low (Nov 2026)"
+   "verdict": "wait",
+   "reason": "2-year low is €16.39"
   },
   {
    "slug": "the-legend-of-heroes-trails-in-the-sky-2nd-chapter",
