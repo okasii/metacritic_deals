@@ -301,7 +301,7 @@ main{flex:1}
     <a href="./feed.xml" data-alerts>Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T21:03:42.591000+00:00">updated 07 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T21:11:20.924000+00:00">updated 07 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="./#list" data-nav="top">Top 20</a>
     <a href="./#list" data-nav="pc">PC</a>
@@ -2180,7 +2180,6 @@ main{flex:1}
 </form>
     <label class="sub" for="alertRss">Prefer RSS? (Feedly, Inoreader, Slack, Teams, NetNewsWire…)</label>
     <div class="wf-alert-row"><input id="alertRss" type="text" readonly><button type="button" class="wf-btn" id="alertCopy">Copy link</button></div>
-    <button type="button" class="wf-btn" id="alertWatch">Watch this game</button>
   </div>
 </div>
 </main>
@@ -2272,14 +2271,10 @@ main{flex:1}
   })();
   // Alerts: per-game RSS + a watchlist in this browser
   var panel=document.getElementById('alertPanel'),cur=null;
-  function watched(){try{return JSON.parse(localStorage.getItem('wiy-watch')||'[]');}catch(e){return [];}}
-  function setWatched(a){try{localStorage.setItem('wiy-watch',JSON.stringify(a));}catch(e){}}
-  function paint(){var w=watched();document.querySelectorAll('.wf-alert-btn').forEach(function(b){var on=w.indexOf(b.dataset.slug)>=0;b.textContent=on?'Watching ✓':'Alert me';b.classList.toggle('on',on);});
-    if(cur){var on=w.indexOf(cur)>=0;document.getElementById('alertWatch').textContent=on?'Stop watching':'Watch this game';}}
+  function paint(){}
   function openPanel(slug,title){cur=slug;document.getElementById('alertGame').textContent=title;
     var base=location.origin+(location.pathname.replace(/[^/]*$/,''));
     document.getElementById('alertRss').value=slug==='*'?base+'feed.xml':base+'alerts/'+slug+'.xml';
-    document.getElementById('alertWatch').hidden=(slug==='*');
     panel.querySelector('.wf-email').dataset.game=slug;panel.querySelector('.wf-email label').textContent=slug==='*'?'Email me when any game is Worth it':'Email me when this game is Worth it';panel.querySelector('#alertIntro .which').textContent=slug==='*'?'a game':'this game';panel.querySelector('.wf-email .msg').textContent='One mail per day at most, only on days something is Worth it. You confirm by clicking a link; every mail has an unsubscribe link.';
     panel.hidden=false;paint();}
   document.querySelectorAll('.wf-alert-btn').forEach(function(b){b.addEventListener('click',function(){openPanel(b.dataset.slug,b.dataset.title);});});
@@ -2288,7 +2283,6 @@ main{flex:1}
   document.getElementById('alertClose').addEventListener('click',function(){panel.hidden=true;});
   panel.addEventListener('click',function(e){if(e.target===panel)panel.hidden=true;});
   document.getElementById('alertCopy').addEventListener('click',function(){var i=document.getElementById('alertRss');i.select();try{navigator.clipboard.writeText(i.value);}catch(e){document.execCommand('copy');}this.textContent='Copied';var self=this;setTimeout(function(){self.textContent='Copy link';},1500);});
-  document.getElementById('alertWatch').addEventListener('click',function(){var w=watched(),i=w.indexOf(cur);if(i>=0)w.splice(i,1);else w.push(cur);setWatched(w);paint();});
   paint();
 })();
 </script>
