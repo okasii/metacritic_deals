@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:54:52.591000+00:00",
+ "updated": "2026-11-07T20:59:19.427000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -206,6 +206,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "low": 35.97,
+     "url": "https://store.playstation.com/en-fi/product/EP0700-PPSA04609_00-ELDENRING0000000",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 59.99,
@@ -222,6 +231,14 @@
      "regular": 53.57,
      "shop": "Muve",
      "low": 27.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "shop": "PlayStation Store",
+     "low": 35.97,
      "verdict": "wait"
     },
     {
@@ -412,6 +429,15 @@
      "low": 9.94,
      "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62f64699/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "low": 17.98,
+     "url": "https://store.playstation.com/en-fi/product/EP0177-PPSA05110_00-P5RGAME000000000",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -421,6 +447,14 @@
      "regular": 59.99,
      "shop": "Fanatical",
      "low": 9.94,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "shop": "PlayStation Store",
+     "low": 17.98,
      "verdict": "wait"
     }
    ],
@@ -781,12 +815,37 @@
    "title": "Astro Bot",
    "year": 2024,
    "metascore": 94,
-   "price": null,
-   "deals": [],
-   "platforms": [],
-   "low": null,
-   "verdict": "wait",
-   "reason": "no price yet"
+   "price": {
+    "amount": 49.66,
+    "regular": 69.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA21567_00-0000000000000000"
+   },
+   "deals": [
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 49.66,
+     "regular": 69.95,
+     "low": 49.66,
+     "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA21567_00-0000000000000000",
+     "tier": "worth"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "playstation",
+     "amount": 49.66,
+     "regular": 69.95,
+     "shop": "PlayStation Store",
+     "low": 49.66,
+     "verdict": "worth"
+    }
+   ],
+   "low": 49.66,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "elden-ring-shadow-of-the-erdtree",
@@ -973,6 +1032,15 @@
      "low": 19.99,
      "url": "https://itad.link/018d959f-13b2-700a-98f9-1bc976fba523/?app=w5ppeb",
      "tier": "worth"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "low": 19.97,
+     "url": "https://store.playstation.com/en-fi/product/EP0082-CUSA19120_00-0000000000000000",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -983,6 +1051,14 @@
      "shop": "Epic Game Store",
      "low": 19.99,
      "verdict": "worth"
+    },
+    {
+     "platform": "playstation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "shop": "PlayStation Store",
+     "low": 19.97,
+     "verdict": "wait"
     }
    ],
    "low": 19.99,
@@ -1254,6 +1330,15 @@
      "low": 27.15,
      "url": "https://itad.link/0194acf2-744e-7307-b262-538fc986ae4e/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "low": 9.98,
+     "url": "https://store.playstation.com/en-fi/product/EP9000-CUSA10249_00-THELASTOFUSPART2",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -1263,6 +1348,14 @@
      "regular": 49.99,
      "shop": "Epic Game Store",
      "low": 27.15,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "shop": "PlayStation Store",
+     "low": 9.98,
      "verdict": "wait"
     }
    ],
@@ -1503,6 +1596,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 19.95,
+     "regular": 19.95,
+     "low": 4.98,
+     "url": "https://store.playstation.com/en-fi/product/EP0102-CUSA04704_00-BH4HD00000000001",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 39.99,
@@ -1519,6 +1621,14 @@
      "regular": 39.99,
      "shop": "GamesPlanet FR",
      "low": 2.49,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 19.95,
+     "regular": 19.95,
+     "shop": "PlayStation Store",
+     "low": 4.98,
      "verdict": "wait"
     },
     {
@@ -1539,12 +1649,37 @@
    "title": "Demon's Souls",
    "year": 2020,
    "metascore": 92,
-   "price": null,
-   "deals": [],
-   "platforms": [],
-   "low": null,
+   "price": {
+    "amount": 79.95,
+    "regular": 79.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA01341_00-DEMONSSOULS00000"
+   },
+   "deals": [
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 79.95,
+     "regular": 79.95,
+     "low": 39.97,
+     "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA01341_00-DEMONSSOULS00000",
+     "tier": "wait"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "playstation",
+     "amount": 79.95,
+     "regular": 79.95,
+     "shop": "PlayStation Store",
+     "low": 39.97,
+     "verdict": "wait"
+    }
+   ],
+   "low": 39.97,
    "verdict": "wait",
-   "reason": "no price yet"
+   "reason": "2-year low is €39.97"
   },
   {
    "slug": "final-fantasy-xiv-endwalker",
@@ -1761,6 +1896,15 @@
      "low": 12.66,
      "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da8ebb7e5/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "low": 15.98,
+     "url": "https://store.playstation.com/en-fi/product/EP0102-PPSA02633_00-SF600000STANDARD",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -1770,6 +1914,14 @@
      "regular": 39.99,
      "shop": "DLGamer",
      "low": 12.66,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "shop": "PlayStation Store",
+     "low": 15.98,
      "verdict": "wait"
     }
    ],
@@ -1883,6 +2035,15 @@
      "low": 7.49,
      "url": "https://itad.link/019f9f8d-223b-7322-a53d-4dcdcdf5349e/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "low": 17.98,
+     "url": "https://store.playstation.com/en-fi/product/EP0082-PPSA08668_00-0783148264580163",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -1893,6 +2054,14 @@
      "shop": "Epic Game Store",
      "low": 7.49,
      "verdict": "worth"
+    },
+    {
+     "platform": "playstation",
+     "amount": 59.95,
+     "regular": 59.95,
+     "shop": "PlayStation Store",
+     "low": 17.98,
+     "verdict": "wait"
     }
    ],
    "low": 7.49,
@@ -2165,6 +2334,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 29.95,
+     "regular": 29.95,
+     "low": 17.97,
+     "url": "https://store.playstation.com/en-fi/product/EP2187-PPSA25009_00-BLUEPRINCE000000",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 23.99,
@@ -2182,6 +2360,14 @@
      "shop": "Fanatical",
      "low": 13.55,
      "verdict": "good"
+    },
+    {
+     "platform": "playstation",
+     "amount": 29.95,
+     "regular": 29.95,
+     "shop": "PlayStation Store",
+     "low": 17.97,
+     "verdict": "wait"
     },
     {
      "platform": "xbox",
@@ -3000,6 +3186,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "low": 32.46,
+     "url": "https://store.playstation.com/en-fi/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 44.99,
@@ -3016,6 +3211,14 @@
      "regular": 49.99,
      "shop": "EA Store",
      "low": 32.49,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "shop": "PlayStation Store",
+     "low": 32.46,
      "verdict": "wait"
     },
     {
@@ -3037,11 +3240,11 @@
    "year": 2026,
    "metascore": 91,
    "price": {
-    "amount": 18.99,
-    "regular": 18.99,
-    "shop": "Steam",
-    "platform": "PC",
-    "url": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb"
+    "amount": 18.95,
+    "regular": 18.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/UP3971-PPSA33764_00-WALKWALKWALKWALK"
    },
    "deals": [
     {
@@ -3061,6 +3264,15 @@
      "low": 18.99,
      "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Big-Walk-3132961.html",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 18.95,
+     "regular": 18.95,
+     "low": 15.16,
+     "url": "https://store.playstation.com/en-fi/product/UP3971-PPSA33764_00-WALKWALKWALKWALK",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -3079,11 +3291,19 @@
      "shop": "Nintendo eShop",
      "low": 18.99,
      "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 18.95,
+     "regular": 18.95,
+     "shop": "PlayStation Store",
+     "low": 15.16,
+     "verdict": "wait"
     }
    ],
-   "low": 14.24,
+   "low": 15.16,
    "verdict": "wait",
-   "reason": "2-year low is €14.24"
+   "reason": "2-year low is €15.16"
   },
   {
    "slug": "doom-the-dark-ages-revelations",
@@ -3210,11 +3430,11 @@
    "year": 2020,
    "metascore": 90,
    "price": {
-    "amount": 44.99,
-    "regular": 44.99,
-    "shop": "Microsoft Store",
-    "platform": "PC",
-    "url": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb"
+    "amount": 44.95,
+    "regular": 44.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/EP0002-CUSA20464_00-TH12RSTANDARD001"
    },
    "deals": [
     {
@@ -3243,6 +3463,15 @@
      "low": 8.99,
      "url": "https://itad.link/018d9386-e2fa-70db-ac06-190b825c2a51/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 44.95,
+     "regular": 44.95,
+     "low": 15.73,
+     "url": "https://store.playstation.com/en-fi/product/EP0002-CUSA20464_00-TH12RSTANDARD001",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -3253,11 +3482,19 @@
      "shop": "Microsoft Store",
      "low": 8.99,
      "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 44.95,
+     "regular": 44.95,
+     "shop": "PlayStation Store",
+     "low": 15.73,
+     "verdict": "wait"
     }
    ],
-   "low": 8.99,
+   "low": 15.73,
    "verdict": "wait",
-   "reason": "2-year low is €8.99"
+   "reason": "2-year low is €15.73"
   },
   {
    "slug": "yakuza-0",
@@ -3583,11 +3820,11 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 11.49,
-    "regular": 22.99,
-    "shop": "Fanatical",
-    "platform": "PC",
-    "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9477432b/?app=w5ppeb"
+    "amount": 9.98,
+    "regular": 24.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000"
    },
    "deals": [
     {
@@ -3643,6 +3880,15 @@
      "low": 7.26,
      "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9aabcfa7/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 9.98,
+     "regular": 24.95,
+     "low": 9.98,
+     "url": "https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000",
+     "tier": "worth"
     }
    ],
    "platforms": [
@@ -3653,11 +3899,19 @@
      "shop": "Fanatical",
      "low": 7.26,
      "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 9.98,
+     "regular": 24.95,
+     "shop": "PlayStation Store",
+     "low": 9.98,
+     "verdict": "worth"
     }
    ],
-   "low": 7.26,
-   "verdict": "wait",
-   "reason": "2-year low is €7.26"
+   "low": 9.98,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "dave-the-diver",
@@ -3980,6 +4234,15 @@
      "low": 16.41,
      "url": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb",
      "tier": "good"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 24.95,
+     "regular": 24.95,
+     "low": 17.46,
+     "url": "https://store.playstation.com/en-fi/product/EP8684-PPSA22519_00-0609771001653426",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -3990,6 +4253,14 @@
      "shop": "Steam",
      "low": 16.41,
      "verdict": "good"
+    },
+    {
+     "platform": "playstation",
+     "amount": 24.95,
+     "regular": 24.95,
+     "shop": "PlayStation Store",
+     "low": 17.46,
+     "verdict": "wait"
     }
    ],
    "low": 16.41,
@@ -4146,6 +4417,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "low": 19.97,
+     "url": "https://store.playstation.com/en-fi/product/EP0700-PPSA10594_00-TEKKEN8000000000",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 39.99,
@@ -4162,6 +4442,14 @@
      "regular": 39.99,
      "shop": "DLGamer",
      "low": 18.48,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 39.95,
+     "regular": 39.95,
+     "shop": "PlayStation Store",
+     "low": 19.97,
      "verdict": "wait"
     },
     {
