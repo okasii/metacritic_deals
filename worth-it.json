@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:23:25.768000+00:00",
+ "updated": "2026-11-07T11:48:30.155000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -145,7 +145,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -197,7 +197,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -327,7 +327,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -346,8 +346,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.17,
-    "regular": 35.86,
+    "amount": 33.19,
+    "regular": 35.88,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -355,8 +355,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.17,
-     "regular": 35.86,
+     "amount": 33.19,
+     "regular": 35.88,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -704,18 +704,18 @@
    "year": 2022,
    "metascore": 92,
    "price": {
-    "amount": 5.59,
+    "amount": 7.99,
     "regular": 7.99,
-    "shop": "GreenManGaming",
+    "shop": "Microsoft Store",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c76379b7/?app=w5ppeb"
+    "url": "https://itad.link/019a4145-c3b8-71b8-bf68-4a9d1c8a06c5/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 5.59,
+     "amount": 7.99,
      "regular": 7.99,
-     "shop": "GreenManGaming",
+     "shop": "Microsoft Store",
      "low": 4.79,
      "verdict": "wait"
     }
@@ -774,7 +774,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -921,18 +921,18 @@
    "year": 2025,
    "metascore": 92,
    "price": {
-    "amount": 35.19,
+    "amount": 36.49,
     "regular": 49.99,
-    "shop": "GreenManGaming",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/0195945e-461a-71e1-aaaf-e22d197222bd/?app=w5ppeb"
+    "url": "https://itad.link/0196429e-c92d-7282-9251-ced3ba873f69/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 35.19,
+     "amount": 36.49,
      "regular": 49.99,
-     "shop": "GreenManGaming",
+     "shop": "Fanatical",
      "low": 30.48,
      "verdict": "wait"
     },
@@ -955,8 +955,8 @@
    "year": 2020,
    "metascore": 91,
    "price": {
-    "amount": 40.35,
-    "regular": 44.83,
+    "amount": 40.36,
+    "regular": 44.85,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -964,8 +964,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 40.35,
-     "regular": 44.83,
+     "amount": 40.36,
+     "regular": 44.85,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "wait"
@@ -1070,7 +1070,7 @@
    ],
    "low": 47.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "chained-echoes",
@@ -1263,7 +1263,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -1297,7 +1297,7 @@
    ],
    "low": 32.49,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "big-walk",
@@ -1383,7 +1383,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 6 days of price history, verdicts start after 60"
+   "reason": "only 7 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -1563,18 +1563,18 @@
    "year": 2023,
    "metascore": 90,
    "price": {
-    "amount": 9.2,
+    "amount": 11.49,
     "regular": 22.99,
-    "shop": "GreenManGaming",
+    "shop": "Fanatical",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d8b63a338/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9477432b/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 9.2,
+     "amount": 11.49,
      "regular": 22.99,
-     "shop": "GreenManGaming",
+     "shop": "Fanatical",
      "low": 7.26,
      "verdict": "wait"
     }
@@ -1787,25 +1787,25 @@
    "year": 2025,
    "metascore": 90,
    "price": {
-    "amount": 11.31,
-    "regular": 11.9,
+    "amount": 18.91,
+    "regular": 19.9,
     "shop": "Muve",
     "platform": "PC",
-    "url": "https://itad.link/01a01e80-e538-7070-ae86-de2b608b37f1/?app=w5ppeb"
+    "url": "https://itad.link/019eb6e5-04e1-7218-b851-1c47175d0c2d/?app=w5ppeb"
    },
    "platforms": [
     {
      "platform": "pc",
-     "amount": 11.31,
-     "regular": 11.9,
+     "amount": 18.91,
+     "regular": 19.9,
      "shop": "Muve",
      "low": 10.9,
-     "verdict": "good"
+     "verdict": "wait"
     }
    ],
    "low": 10.9,
-   "verdict": "good",
-   "reason": "€0.41 above the 2-year low of €10.90"
+   "verdict": "wait",
+   "reason": "2-year low is €10.90"
   },
   {
    "slug": "forza-horizon-6",
