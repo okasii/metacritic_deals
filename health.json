@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T20:47:41.545000+00:00",
- "checked": "2026-11-07T20:47:42.339973+00:00",
+ "updated": "2026-11-07T20:54:52.591000+00:00",
+ "checked": "2026-11-07T20:54:53.381559+00:00",
  "priced": 65,
  "finds": 4,
  "sources": {
@@ -8,6 +8,8 @@
   "xbox": 12,
   "switch": 10
  },
- "warnings": [],
+ "warnings": [
+  "no playstation prices today"
+ ],
  "ok": true
 }
