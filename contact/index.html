@@ -119,6 +119,13 @@ main{flex:1}
 .wf-check{display:inline-flex;align-items:center;gap:8px;font-size:14px}
 .wf-check input{width:16px;height:16px;margin:0}
 .wf-more{display:none}
+.wf-stores{position:relative}
+.wf-stores>button{border:1px solid var(--line);background:var(--white);color:var(--ink);font:inherit;font-size:14px;padding:8px 12px;cursor:pointer}
+.wf-stores>button.on{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.wf-stores-pop{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--white);border:1px solid var(--line);padding:14px;width:min(320px,calc(100vw - 32px));box-shadow:0 8px 24px rgba(17,24,39,.12);display:flex;flex-direction:column;gap:8px}
+.wf-stores-pop .sub{margin:0}
+#storesList{display:flex;flex-direction:column;gap:6px;max-height:50vh;overflow:auto}
+#storesList .wf-check{font-size:14px}
 
 /* List */
 .wf-list{padding:8px var(--gutter) 32px;display:flex;flex-direction:column}
@@ -255,8 +262,9 @@ main{flex:1}
   .wf-filters .wf-seg:first-child{flex:1 1 auto;display:flex;min-width:0}
   .wf-more{display:inline-block;border:1px solid var(--line);background:var(--white);color:var(--ink);font:inherit;font-size:13px;font-weight:600;padding:9px 10px;cursor:pointer;white-space:nowrap}
   .wf-filters.open .wf-more{background:var(--ink);color:var(--white);border-color:var(--ink)}
-  .wf-filters > .wf-seg:not(:first-child),.wf-filters > .wf-sort,.wf-filters > .wf-check{display:none}
-  .wf-filters.open > .wf-seg,.wf-filters.open > .wf-sort,.wf-filters.open > .wf-check{display:inline-flex}
+  .wf-filters > .wf-seg:not(:first-child),.wf-filters > .wf-sort,.wf-filters > .wf-check,.wf-filters > .wf-stores{display:none}
+  .wf-filters.open > .wf-seg,.wf-filters.open > .wf-sort,.wf-filters.open > .wf-check,.wf-filters.open > .wf-stores{display:inline-flex}
+  .wf-stores-pop{position:fixed;left:16px;right:16px;top:auto;bottom:16px;width:auto}
   .wf-filters .wf-seg:first-child button{flex:1;padding:9px 4px;font-size:14px;white-space:nowrap}
   .wf-seg .long{display:none}.wf-seg .short{display:inline}
   .wf-seg button{padding:7px 10px;font-size:13px}
@@ -291,7 +299,7 @@ main{flex:1}
     <a href="../feed.xml" data-alerts>Alerts</a>
     <a href="../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T14:20:41.744000+00:00">updated 07 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T20:28:24.808000+00:00">updated 07 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../#list" data-nav="top">Top 20</a>
     <a href="../#list" data-nav="pc">PC</a>

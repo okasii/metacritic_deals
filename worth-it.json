@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:20:41.744000+00:00",
+ "updated": "2026-11-07T20:28:24.808000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -372,7 +372,7 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 25.89,
+    "amount": 25.19,
     "regular": 69.99,
     "shop": "Fanatical",
     "platform": "PC",
@@ -381,7 +381,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 25.89,
+     "amount": 25.19,
      "regular": 69.99,
      "shop": "Fanatical",
      "low": 23.11,
@@ -390,7 +390,7 @@
    ],
    "low": 23.11,
    "verdict": "good",
-   "reason": "€2.78 above the 2-year low of €23.11"
+   "reason": "€2.08 above the 2-year low of €23.11"
   },
   {
    "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
