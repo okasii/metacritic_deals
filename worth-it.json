@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:59:19.427000+00:00",
+ "updated": "2026-11-07T21:03:42.591000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -295,6 +295,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 69.95,
+     "regular": 69.95,
+     "low": 48.96,
+     "url": "https://store.playstation.com/en-fi/product/EP3383-PPSA14002_00-0872837811678079",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 69.99,
@@ -311,6 +320,14 @@
      "regular": 59.99,
      "shop": "Steam",
      "low": 41.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 69.95,
+     "regular": 69.95,
+     "shop": "PlayStation Store",
+     "low": 48.96,
      "verdict": "wait"
     },
     {
@@ -624,11 +641,11 @@
    "year": 2022,
    "metascore": 94,
    "price": {
-    "amount": 40.19,
-    "regular": 59.99,
-    "shop": "Epic Game Store",
-    "platform": "PC",
-    "url": "https://itad.link/01920ae8-92e7-7296-aa09-4c7d12e95344/?app=w5ppeb"
+    "amount": 29.37,
+    "regular": 69.95,
+    "shop": "PlayStation Store",
+    "platform": "PlayStation",
+    "url": "https://store.playstation.com/en-fi/product/EP9000-CUSA34386_00-GOWRAGNAROK00000"
    },
    "deals": [
     {
@@ -684,6 +701,15 @@
      "low": 32.46,
      "url": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 29.37,
+     "regular": 69.95,
+     "low": 29.37,
+     "url": "https://store.playstation.com/en-fi/product/EP9000-CUSA34386_00-GOWRAGNAROK00000",
+     "tier": "worth"
     }
    ],
    "platforms": [
@@ -694,11 +720,19 @@
      "shop": "Epic Game Store",
      "low": 32.46,
      "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 29.37,
+     "regular": 69.95,
+     "shop": "PlayStation Store",
+     "low": 29.37,
+     "verdict": "worth"
     }
    ],
-   "low": 32.46,
-   "verdict": "wait",
-   "reason": "2-year low is €32.46"
+   "low": 29.37,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "the-witcher-3-wild-hunt-complete-edition",
@@ -757,6 +791,15 @@
      "low": 9.99,
      "url": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "low": 9.99,
+     "url": "https://store.playstation.com/en-fi/product/EP4497-PPSA03977_00-00000000000GOTY8",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -765,6 +808,14 @@
      "amount": 47.49,
      "regular": 49.99,
      "shop": "Muve",
+     "low": 9.99,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "shop": "PlayStation Store",
      "low": 9.99,
      "verdict": "wait"
     }
@@ -995,6 +1046,15 @@
      "low": 23.11,
      "url": "https://itad.link/018ff4fc-71ad-729d-981f-8b4fdb01142d/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 69.95,
+     "regular": 69.95,
+     "low": 27.98,
+     "url": "https://store.playstation.com/en-fi/product/EP0177-PPSA20799_00-METAPHOREU000001",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -1005,6 +1065,14 @@
      "shop": "Fanatical",
      "low": 23.11,
      "verdict": "good"
+    },
+    {
+     "platform": "playstation",
+     "amount": 69.95,
+     "regular": 69.95,
+     "shop": "PlayStation Store",
+     "low": 27.98,
+     "verdict": "wait"
     }
    ],
    "low": 23.11,
@@ -2450,6 +2518,15 @@
      "tier": "wait"
     },
     {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "low": 37.46,
+     "url": "https://store.playstation.com/en-fi/product/EP7579-PPSA17599_00-EXP33000000PS5EU",
+     "tier": "wait"
+    },
+    {
      "shop": "Microsoft Store",
      "platform": "Xbox",
      "amount": 49.99,
@@ -2466,6 +2543,14 @@
      "regular": 49.99,
      "shop": "Fanatical",
      "low": 30.48,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 49.95,
+     "regular": 49.95,
+     "shop": "PlayStation Store",
+     "low": 37.46,
      "verdict": "wait"
     },
     {
@@ -4061,6 +4146,15 @@
      "low": 32.51,
      "url": "https://itad.link/0194b868-2900-71a9-85e6-6212acb961ee/?app=w5ppeb",
      "tier": "wait"
+    },
+    {
+     "shop": "PlayStation Store",
+     "platform": "PlayStation",
+     "amount": 79.95,
+     "regular": 79.95,
+     "low": 39.97,
+     "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2",
+     "tier": "wait"
     }
    ],
    "platforms": [
@@ -4070,6 +4164,14 @@
      "regular": 59.99,
      "shop": "Epic Game Store",
      "low": 32.51,
+     "verdict": "wait"
+    },
+    {
+     "platform": "playstation",
+     "amount": 79.95,
+     "regular": 79.95,
+     "shop": "PlayStation Store",
+     "low": 39.97,
      "verdict": "wait"
     }
    ],
