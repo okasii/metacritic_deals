@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:11:20.924000+00:00",
+ "updated": "2026-11-07T21:15:58.657000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -3021,12 +3021,64 @@
    "title": "Slay the Princess",
    "year": 2023,
    "metascore": 91,
-   "price": null,
-   "deals": [],
-   "platforms": [],
-   "low": null,
-   "verdict": "wait",
-   "reason": "no price yet"
+   "price": {
+    "amount": 6.79,
+    "regular": 16.99,
+    "shop": "Steam",
+    "platform": "PC",
+    "url": "https://itad.link/018d9386-cb20-727a-9d0d-2ea25e9fde79/?app=w5ppeb"
+   },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 6.79,
+     "regular": 16.99,
+     "low": 6.79,
+     "url": "https://itad.link/018d9386-cb20-727a-9d0d-2ea25e9fde79/?app=w5ppeb",
+     "tier": "worth"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 6.99,
+     "regular": 17.49,
+     "low": 6.79,
+     "url": "https://itad.link/018d9386-cb20-727a-9d0d-2ea25f6cb7e0/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 9.59,
+     "regular": 17.49,
+     "low": 6.79,
+     "url": "https://itad.link/018d9386-cb20-727a-9d0d-2ea25d9592a3/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 16.19,
+     "regular": 16.19,
+     "low": 6.79,
+     "url": "https://itad.link/0192bf77-a41e-73f1-b7cc-99d8cf4b4247/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "pc",
+     "amount": 6.79,
+     "regular": 16.99,
+     "shop": "Steam",
+     "low": 6.79,
+     "verdict": "worth"
+    }
+   ],
+   "low": 6.79,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "caves-of-qud",
