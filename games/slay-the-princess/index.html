@@ -299,7 +299,7 @@ main{flex:1}
     <a href="../../feed.xml" data-alerts>Alerts</a>
     <a href="../../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T20:28:24.808000+00:00">updated 07 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T20:31:29.277000+00:00">updated 07 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../../#list" data-nav="top">Top 20</a>
     <a href="../../#list" data-nav="pc">PC</a>
@@ -329,7 +329,7 @@ main{flex:1}
     <form class="wf-email" data-game="slay-the-princess" autocomplete="off">
   <label class="sub" for="em-slay-the-princess">Email me when this game is Worth it</label>
   <div class="wf-alert-row"><input id="em-slay-the-princess" type="email" name="email" placeholder="you@example.com" required><input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button type="submit" class="wf-btn primary">Email me</button></div>
-  <p class="sub msg">One mail per day at most, only on days something is Worth it. You confirm by clicking a link; every mail has an unsubscribe link.</p>
+  <p class="sub msg">One mail per day at most, only on days something is Worth it. You confirm by clicking a link; every mail has an unsubscribe link.<span class="exnote"></span></p>
 </form>
   </aside>
 </section>
@@ -375,7 +375,7 @@ t.textContent=diff===0?'updated today '+hm:diff===1?'updated yesterday '+hm:'upd
 (function(){var URL='https://worthityet-alerts.plektra.workers.dev';document.querySelectorAll('form.wf-email').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();
   var msg=f.querySelector('.msg'),btn=f.querySelector('button'),email=f.querySelector('input[type=email]').value.trim();
   btn.disabled=true;msg.textContent='Sending…';
-  fetch(URL+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,game:f.dataset.game||'*',website:f.querySelector('input[name=website]').value})})
+  fetch(URL+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,game:f.dataset.game||'*',website:f.querySelector('input[name=website]').value,exclude:(function(){try{return JSON.parse(localStorage.getItem('wiy-stores-excluded')||'[]');}catch(e){return [];}})()})})
   .then(function(r){return r.json();}).then(function(j){if(j.ok){f.querySelector('.wf-alert-row').hidden=true;f.querySelector('label').hidden=true;msg.className='sub msg ok';msg.innerHTML='<strong>✓ Sent to '+email.replace(/</g,'&lt;')+'</strong> — open the mail and click <em>Confirm alert</em>. Not there in a minute? Check the spam folder.';if(j.state==='already'){msg.innerHTML='<strong>✓ Already subscribed</strong> — this game was added to your alerts.';}}else{msg.textContent=j.error||j.message||'Something went wrong.';}})
   .catch(function(){msg.textContent='Could not reach the alert service. Try again later, or use the RSS feed.';}).then(function(){btn.disabled=false;});});});})();
 // Every link that leaves worthityet.com opens in a new tab; internal links stay in this one.

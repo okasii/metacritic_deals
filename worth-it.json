@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:28:24.808000+00:00",
+ "updated": "2026-11-07T20:31:29.277000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -13,6 +13,62 @@
     "platform": "PC",
     "url": "https://itad.link/019e1c40-0f81-703b-bcdc-e1df3f401965/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 7.59,
+     "regular": 37.99,
+     "low": 3.59,
+     "url": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "IndieGala Store",
+     "platform": "PC",
+     "amount": 7.89,
+     "regular": 39.99,
+     "low": 3.59,
+     "url": "https://itad.link/018e3c5f-6b41-73fb-904e-907d2baaa52e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Playsum",
+     "platform": "PC",
+     "amount": 8.42,
+     "regular": 39.99,
+     "low": 3.59,
+     "url": "https://itad.link/019e1c40-0f81-703b-bcdc-e1df3f401965/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 8.5,
+     "regular": 35.88,
+     "low": 3.59,
+     "url": "https://itad.link/018d9386-4e5d-715f-a47b-15779d67d618/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 8.78,
+     "regular": 35.88,
+     "low": 3.59,
+     "url": "https://itad.link/01905a31-ed90-70ec-af68-c7d2155fa372/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "MacGameStore",
+     "platform": "PC",
+     "amount": 8.78,
+     "regular": 35.88,
+     "low": 3.59,
+     "url": "https://itad.link/01950b61-20a8-7117-9aa6-5d525faf0367/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -39,6 +95,35 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca2b14651/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 22.99,
+     "regular": 22.99,
+     "low": 10.39,
+     "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca2b14651/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 22.99,
+     "regular": 22.99,
+     "low": 10.39,
+     "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca268b591/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 22.99,
+     "regular": 22.99,
+     "low": 10.39,
+     "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca161ac35/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -65,6 +150,71 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 52.03,
+     "regular": 53.82,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 52.79,
+     "regular": 59.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-5634-71ca-ac17-8fff41b3730d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 53.57,
+     "regular": 53.57,
+     "low": 27.99,
+     "url": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 53.91,
+     "regular": 59.9,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b1231da5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b0bdf0db/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b174890d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 59.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9P3J32CTXLRZ",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -99,6 +249,44 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-2caa-7166-99c3-53160e69d7c5/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 41.99,
+     "url": "https://itad.link/018d9386-2caa-7166-99c3-53160e69d7c5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 41.99,
+     "url": "https://itad.link/018d9386-2caa-7166-99c3-53160d559490/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 41.99,
+     "url": "https://itad.link/019645ee-5f6c-70b0-a024-5989a172c2cc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 69.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9ND58LQTG09T",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -133,6 +321,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 69.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -159,6 +358,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61040420/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 16.79,
+     "regular": 59.99,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61040420/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 48.44,
+     "regular": 53.82,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 49.33,
+     "regular": 53.82,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 53.91,
+     "regular": 59.9,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea627197c2/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62b4b97b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 9.94,
+     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62f64699/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -185,6 +440,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 18.99,
+     "regular": 18.99,
+     "low": 18.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -211,6 +477,35 @@
     "platform": "PC",
     "url": "https://itad.link/018d9591-4f72-72a0-b0c5-80e096ae077f/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 28.99,
+     "regular": 28.99,
+     "low": 20.29,
+     "url": "https://itad.link/018d9591-4f72-72a0-b0c5-80e096ae077f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 28.99,
+     "regular": 28.99,
+     "low": 20.29,
+     "url": "https://itad.link/018f4ed9-4868-701f-a1c9-ff248439e1c8/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 20.29,
+     "url": "https://itad.link/019d2b85-57ba-71cc-bd87-c4489883dd35/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -237,6 +532,44 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-736d-7220-acb3-676ae4b7f441/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 31.99,
+     "regular": 31.99,
+     "low": 15.99,
+     "url": "https://itad.link/018d959f-736d-7220-acb3-676ae4b7f441/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 33.99,
+     "regular": 33.99,
+     "low": 15.99,
+     "url": "https://itad.link/018d9386-dd0b-7029-9ee3-3e146f96af8b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 33.99,
+     "regular": 33.99,
+     "low": 15.99,
+     "url": "https://itad.link/018da3fd-9349-73a4-b9bc-792dea8bf041/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 15.99,
+     "url": "https://itad.link/018d9386-dd0b-7029-9ee3-3e146e0d172d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -263,6 +596,62 @@
     "platform": "PC",
     "url": "https://itad.link/01920ae8-92e7-7296-aa09-4c7d12e95344/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 40.19,
+     "regular": 59.99,
+     "low": 32.46,
+     "url": "https://itad.link/01920ae8-92e7-7296-aa09-4c7d12e95344/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 49.78,
+     "regular": 53.82,
+     "low": 32.46,
+     "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "IndieGala Store",
+     "platform": "PC",
+     "amount": 53.79,
+     "regular": 53.79,
+     "low": 32.46,
+     "url": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 53.91,
+     "regular": 59.9,
+     "low": 32.46,
+     "url": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 32.46,
+     "url": "https://itad.link/018ff4c5-b68e-72ca-a36a-7b367a49aa2b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 32.46,
+     "url": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -289,6 +678,53 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 9.99,
+     "url": "https://itad.link/018d9386-f72d-7282-ba92-7e684ee17d0b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 9.99,
+     "url": "https://itad.link/018d959f-232f-706a-8e04-9b36cd6198f4/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 9.99,
+     "url": "https://itad.link/019645ee-5f65-739d-a64d-5c11b92ae956/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 9.99,
+     "url": "https://itad.link/018d9386-f72d-7282-ba92-7e684d3fc418/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 9.99,
+     "url": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -315,6 +751,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 39.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -335,6 +782,7 @@
    "year": 2024,
    "metascore": 94,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -352,6 +800,62 @@
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 33.19,
+     "regular": 35.88,
+     "low": 29.98,
+     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 35.19,
+     "regular": 39.99,
+     "low": 29.98,
+     "url": "https://itad.link/018dd5b6-3ac1-703b-8498-1b53532f3458/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 35.99,
+     "regular": 39.99,
+     "low": 29.98,
+     "url": "https://itad.link/018dd1b5-5f71-726f-9719-4f3c6b9fd57c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 35.99,
+     "regular": 39.99,
+     "low": 29.98,
+     "url": "https://itad.link/018dd1b5-7930-70e4-89b8-18874f7f3a7b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 37.74,
+     "regular": 41.93,
+     "low": 29.98,
+     "url": "https://itad.link/018dd1b5-6c36-7058-958b-0c9ea83c1d2f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 37.97,
+     "regular": 39.99,
+     "low": 29.98,
+     "url": "https://itad.link/018de698-9ef0-70fc-aaf6-2f03b32cbcff/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -378,6 +882,62 @@
     "platform": "PC",
     "url": "https://itad.link/019279ce-7640-70b0-88ef-79abaa40b2c3/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 25.19,
+     "regular": 69.99,
+     "low": 23.11,
+     "url": "https://itad.link/019279ce-7640-70b0-88ef-79abaa40b2c3/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 56.06,
+     "regular": 62.79,
+     "low": 23.11,
+     "url": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 56.51,
+     "regular": 62.79,
+     "low": 23.11,
+     "url": "https://itad.link/018ff4fc-8d6b-726a-86c5-1d280f6bb356/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 23.11,
+     "url": "https://itad.link/018ff4fc-663b-7265-b599-78eeeb58d890/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 23.11,
+     "url": "https://itad.link/018ff4fc-8168-708e-b18e-e1e6be683426/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 64.7,
+     "regular": 71.89,
+     "low": 23.11,
+     "url": "https://itad.link/018ff4fc-71ad-729d-981f-8b4fdb01142d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -404,6 +964,17 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-13b2-700a-98f9-1bc976fba523/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 39.99,
+     "low": 19.99,
+     "url": "https://itad.link/018d959f-13b2-700a-98f9-1bc976fba523/?app=w5ppeb",
+     "tier": "worth"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -430,6 +1001,44 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 24.5,
+     "regular": 24.5,
+     "low": 6.12,
+     "url": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 24.5,
+     "regular": 24.5,
+     "low": 6.12,
+     "url": "https://itad.link/018d9386-712c-707d-bd4d-e2329c84b026/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 24.99,
+     "regular": 24.99,
+     "low": 6.12,
+     "url": "https://itad.link/018d9386-712c-707d-bd4d-e2329d49666e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 24.99,
+     "regular": 24.99,
+     "low": 24.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Hades-1821819.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -464,6 +1073,17 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-7131-70e0-80fb-26f7e3697e2d/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 57.99,
+     "regular": 57.99,
+     "low": 14.74,
+     "url": "https://itad.link/018d9386-7131-70e0-80fb-26f7e3697e2d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -490,6 +1110,62 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 9.9,
+     "regular": 9.9,
+     "low": 2.99,
+     "url": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 2.99,
+     "url": "https://itad.link/018d9386-a713-71cd-8575-bd9ca04fbd36/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 2.99,
+     "url": "https://itad.link/018d9386-a713-71cd-8575-bd9c9f6411d8/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 2.99,
+     "url": "https://itad.link/01a08bed-0ec5-73cd-bb6f-a2298d5f781f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 2.99,
+     "url": "https://itad.link/018d9386-a713-71cd-8575-bd9ca11d3f2c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 7.49,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Ori-and-the-Will-of-the-Wisps-1842518.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -524,6 +1200,62 @@
     "platform": "PC",
     "url": "https://itad.link/0195fcab-2536-712b-9929-bafb192fe82c/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 33.49,
+     "regular": 49.99,
+     "low": 27.15,
+     "url": "https://itad.link/0195fcab-2536-712b-9929-bafb192fe82c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 42.43,
+     "regular": 44.85,
+     "low": 27.15,
+     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 43.13,
+     "regular": 47.92,
+     "low": 27.15,
+     "url": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 27.15,
+     "url": "https://itad.link/01948e7a-320f-7355-b800-b2f454d33932/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 27.15,
+     "url": "https://itad.link/01948e7a-4758-70fa-ba97-b00da82afa86/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 46.99,
+     "regular": 49.99,
+     "low": 27.15,
+     "url": "https://itad.link/0194acf2-744e-7307-b262-538fc986ae4e/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -550,6 +1282,26 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-53ae-7319-bba4-49ad59b53121/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 28.99,
+     "regular": 28.99,
+     "low": 23.19,
+     "url": "https://itad.link/018d9386-53ae-7319-bba4-49ad59b53121/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 30.49,
+     "regular": 30.49,
+     "low": 23.19,
+     "url": "https://itad.link/018d9386-53ae-7319-bba4-49ad59531479/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -576,6 +1328,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d959e-08aa-72e2-985a-00abccfae400/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 49.99,
+     "low": 15.76,
+     "url": "https://itad.link/018d959e-08aa-72e2-985a-00abccfae400/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 40.36,
+     "regular": 44.85,
+     "low": 15.76,
+     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 41.98,
+     "regular": 44.85,
+     "low": 15.76,
+     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e690ecf07b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 43.13,
+     "regular": 47.92,
+     "low": 15.76,
+     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 15.76,
+     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6874f53ec/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 15.76,
+     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e688479c7e/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -602,6 +1410,17 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-d138-7333-b604-f364d41918c7/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 21.99,
+     "regular": 21.99,
+     "low": 7.69,
+     "url": "https://itad.link/018d9386-d138-7333-b604-f364d41918c7/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -628,6 +1447,71 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd352932a37/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 9.24,
+     "regular": 39.99,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd352932a37/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 9.24,
+     "regular": 39.99,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd352b3c5c9/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 9.73,
+     "regular": 41.93,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd351964d51/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 9.99,
+     "regular": 39.99,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8dd-70a1-823c-63914b112e54/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 33.99,
+     "regular": 39.99,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8db-71f7-ad8c-f142c65fd025/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 35.88,
+     "regular": 35.88,
+     "low": 2.49,
+     "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd364dc225d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 9.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9N7JCPPCPN37",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -656,6 +1540,7 @@
    "year": 2020,
    "metascore": 92,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -667,6 +1552,7 @@
    "year": 2021,
    "metascore": 92,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -684,6 +1570,44 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-ea55-725c-abc0-b1f3e0b930bc/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 58.9,
+     "regular": 58.9,
+     "low": 23.99,
+     "url": "https://itad.link/019eb6e4-ea55-725c-abc0-b1f3e0b930bc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 23.99,
+     "url": "https://itad.link/018d9386-67ee-7395-84b3-8de2e84c98cc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 23.99,
+     "url": "https://itad.link/01a08bed-0ead-70ff-aa7f-46d3be4dd8b9/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 23.99,
+     "url": "https://itad.link/018d9386-67ee-7395-84b3-8de2e81d17e1/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -710,6 +1634,53 @@
     "platform": "PC",
     "url": "https://itad.link/019a4145-c3b8-71b8-bf68-4a9d1c8a06c5/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 7.99,
+     "regular": 7.99,
+     "low": 4.79,
+     "url": "https://itad.link/019a4145-c3b8-71b8-bf68-4a9d1c8a06c5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 7.99,
+     "regular": 7.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c6e7ba1b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 7.99,
+     "regular": 7.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c704e7d6/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 7.99,
+     "regular": 7.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c700e5f5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 7.99,
+     "regular": 7.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-45fd-7359-899d-eab7c76379b7/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -736,6 +1707,62 @@
     "platform": "PC",
     "url": "https://itad.link/01a08bec-f2bb-71ca-850e-4698195a520f/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 16.0,
+     "regular": 39.99,
+     "low": 12.66,
+     "url": "https://itad.link/01a08bec-f2bb-71ca-850e-4698195a520f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 17.39,
+     "regular": 39.99,
+     "low": 12.66,
+     "url": "https://itad.link/018d9386-d551-7173-84ae-808714445068/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 39.99,
+     "low": 12.66,
+     "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da70df4cb/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 31.93,
+     "regular": 35.88,
+     "low": 12.66,
+     "url": "https://itad.link/018d9386-d550-72b1-872a-5f4db5715721/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Zapagames",
+     "platform": "PC",
+     "amount": 32.01,
+     "regular": 39.99,
+     "low": 12.66,
+     "url": "https://itad.link/01a08df7-cc56-7289-b9f0-698dd8ca8670/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 35.99,
+     "regular": 39.99,
+     "low": 12.66,
+     "url": "https://itad.link/018d9386-d550-72b1-872a-5f4da8ebb7e5/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -762,6 +1789,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 59.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -782,6 +1820,7 @@
    "year": 2023,
    "metascore": 92,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -799,6 +1838,53 @@
     "platform": "PC",
     "url": "https://itad.link/01949389-b340-70dc-a746-73c2169885a7/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 7.49,
+     "regular": 49.99,
+     "low": 7.49,
+     "url": "https://itad.link/01949389-b340-70dc-a746-73c2169885a7/?app=w5ppeb",
+     "tier": "worth"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 7.49,
+     "url": "https://itad.link/0193dbe9-f5f8-701c-aa67-85b815bdeb2a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 7.49,
+     "url": "https://itad.link/0193c03b-359f-731c-9402-8629eff3dbd4/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 7.49,
+     "url": "https://itad.link/01949387-05f4-72c0-90c6-bd1d15355ffa/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 7.49,
+     "url": "https://itad.link/019f9f8d-223b-7322-a53d-4dcdcdf5349e/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -825,6 +1911,71 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-8d1a-713d-be96-784fa4b4d272/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 16.44,
+     "regular": 69.99,
+     "low": 14.55,
+     "url": "https://itad.link/018d9386-8d1a-713d-be96-784fa4b4d272/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 19.9,
+     "regular": 19.9,
+     "low": 14.55,
+     "url": "https://itad.link/019eb6e5-04b7-733f-9738-e8a7dcb6ee3c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 56.51,
+     "regular": 62.79,
+     "low": 14.55,
+     "url": "https://itad.link/018d9386-8d1a-713d-be96-784f99ed8984/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 62.79,
+     "regular": 62.79,
+     "low": 14.55,
+     "url": "https://itad.link/018d9386-8d1a-713d-be96-784f9b971f15/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 14.55,
+     "url": "https://itad.link/018d9386-8d1a-713d-be96-784f99205169/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 14.55,
+     "url": "https://itad.link/018d9386-8d1a-713d-be96-784f99eb6f2c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 55.99,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9P00SVGWDJCP",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -859,6 +2010,71 @@
     "platform": "PC",
     "url": "https://itad.link/019038fd-1818-70fe-a21d-20d521210225/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 16.79,
+     "regular": 59.99,
+     "low": 14.93,
+     "url": "https://itad.link/019038fd-1818-70fe-a21d-20d521210225/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 19.9,
+     "regular": 19.9,
+     "low": 14.93,
+     "url": "https://itad.link/01a03375-5b36-7399-86e2-c5e9006d8f16/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 48.44,
+     "regular": 53.82,
+     "low": 14.93,
+     "url": "https://itad.link/018defbf-b96b-7112-ae68-75a25afc581d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 50.14,
+     "regular": 53.82,
+     "low": 14.93,
+     "url": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "PlayerLand",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 14.93,
+     "url": "https://itad.link/019c0b72-80be-7009-ad0e-b56cea8fa084/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 14.93,
+     "url": "https://itad.link/018defbf-aad9-70b1-9156-6f794d705870/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 59.95,
+     "regular": 59.95,
+     "low": 59.95,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9PF2Q5NMRDQF",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -893,6 +2109,71 @@
     "platform": "PC",
     "url": "https://itad.link/01962434-dd53-7141-ae4b-ff59234ec870/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 14.69,
+     "regular": 29.99,
+     "low": 13.55,
+     "url": "https://itad.link/01962434-dd53-7141-ae4b-ff59234ec870/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Zapagames",
+     "platform": "PC",
+     "amount": 22.7,
+     "regular": 29.99,
+     "low": 13.55,
+     "url": "https://itad.link/01a08df7-d9b2-71bb-b0af-cd9e0612a61d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 24.21,
+     "regular": 26.91,
+     "low": 13.55,
+     "url": "https://itad.link/01962021-0e48-727c-a562-0e465398066c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 24.21,
+     "regular": 26.91,
+     "low": 13.55,
+     "url": "https://itad.link/0196210e-6c55-724f-a1c1-8c95f55ac188/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 26.95,
+     "regular": 29.95,
+     "low": 13.55,
+     "url": "https://itad.link/01962020-d062-7203-910e-844ad007ec28/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 26.99,
+     "regular": 29.99,
+     "low": 13.55,
+     "url": "https://itad.link/01962020-e6b1-7335-bf48-2bb43d52ccff/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 23.99,
+     "regular": 29.99,
+     "low": 23.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9PFRTPRQ569Q",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -927,6 +2208,71 @@
     "platform": "PC",
     "url": "https://itad.link/0196429e-c92d-7282-9251-ced3ba873f69/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 36.49,
+     "regular": 49.99,
+     "low": 30.48,
+     "url": "https://itad.link/0196429e-c92d-7282-9251-ced3ba873f69/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 49.99,
+     "low": 30.48,
+     "url": "https://itad.link/0194947e-2bf1-739f-9b3e-e4ad968b74a7/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 49.99,
+     "low": 30.48,
+     "url": "https://itad.link/01998108-2234-73ba-87a1-b9cc12966eeb/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Zapagames",
+     "platform": "PC",
+     "amount": 40.06,
+     "regular": 49.99,
+     "low": 30.48,
+     "url": "https://itad.link/01a08df7-da51-7371-847c-534f6791df31/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 41.71,
+     "regular": 44.85,
+     "low": 30.48,
+     "url": "https://itad.link/019642c3-b653-70f2-9b7b-11d9abd96515/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 42.16,
+     "regular": 44.85,
+     "low": 30.48,
+     "url": "https://itad.link/019639f7-a1cb-72c0-9e3b-bc5f9caa4ebc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 49.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9PPT8K6GQHRZ",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -961,6 +2307,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 40.36,
+     "regular": 44.85,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20dba00f557d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20dba058d270/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 45.28,
+     "regular": 50.32,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9f5e4b50/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 46.99,
+     "regular": 49.99,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20dbb5f93ced/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 48.99,
+     "regular": 49.99,
+     "low": 11.08,
+     "url": "https://itad.link/018d9386-448e-7241-9acb-20dbb95512de/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -981,6 +2383,7 @@
    "year": 2020,
    "metascore": 91,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -998,6 +2401,17 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-96cb-7068-8e0b-56eb4e521c00/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://itad.link/018d9386-96cb-7068-8e0b-56eb4e521c00/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1024,6 +2438,26 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-cfe2-72aa-8f50-561a9752f251/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 16.79,
+     "regular": 16.79,
+     "low": 5.87,
+     "url": "https://itad.link/018d9386-cfe2-72aa-8f50-561a9752f251/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 19.99,
+     "low": 5.87,
+     "url": "https://itad.link/018d9386-cfe2-72aa-8f50-561a978b4b0d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1050,6 +2484,71 @@
     "platform": "Xbox",
     "url": "https://www.xbox.com/fi-FI/games/store/x/9NBR2VXT87SJ"
    },
+   "deals": [
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 52.9,
+     "regular": 52.9,
+     "low": 5.99,
+     "url": "https://itad.link/019eb6e5-0531-7176-8b0f-12590733df9a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "PlayerLand",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 5.99,
+     "url": "https://itad.link/019c0b72-81f0-72ca-9a82-056e3d602eed/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 5.99,
+     "url": "https://itad.link/018d9386-b276-7290-91a1-7017f57c4737/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 5.99,
+     "url": "https://itad.link/018d9386-b276-7290-91a1-7017f49650ca/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 5.99,
+     "url": "https://itad.link/01a08bed-0eb4-7106-bf5a-22166983da60/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 5.99,
+     "url": "https://itad.link/018d9386-b276-7290-91a1-7017f42089bb/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 47.99,
+     "regular": 59.99,
+     "low": 47.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9NBR2VXT87SJ",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1084,6 +2583,26 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-797d-7196-afe7-0c18ce5003b2/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 24.99,
+     "regular": 24.99,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-797d-7196-afe7-0c18ce5003b2/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 24.99,
+     "regular": 24.99,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-797d-7196-afe7-0c18cd7b271d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1110,6 +2629,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 8.99,
+     "regular": 29.99,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 26.91,
+     "regular": 26.91,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478aa7f9cf/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 29.95,
+     "regular": 29.95,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478ab20cb2/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478b0c3e68/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 7.49,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478bace319/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 29.99,
+     "regular": 29.99,
+     "low": 7.49,
+     "url": "https://itad.link/01a08bec-f028-7149-b86d-2fcac2949fd6/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1136,6 +2711,26 @@
     "platform": "PC",
     "url": "https://itad.link/018ffe28-a29b-7311-a3c5-486f6836dcab/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 12.49,
+     "url": "https://itad.link/018ffe28-a29b-7311-a3c5-486f6836dcab/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Blizzard",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 12.49,
+     "url": "https://itad.link/018ffe7f-f964-7164-9c25-1de4ba93b757/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1156,6 +2751,7 @@
    "year": 2023,
    "metascore": 91,
    "price": null,
+   "deals": [],
    "platforms": [],
    "low": null,
    "verdict": "wait",
@@ -1173,6 +2769,26 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-3c5a-7304-b549-bd5e7dfc9fd7/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 23.19,
+     "regular": 28.99,
+     "low": 8.02,
+     "url": "https://itad.link/018d9386-3c5a-7304-b549-bd5e7dfc9fd7/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 30.49,
+     "regular": 30.49,
+     "low": 8.02,
+     "url": "https://itad.link/018d9386-3c5a-7304-b549-bd5e7ec0dc91/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1199,6 +2815,62 @@
     "platform": "PC",
     "url": "https://itad.link/01a1a73b-782a-73f9-8fb1-a1579e0775f7/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 34.08,
+     "regular": 35.88,
+     "low": 14.99,
+     "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 34.26,
+     "regular": 35.88,
+     "low": 14.99,
+     "url": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 36.65,
+     "regular": 38.99,
+     "low": 14.99,
+     "url": "https://itad.link/01a0c2ae-21ab-724f-b0e5-1456d0af6885/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 37.04,
+     "regular": 38.99,
+     "low": 14.99,
+     "url": "https://itad.link/01a084d8-95e5-7092-b9ff-c72567d83f4c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 37.04,
+     "regular": 38.99,
+     "low": 14.99,
+     "url": "https://itad.link/01a084d8-2fee-70d9-a506-3b26ebbbc3ed/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 38.14,
+     "regular": 40.14,
+     "low": 14.99,
+     "url": "https://itad.link/01a084d8-7531-73ef-95fd-5a6aa9552688/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1225,6 +2897,17 @@
     "platform": "PC",
     "url": "https://itad.link/019205a6-043e-73ec-a9da-3b0e9525051a/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 24.5,
+     "regular": 24.5,
+     "low": 17.15,
+     "url": "https://itad.link/019205a6-043e-73ec-a9da-3b0e9525051a/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1251,6 +2934,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 69.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -1277,6 +2971,44 @@
     "platform": "Xbox",
     "url": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D"
    },
+   "deals": [
+    {
+     "shop": "EA Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 32.49,
+     "url": "https://itad.link/019b6763-4c14-72f7-b78c-be56f8509cd5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 32.49,
+     "url": "https://itad.link/0193be2f-289c-707d-be08-7c2a5d04e09a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 32.49,
+     "url": "https://itad.link/01956c30-7295-7026-a86a-999d0fe9d73b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 44.99,
+     "regular": 49.99,
+     "low": 32.49,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1311,6 +3043,26 @@
     "platform": "PC",
     "url": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 18.99,
+     "regular": 18.99,
+     "low": 14.24,
+     "url": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 18.99,
+     "regular": 18.99,
+     "low": 18.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Big-Walk-3132961.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1345,6 +3097,62 @@
     "platform": "PC",
     "url": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 12.59,
+     "regular": 19.99,
+     "low": 8.02,
+     "url": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 13.99,
+     "regular": 19.99,
+     "low": 8.02,
+     "url": "https://itad.link/019f3d94-9eee-7047-8e01-51a482126e16/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 16.14,
+     "regular": 17.93,
+     "low": 8.02,
+     "url": "https://itad.link/019f3d8a-4442-73bd-8503-183c83a4a513/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 17.99,
+     "regular": 19.99,
+     "low": 8.02,
+     "url": "https://itad.link/019f3d89-e225-733e-8106-16ae98a6cd76/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 17.99,
+     "regular": 19.99,
+     "low": 8.02,
+     "url": "https://itad.link/019f3daa-6c53-700d-b65e-c057563e4181/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 19.4,
+     "regular": 21.56,
+     "low": 8.02,
+     "url": "https://itad.link/019f3d8a-22ec-72de-990f-fb1f990c84d1/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1371,6 +3179,17 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html"
    },
+   "deals": [
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 59.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "switch",
@@ -1397,6 +3216,35 @@
     "platform": "PC",
     "url": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Microsoft Store",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 44.99,
+     "low": 8.99,
+     "url": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 44.99,
+     "low": 8.99,
+     "url": "https://itad.link/018d959f-13d9-73c4-9ced-331b03618e13/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 44.99,
+     "regular": 44.99,
+     "low": 8.99,
+     "url": "https://itad.link/018d9386-e2fa-70db-ac06-190b825c2a51/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1423,6 +3271,26 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 19.99,
+     "low": 1.0,
+     "url": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 49.99,
+     "regular": 49.99,
+     "low": 49.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9NRKLTWN2ZQ7",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1457,6 +3325,35 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-7aec-718e-82b0-98394eb6893d/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 9.75,
+     "regular": 19.5,
+     "low": 8.49,
+     "url": "https://itad.link/018d9386-7aec-718e-82b0-98394eb6893d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 15.99,
+     "regular": 15.99,
+     "low": 8.49,
+     "url": "https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 17.9,
+     "regular": 17.9,
+     "low": 8.49,
+     "url": "https://itad.link/018d9386-7aec-718e-82b0-98394fccd91b/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1483,6 +3380,35 @@
     "platform": "PC",
     "url": "https://itad.link/018d959d-d25b-706b-bb73-818a4c85fa0b/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d959d-d25b-706b-bb73-818a4c85fa0b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-93e3-7313-a47a-e099c505c612/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "EA Store",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 4.79,
+     "url": "https://itad.link/018d9386-93e3-7313-a47a-e099c3bcd6bb/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1509,6 +3435,44 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 19.99,
+     "regular": 19.99,
+     "low": 7.99,
+     "url": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 21.99,
+     "regular": 21.99,
+     "low": 7.99,
+     "url": "https://itad.link/018d9386-bcad-730d-9d7b-a607cc1dc78a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 24.5,
+     "regular": 24.5,
+     "low": 7.99,
+     "url": "https://itad.link/018d9386-bcad-730d-9d7b-a607cbfa5123/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 24.99,
+     "regular": 24.99,
+     "low": 24.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9P2688LZXW86",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1543,6 +3507,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d959d-63eb-714a-8ad1-73ede1483581/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d959d-63eb-714a-8ad1-73ede1483581/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-8b1d-71f8-9a33-2d0e0964d20c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-8b1d-71f8-9a33-2d0e08692793/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-8b1d-71f8-9a33-2d0e0b1cbd1e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "IndieGala Store",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9584-f116-70d1-a456-294a9d30d4e5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 27.99,
+     "url": "https://itad.link/018d9386-8b1d-71f8-9a33-2d0e09fa23a9/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1569,6 +3589,62 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9477432b/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 11.49,
+     "regular": 22.99,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9477432b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 19.06,
+     "regular": 22.42,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d919e78b8/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 19.54,
+     "regular": 22.99,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d979f607f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 19.54,
+     "regular": 22.99,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d97046387/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 20.36,
+     "regular": 23.95,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d96d2e72c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 21.61,
+     "regular": 22.99,
+     "low": 7.26,
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9aabcfa7/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1595,6 +3671,62 @@
     "platform": "PC",
     "url": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 7.79,
+     "regular": 19.99,
+     "low": 7.38,
+     "url": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 16.14,
+     "regular": 17.93,
+     "low": 7.38,
+     "url": "https://itad.link/018eada6-93c9-70a8-b447-2384934ab130/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 17.93,
+     "regular": 17.93,
+     "low": 7.38,
+     "url": "https://itad.link/0194707d-5ee1-7140-9dda-06bac430ded0/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 17.99,
+     "regular": 19.99,
+     "low": 7.38,
+     "url": "https://itad.link/018eada6-865e-717a-a88e-aba9746a8766/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 17.99,
+     "regular": 19.99,
+     "low": 7.38,
+     "url": "https://itad.link/018eada6-9981-72f9-bdea-b117bd285608/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 18.32,
+     "regular": 20.36,
+     "low": 7.38,
+     "url": "https://itad.link/018eada6-7965-73fc-8daf-c91d4dc9467f/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1621,6 +3753,62 @@
     "platform": "PC",
     "url": "https://itad.link/0192a181-a10b-730a-9322-15f029e4857c/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 40.19,
+     "regular": 59.99,
+     "low": 32.51,
+     "url": "https://itad.link/0192a181-a10b-730a-9322-15f029e4857c/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 50.68,
+     "regular": 53.82,
+     "low": 32.51,
+     "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 53.91,
+     "regular": 59.9,
+     "low": 32.51,
+     "url": "https://itad.link/0194b80c-e8ad-704b-bca3-80d5157e8459/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 32.51,
+     "url": "https://itad.link/0194b80d-0344-72bf-85e7-a813bef74adc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 53.99,
+     "regular": 59.99,
+     "low": 32.51,
+     "url": "https://itad.link/0194b80d-3089-70c0-aa46-23b80113c03a/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 56.39,
+     "regular": 59.99,
+     "low": 32.51,
+     "url": "https://itad.link/0194b868-2900-71a9-85e6-6212acb961ee/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1647,6 +3835,35 @@
     "platform": "PC",
     "url": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 16.99,
+     "regular": 33.99,
+     "low": 16.99,
+     "url": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb",
+     "tier": "worth"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 33.99,
+     "regular": 33.99,
+     "low": 16.99,
+     "url": "https://itad.link/018d9386-c294-720d-9964-41245ff228bb/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Nintendo eShop",
+     "platform": "Switch",
+     "amount": 33.99,
+     "regular": 33.99,
+     "low": 33.99,
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Sea-of-Stars-2090490.html",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1681,6 +3898,53 @@
     "platform": "PC",
     "url": "https://itad.link/018dfa55-48e7-73a9-b64c-310f7b1eccd1/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 5.75,
+     "regular": 12.79,
+     "low": 5.26,
+     "url": "https://itad.link/018dfa55-48e7-73a9-b64c-310f7b1eccd1/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Epic Game Store",
+     "platform": "PC",
+     "amount": 11.69,
+     "regular": 11.69,
+     "low": 5.26,
+     "url": "https://itad.link/018ecc0c-b380-721b-b66b-0f8bbede662d/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 12.79,
+     "regular": 12.79,
+     "low": 5.26,
+     "url": "https://itad.link/019c2e21-c7a8-7128-a70c-f00c3ba29684/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 12.79,
+     "regular": 12.79,
+     "low": 5.26,
+     "url": "https://itad.link/018d9386-ef2f-7233-8c00-dc6cb5029920/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 12.79,
+     "regular": 12.79,
+     "low": 5.26,
+     "url": "https://itad.link/018d9386-ef2f-7233-8c00-dc6cb470c6d0/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1707,6 +3971,17 @@
     "platform": "PC",
     "url": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 17.15,
+     "regular": 24.5,
+     "low": 16.41,
+     "url": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb",
+     "tier": "good"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1733,6 +4008,62 @@
     "platform": "PC",
     "url": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GameBillet",
+     "platform": "PC",
+     "amount": 11.19,
+     "regular": 13.99,
+     "low": 9.57,
+     "url": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 11.89,
+     "regular": 13.99,
+     "low": 9.57,
+     "url": "https://itad.link/018dc7ad-451d-702f-a514-9a39a43e2ebc/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 12.1,
+     "regular": 13.45,
+     "low": 9.57,
+     "url": "https://itad.link/018dc708-d7bb-70ce-95fe-f7bcc9f17eb3/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 12.59,
+     "regular": 13.99,
+     "low": 9.57,
+     "url": "https://itad.link/018dc72d-308d-7132-b203-eb92d8bb98f6/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 12.59,
+     "regular": 13.99,
+     "low": 9.57,
+     "url": "https://itad.link/018dc72d-4f3a-7168-93ba-b39b75933944/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 12.9,
+     "regular": 12.9,
+     "low": 9.57,
+     "url": "https://itad.link/01a0d3fe-8f96-7125-9405-19532c89d693/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1759,6 +4090,71 @@
     "platform": "PC",
     "url": "https://itad.link/01a08bec-f41d-73c3-b7dc-ea735092d86b/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "DLGamer",
+     "platform": "PC",
+     "amount": 23.99,
+     "regular": 39.99,
+     "low": 18.48,
+     "url": "https://itad.link/01a08bec-f41d-73c3-b7dc-ea735092d86b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "platform": "PC",
+     "amount": 32.29,
+     "regular": 35.88,
+     "low": 18.48,
+     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779e43f1b4/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "WinGameStore",
+     "platform": "PC",
+     "amount": 35.88,
+     "regular": 35.88,
+     "low": 18.48,
+     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779fb0f88b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 35.99,
+     "regular": 39.99,
+     "low": 18.48,
+     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779db64003/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 35.99,
+     "regular": 39.99,
+     "low": 18.48,
+     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779e53dafd/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Fanatical",
+     "platform": "PC",
+     "amount": 37.59,
+     "regular": 39.99,
+     "low": 18.48,
+     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779bf28893/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Microsoft Store",
+     "platform": "Xbox",
+     "amount": 39.99,
+     "regular": 39.99,
+     "low": 39.99,
+     "url": "https://www.xbox.com/fi-FI/games/store/x/9PPSM14VKCLW",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1793,6 +4189,62 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e5-04e1-7218-b851-1c47175d0c2d/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "PlayerLand",
+     "platform": "PC",
+     "amount": 18.99,
+     "regular": 19.99,
+     "low": 10.9,
+     "url": "https://itad.link/019c0b72-7f35-725c-9bd7-2e349440476e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 19.5,
+     "regular": 19.5,
+     "low": 10.9,
+     "url": "https://itad.link/018d9386-75a1-73f0-9fff-3ed65b81eb80/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 19.5,
+     "regular": 19.5,
+     "low": 10.9,
+     "url": "https://itad.link/01991522-bb90-710b-aa2f-4e4dd1bbbe49/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GreenManGaming",
+     "platform": "PC",
+     "amount": 19.5,
+     "regular": 19.5,
+     "low": 10.9,
+     "url": "https://itad.link/019a2fc9-942b-7051-b4b7-fc4b7b6fbc49/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 19.5,
+     "regular": 19.5,
+     "low": 10.9,
+     "url": "https://itad.link/018d9386-75a1-73f0-9fff-3ed65bacaf15/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 19.9,
+     "regular": 19.9,
+     "low": 10.9,
+     "url": "https://itad.link/019eb6e5-04e1-7218-b851-1c47175d0c2d/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1819,6 +4271,62 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e3-d2b8-70c4-9bd0-66477b911871/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "PlayerLand",
+     "platform": "PC",
+     "amount": 60.49,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://itad.link/019eb6e3-d2b8-70c4-9bd0-66477b911871/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 62.53,
+     "regular": 62.53,
+     "low": 55.99,
+     "url": "https://itad.link/019eb6e5-088b-726e-a62b-ba0aeb81088f/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://itad.link/019e3ea1-0452-70ce-9dab-a4f7d0a9b84b/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "platform": "PC",
+     "amount": 62.99,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://itad.link/019e3ea0-bfa6-705e-ab61-b0aa74c9043e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "platform": "PC",
+     "amount": 64.7,
+     "regular": 71.89,
+     "low": 55.99,
+     "url": "https://itad.link/019e3ea0-7932-735c-a261-8270bf1538c5/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "AllYouPlay",
+     "platform": "PC",
+     "amount": 69.99,
+     "regular": 69.99,
+     "low": 55.99,
+     "url": "https://itad.link/019e3f11-5237-710c-9af5-cfb3d35bbe33/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1845,6 +4353,35 @@
     "platform": "PC",
     "url": "https://itad.link/019e3b2c-3823-73c2-b943-93357a4ac2aa/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "GOG",
+     "platform": "PC",
+     "amount": 20.49,
+     "regular": 20.49,
+     "low": 16.39,
+     "url": "https://itad.link/019e3b2c-3823-73c2-b943-93357a4ac2aa/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 20.49,
+     "regular": 20.49,
+     "low": 16.39,
+     "url": "https://itad.link/019e71f1-7a3b-7003-888f-eee4df610e2e/?app=w5ppeb",
+     "tier": "wait"
+    },
+    {
+     "shop": "Humble Store",
+     "platform": "PC",
+     "amount": 20.49,
+     "regular": 20.49,
+     "low": 16.39,
+     "url": "https://itad.link/019e7440-e4c8-70a5-a7d7-d7f494c44c44/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
@@ -1871,6 +4408,26 @@
     "platform": "PC",
     "url": "https://itad.link/01a12fa4-8796-70f4-817a-47f3cbcc347a/?app=w5ppeb"
    },
+   "deals": [
+    {
+     "shop": "Muve",
+     "platform": "PC",
+     "amount": 47.9,
+     "regular": 47.9,
+     "low": 45.51,
+     "url": "https://itad.link/01a12fa4-8796-70f4-817a-47f3cbcc347a/?app=w5ppeb",
+     "tier": "good"
+    },
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 59.99,
+     "regular": 59.99,
+     "low": 45.51,
+     "url": "https://itad.link/01a0acfc-a735-70e7-bafa-7800276f5894/?app=w5ppeb",
+     "tier": "wait"
+    }
+   ],
    "platforms": [
     {
      "platform": "pc",
