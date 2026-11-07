@@ -301,7 +301,7 @@ main{flex:1}
     <a href="./feed.xml" data-alerts>Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T20:42:39.826000+00:00">updated 07 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-07T20:47:41.545000+00:00">updated 07 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="./#list" data-nav="top">Top 20</a>
     <a href="./#list" data-nav="pc">PC</a>
@@ -394,7 +394,7 @@ main{flex:1}
     </select>
   </label>
   <div class="wf-stores"><button type="button" id="storesBtn" aria-expanded="false">Stores</button>
-    <div class="wf-stores-pop" id="storesPop" hidden><p class="sub">Untick the stores you never buy from. The list then shows each game's cheapest price at the stores you keep, and the verdict follows. Remembered in this browser.</p><div id="storesList"></div><div class="row"><button type="button" class="wf-btn" id="storesAll">Keep all</button><button type="button" class="wf-btn primary" id="storesDone">Done</button></div></div></div>
+    <div class="wf-stores-pop" id="storesPop" hidden><p class="sub">Untick the stores you never buy from. The list then shows each game's cheapest price at the stores you keep, and the verdict follows. Remembered in this browser.</p><div id="storesList"></div><div class="row"><span><button type="button" class="wf-btn" id="storesAll">Keep all</button> <button type="button" class="wf-btn" id="storesNone">Hide all</button></span><button type="button" class="wf-btn primary" id="storesDone">Done</button></div></div></div>
   <label class="wf-check"><input type="checkbox" id="onlygood">Only Worth it &amp; Good</label>
   <label class="wf-check"><input type="checkbox" id="rereleases">Re-releases &amp; expansions</label>
 </section>
@@ -2215,6 +2215,7 @@ main{flex:1}
       btn.textContent=ex.size?'Stores ('+ex.size+' hidden)':'Stores';paintExNotes();btn.classList.toggle('on',!!ex.size);try{localStorage.setItem(KEY,JSON.stringify(Array.from(ex)));}catch(e){}apply();}
     list.addEventListener('change',function(e){var n=e.target.dataset.shop;if(!n)return;if(e.target.checked)ex.delete(n);else ex.add(n);applyStores();});
     document.getElementById('storesAll').addEventListener('click',function(){ex.clear();list.querySelectorAll('input').forEach(function(i){i.checked=true;});applyStores();});
+    document.getElementById('storesNone').addEventListener('click',function(){list.querySelectorAll('input').forEach(function(i){i.checked=false;ex.add(i.dataset.shop);});applyStores();});
     function closePop(){pop.hidden=true;btn.setAttribute('aria-expanded','false');}
     btn.addEventListener('click',function(){pop.hidden=!pop.hidden;btn.setAttribute('aria-expanded',!pop.hidden);});
     document.getElementById('storesDone').addEventListener('click',closePop);
