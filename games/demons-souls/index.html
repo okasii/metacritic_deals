@@ -26,7 +26,7 @@
 <meta name="twitter:image" content="https://worthityet.com/static/og.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"VideoGame","name":"Demon\u0027s Souls","url":"https://worthityet.com/games/demons-souls/","datePublished":"2020","image":"https://image.api.playstation.com/vulcan/img/rnd/202011/1717/GemRaOZaCMhGxQ9dRhnQQyT5.png","gamePlatform":["PlayStation"],"offers":{"@type":"Offer","price":"79.95","priceCurrency":"EUR","url":"https://store.playstation.com/en-fi/product/EP9000-PPSA01341_00-DEMONSSOULS00000","availability":"https://schema.org/InStock","seller":{"@type":"Organization","name":"PlayStation Store"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All games","item":"https://worthityet.com/"},{"@type":"ListItem","position":2,"name":"Demon\u0027s Souls","item":"https://worthityet.com/games/demons-souls/"}]}]}</script>
 <style>/* Worth It Yet? — the wireframe, as built. Values are the wireframe's own; the one addition is the gold glow on a Worth it row. */
-:root{--bg:#f3f4f6;--white:#ffffff;--ink:#111827;--text:#374151;--muted:#4b5563;--line:#9ca3af;--soft:#d1d5db;--soft2:#e5e7eb;--gold:#b7791f;--gold-bright:#f5c542;
+:root{--bg:#f3f4f6;--white:#ffffff;--ink:#111827;--text:#374151;--muted:#4b5563;--line:#9ca3af;--soft:#d1d5db;--soft2:#e5e7eb;--gold:#b7791f;--gold-bright:#f5c542;--green:#15803d;
   --glow:0 0 0 2px #f5c542,0 0 18px rgba(245,197,66,.55),0 0 40px rgba(245,197,66,.25)}
 *{box-sizing:border-box}
 html{background:var(--bg)}
@@ -135,7 +135,12 @@ main{flex:1}
 .wf-head{padding:10px 12px;font-size:12px;color:var(--muted);border-bottom:1px solid var(--line)}
 .wf-row{align-items:center;padding:14px 12px;border-bottom:1px solid var(--soft);background:var(--white)}
 .wf-row[hidden]{display:none}
-.wf-row[data-tier="good"]{box-shadow:inset 4px 0 0 var(--ink)}
+/* Wait rows step back: slightly lighter ink so the stamped rows and Good rows carry the page. Hover brings them back. */
+.wf-row[data-tier="wait"]{color:#374151}
+.wf-row[data-tier="wait"] .title a,.wf-row[data-tier="wait"] .wf-price .amt{color:#374151}
+.wf-row[data-tier="wait"] .cover img,.wf-row[data-tier="wait"] .wf-meta{opacity:.82}
+.wf-row[data-tier="wait"]:hover,.wf-row[data-tier="wait"]:hover .title a,.wf-row[data-tier="wait"]:hover .wf-price .amt{color:var(--ink)}
+.wf-row[data-tier="wait"]:hover .cover img,.wf-row[data-tier="wait"]:hover .wf-meta{opacity:1}
 .wf-row.low{outline:2px solid var(--ink);outline-offset:-2px;box-shadow:var(--glow);position:relative;z-index:1;animation:wf-breathe 4s ease-in-out infinite}
 @keyframes wf-breathe{0%,100%{box-shadow:0 0 0 2px #f5c542,0 0 10px rgba(245,197,66,.35),0 0 22px rgba(245,197,66,.12)}50%{box-shadow:0 0 0 3px #f5c542,0 0 34px rgba(245,197,66,.9),0 0 80px rgba(245,197,66,.5)}}
 @keyframes wf-stamp-breathe{0%,100%{box-shadow:inset 0 0 0 1.5px #fff,inset 0 0 0 2.5px var(--gold),0 0 6px rgba(245,197,66,.35)}50%{box-shadow:inset 0 0 0 1.5px #fff,inset 0 0 0 2.5px var(--gold),0 0 22px rgba(245,197,66,.95),0 0 44px rgba(245,197,66,.5)}}
@@ -161,7 +166,8 @@ main{flex:1}
 .wf-verdict{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
 .wf-verdict .sub{font-size:12px}
 .wf-word{padding:3px 10px;font-size:13px;font-weight:700}
-.wf-word.good{border:2px solid var(--ink)}
+.wf-word.good{border:2px solid var(--green);color:var(--green)}
+.wf-row[data-tier="good"] .wf-verdict .sub{color:var(--green)}
 .wf-word.wait{border:1px solid var(--line);color:var(--muted)}
 .wf-stamp{display:inline-block;transform:rotate(-6deg);border:2.5px solid var(--gold);color:var(--gold);padding:2px 9px;font-size:13px;font-weight:800;letter-spacing:.04em;background:var(--white);box-shadow:inset 0 0 0 1.5px #fff,inset 0 0 0 2.5px var(--gold)}
 .wf-stamp.sm{align-self:flex-start;padding:1px 6px;font-size:11px;margin-top:2px}
@@ -225,7 +231,7 @@ main{flex:1}
 .wf-related a{display:flex;justify-content:space-between;gap:12px;text-decoration:none;border-bottom:1px solid var(--soft2);padding-bottom:8px}
 .wf-related a:last-child{border-bottom:0;padding-bottom:0}
 .wf-related .worth{color:var(--gold);font-weight:700}
-.wf-related .good{font-weight:700}
+.wf-related .good{font-weight:700;color:var(--green)}
 .wf-related .wait{color:var(--muted)}
 .wf-prose{padding:24px var(--gutter) var(--gutter);max-width:72ch;font-size:16px;line-height:1.6}
 .wf-prose h1{font-size:40px;letter-spacing:-.02em;line-height:1.05;margin:16px 0}
@@ -301,7 +307,7 @@ main{flex:1}
     <a href="../../feed.xml" data-alerts>Alerts</a>
     <a href="../../how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-08T14:31:00.186000+00:00">updated 08 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-08T16:17:03.080000+00:00">updated 08 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="../../#list" data-nav="top">Top 20</a>
     <a href="../../#list" data-nav="pc">PC</a>
