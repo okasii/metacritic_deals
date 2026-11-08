@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:00:04.180000+00:00",
+ "updated": "2026-11-08T14:31:00.186000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -4010,12 +4010,12 @@
      "tier": "wait"
     },
     {
-     "shop": "PlayerLand",
+     "shop": "GameBillet",
      "platform": "PC",
-     "amount": 21.49,
+     "amount": 21.61,
      "regular": 22.99,
      "low": 7.26,
-     "url": "https://itad.link/019edab6-627e-7399-8fd7-7f141c671a58/?app=w5ppeb",
+     "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d9aabcfa7/?app=w5ppeb",
      "tier": "wait"
     },
     {
