@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:18:31.128000+00:00",
+ "updated": "2026-11-14T14:02:35.332000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -13,6 +13,7 @@
     "platform": "PC",
     "url": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/disco-elysium-the-final-cut.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -95,6 +96,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-76e4-7336-b1f2-9b3ca2b14651/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/the-house-in-fata-morgana.jpg",
    "deals": [
     {
      "shop": "Humble Store",
@@ -150,6 +152,7 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/elden-ring.jpg",
    "deals": [
     {
      "shop": "WinGameStore",
@@ -266,6 +269,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-2caa-7166-99c3-53160e69d7c5/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/baldurs-gate-3.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -355,6 +359,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html"
    },
+   "cover": "https://worthityet.com/static/covers/the-legend-of-zelda-tears-of-the-kingdom.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -392,6 +397,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61040420/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/persona-5-royal.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -491,6 +497,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html"
    },
+   "cover": "https://worthityet.com/static/covers/portal-companion-collection.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -528,6 +535,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9591-4f72-72a0-b0c5-80e096ae077f/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/hades-ii.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -583,6 +591,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-736d-7220-acb3-676ae4b7f441/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/tetris-effect-connected.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -647,6 +656,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP9000-CUSA34386_00-GOWRAGNAROK00000"
    },
+   "cover": "https://worthityet.com/static/covers/god-of-war-ragnar-k.jpg",
    "deals": [
     {
      "shop": "WinGameStore",
@@ -746,6 +756,7 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/the-witcher-3-wild-hunt-complete-edition.jpg",
    "deals": [
     {
      "shop": "Humble Store",
@@ -836,6 +847,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html"
    },
+   "cover": "https://worthityet.com/static/covers/metroid-prime-remastered.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -873,6 +885,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA21567_00-0000000000000000"
    },
+   "cover": "https://worthityet.com/static/covers/astro-bot.jpg",
    "deals": [
     {
      "shop": "PlayStation Store",
@@ -910,6 +923,7 @@
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/elden-ring-shadow-of-the-erdtree.jpg",
    "deals": [
     {
      "shop": "WinGameStore",
@@ -992,6 +1006,7 @@
     "platform": "PC",
     "url": "https://itad.link/019279ce-7640-70b0-88ef-79abaa40b2c3/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/metaphor-refantazio.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -1091,6 +1106,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-13b2-700a-98f9-1bc976fba523/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/dragon-quest-xi-s-echoes-of-an-elusive-age.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -1145,6 +1161,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/hades.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -1217,6 +1234,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-7131-70e0-80fb-26f7e3697e2d/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/half-life-alyx.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -1254,6 +1272,7 @@
     "platform": "PC",
     "url": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/ori-and-the-will-of-the-wisps.jpg",
    "deals": [
     {
      "shop": "Muve",
@@ -1335,6 +1354,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP9000-CUSA10249_00-THELASTOFUSPART2"
    },
+   "cover": "https://worthityet.com/static/covers/the-last-of-us-part-ii.jpg",
    "deals": [
     {
      "shop": "WinGameStore",
@@ -1434,6 +1454,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-53ae-7319-bba4-49ad59531479/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/dwarf-fortress.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -1480,6 +1501,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/god-of-war-2018.jpg",
    "deals": [
     {
      "shop": "GamesPlanet US",
@@ -1562,6 +1584,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-d138-7333-b604-f364d41918c7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/the-stanley-parable-ultra-deluxe.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -1599,6 +1622,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP0102-CUSA04704_00-BH4HD00000000001"
    },
+   "cover": "https://worthityet.com/static/covers/resident-evil-4.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -1715,6 +1739,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP9000-PPSA01341_00-DEMONSSOULS00000"
    },
+   "cover": "https://worthityet.com/static/covers/demons-souls.jpg",
    "deals": [
     {
      "shop": "PlayStation Store",
@@ -1746,6 +1771,7 @@
    "year": 2021,
    "metascore": 92,
    "price": null,
+   "cover": null,
    "deals": [],
    "platforms": [],
    "low": null,
@@ -1764,6 +1790,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-67ee-7395-84b3-8de2e81d17e1/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/forza-horizon-5.jpg",
    "deals": [
     {
      "shop": "Microsoft Store",
@@ -1819,6 +1846,7 @@
     "platform": "PC",
     "url": "https://itad.link/019a4145-c3b8-71b8-bf68-4a9d1c8a06c5/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/cuphead-the-delicious-last-course.jpg",
    "deals": [
     {
      "shop": "Microsoft Store",
@@ -1892,6 +1920,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-d551-7173-84ae-808714445068/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/street-fighter-6.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -1991,6 +2020,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html"
    },
+   "cover": "https://worthityet.com/static/covers/super-mario-bros-wonder.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -2022,6 +2052,7 @@
    "year": 2023,
    "metascore": 92,
    "price": null,
+   "cover": null,
    "deals": [],
    "platforms": [],
    "low": null,
@@ -2040,6 +2071,7 @@
     "platform": "PC",
     "url": "https://itad.link/01949389-b340-70dc-a746-73c2169885a7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/final-fantasy-vii-rebirth.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -2130,6 +2162,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-8d1a-713d-be96-784fa4b4d272/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/like-a-dragon-infinite-wealth.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -2229,6 +2262,7 @@
     "platform": "PC",
     "url": "https://itad.link/019038fd-1818-70fe-a21d-20d521210225/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/shin-megami-tensei-v-vengeance.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -2328,6 +2362,7 @@
     "platform": "PC",
     "url": "https://itad.link/01962434-dd53-7141-ae4b-ff59234ec870/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/blue-prince.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -2444,6 +2479,7 @@
     "platform": "PC",
     "url": "https://itad.link/0196429e-c92d-7282-9251-ced3ba873f69/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/clair-obscur-expedition-33.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -2560,6 +2596,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/crusader-kings-iii.jpg",
    "deals": [
     {
      "shop": "GamesPlanet US",
@@ -2636,6 +2673,7 @@
    "year": 2020,
    "metascore": 91,
    "price": null,
+   "cover": null,
    "deals": [],
    "platforms": [],
    "low": null,
@@ -2654,6 +2692,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-96cb-7068-8e0b-56eb4e521c00/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/microsoft-flight-simulator.jpg",
    "deals": [
     {
      "shop": "GreenManGaming",
@@ -2691,6 +2730,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-cfe2-72aa-8f50-561a9752f251/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/spelunky-2.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -2737,6 +2777,7 @@
     "platform": "Xbox",
     "url": "https://www.xbox.com/fi-FI/games/store/x/9NBR2VXT87SJ"
    },
+   "cover": "https://worthityet.com/static/covers/psychonauts-2.jpg",
    "deals": [
     {
      "shop": "Muve",
@@ -2836,6 +2877,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-797d-7196-afe7-0c18ce5003b2/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/chained-echoes.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -2882,6 +2924,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/against-the-storm.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -2964,6 +3007,7 @@
     "platform": "PC",
     "url": "https://itad.link/018ffe28-a29b-7311-a3c5-486f6836dcab/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/diablo-iv.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -3010,6 +3054,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-cb20-727a-9d0d-2ea25d9592a3/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/slay-the-princess.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -3074,6 +3119,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-3c5a-7304-b549-bd5e7dfc9fd7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/caves-of-qud.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -3120,6 +3166,7 @@
     "platform": "PC",
     "url": "https://itad.link/01a1a73b-782a-73f9-8fb1-a1579e0775f7/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/satisfactory.jpg",
    "deals": [
     {
      "shop": "GamesPlanet US",
@@ -3202,6 +3249,7 @@
     "platform": "PC",
     "url": "https://itad.link/019205a6-043e-73ec-a9da-3b0e9525051a/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/ufo-50.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -3239,6 +3287,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html"
    },
+   "cover": "https://worthityet.com/static/covers/donkey-kong-bananza.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -3276,6 +3325,7 @@
     "platform": "Xbox",
     "url": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D"
    },
+   "cover": "https://worthityet.com/static/covers/split-fiction.jpg",
    "deals": [
     {
      "shop": "EA Store",
@@ -3365,6 +3415,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/UP3971-PPSA33764_00-WALKWALKWALKWALK"
    },
+   "cover": "https://worthityet.com/static/covers/big-walk.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -3436,6 +3487,7 @@
     "platform": "PC",
     "url": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/doom-the-dark-ages-revelations.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -3518,6 +3570,7 @@
     "platform": "Switch",
     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html"
    },
+   "cover": "https://worthityet.com/static/covers/animal-crossing-new-horizons.jpg",
    "deals": [
     {
      "shop": "Nintendo eShop",
@@ -3555,6 +3608,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP0002-CUSA20464_00-TH12RSTANDARD001"
    },
+   "cover": "https://worthityet.com/static/covers/tony-hawks-pro-skater-1-2.jpg",
    "deals": [
     {
      "shop": "Microsoft Store",
@@ -3627,6 +3681,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/yakuza-0.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -3681,6 +3736,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959e-9838-7180-aaf5-ae94c6536056/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/chicory-a-colorful-tale.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -3736,6 +3792,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959d-d25b-706b-bb73-818a4c85fa0b/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/mass-effect-legendary-edition.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -3791,6 +3848,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/rogue-legacy-2.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -3863,6 +3921,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d959d-63eb-714a-8ad1-73ede1483581/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/the-legend-of-heroes-trails-from-zero.jpg",
    "deals": [
     {
      "shop": "Epic Game Store",
@@ -3945,6 +4004,7 @@
     "platform": "PlayStation",
     "url": "https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000"
    },
+   "cover": "https://worthityet.com/static/covers/cocoon.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -4044,6 +4104,7 @@
     "platform": "PC",
     "url": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/dave-the-diver.jpg",
    "deals": [
     {
      "shop": "Fanatical",
@@ -4126,6 +4187,7 @@
     "platform": "PC",
     "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/marvels-spider-man-2.jpg",
    "deals": [
     {
      "shop": "WinGameStore",
@@ -4225,6 +4287,7 @@
     "platform": "PC",
     "url": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/sea-of-stars.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -4288,6 +4351,7 @@
     "platform": "PC",
     "url": "https://itad.link/018dfa55-48e7-73a9-b64c-310f7b1eccd1/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/videoverse.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -4361,6 +4425,7 @@
     "platform": "PC",
     "url": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/animal-well.jpg",
    "deals": [
     {
      "shop": "Steam",
@@ -4415,6 +4480,7 @@
     "platform": "PC",
     "url": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/balatro.jpg",
    "deals": [
     {
      "shop": "GameBillet",
@@ -4497,6 +4563,7 @@
     "platform": "PC",
     "url": "https://itad.link/018d9386-dbed-7395-965a-a9779e43f1b4/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/tekken-8.jpg",
    "deals": [
     {
      "shop": "GamesPlanet US",
@@ -4613,6 +4680,7 @@
     "platform": "PC",
     "url": "https://itad.link/01a01e80-e538-7070-ae86-de2b608b37f1/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/hollow-knight-silksong.jpg",
    "deals": [
     {
      "shop": "Muve",
@@ -4695,6 +4763,7 @@
     "platform": "PC",
     "url": "https://itad.link/019e467e-58fe-7380-837d-abd2d2fb7391/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/forza-horizon-6.jpg",
    "deals": [
     {
      "shop": "Microsoft Store",
@@ -4777,6 +4846,7 @@
     "platform": "PC",
     "url": "https://itad.link/019e3b2c-3823-73c2-b943-93357a4ac2aa/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/mina-the-hollower.jpg",
    "deals": [
     {
      "shop": "GOG",
@@ -4832,6 +4902,7 @@
     "platform": "PC",
     "url": "https://itad.link/01a12fa4-8796-70f4-817a-47f3cbcc347a/?app=w5ppeb"
    },
+   "cover": "https://worthityet.com/static/covers/the-legend-of-heroes-trails-in-the-sky-2nd-chapter.jpg",
    "deals": [
     {
      "shop": "Muve",
