@@ -158,6 +158,8 @@ main{flex:1}
 .wf-price .reg{font-size:13px;color:var(--muted);text-decoration:line-through}
 .wf-scale{position:relative;height:6px;background:var(--soft)}
 .wf-scale i{position:absolute;top:0;bottom:0;right:0;background:#6b7280}
+.wf-scale s{position:absolute;top:0;bottom:0;left:0;background:var(--green)}
+.wf-scale.low s{display:none}
 .wf-scale b{position:absolute;top:-4px;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--ink)}
 .wf-scale.low{background:var(--gold-bright);box-shadow:0 0 10px rgba(245,197,66,.8)}
 .wf-scale.low i{display:none}
@@ -307,7 +309,7 @@ main{flex:1}
     <a href="./feed.xml" data-alerts>Alerts</a>
     <a href="./how-it-works/">How it works</a>
   </nav>
-  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-15T14:57:47.456000+00:00">updated 15 Nov 2026</time></span>
+  <span class="wf-tagline">Know when to buy.</span><span class="wf-updated"><time id="updated" datetime="2026-11-16T07:43:05.346000+00:00">updated 16 Nov 2026</time></span>
   <nav class="wf-mnav" aria-label="Main, mobile">
     <a href="./#list" data-nav="top">Top 20</a>
     <a href="./#list" data-nav="pc">PC</a>
@@ -322,10 +324,10 @@ main{flex:1}
 <main>
 
 <section class="wf-banner" aria-label="Today">
-  <div class="wf-banner-art" aria-hidden="true"><img src="/static/covers/god-of-war-ragnar-k.jpg" alt=""><img src="/static/covers/astro-bot.jpg" alt=""><img src="/static/covers/dragon-quest-xi-s-echoes-of-an-elusive-age.jpg" alt=""><img src="/static/covers/final-fantasy-vii-rebirth.jpg" alt=""><img src="/static/covers/cocoon.jpg" alt=""><img src="/static/covers/sea-of-stars.jpg" alt=""></div>
+  <div class="wf-banner-art" aria-hidden="true"><img src="/static/covers/god-of-war-ragnar-k.jpg" alt=""><img src="/static/covers/astro-bot.jpg" alt=""><img src="/static/covers/dragon-quest-xi-s-echoes-of-an-elusive-age.jpg" alt=""><img src="/static/covers/final-fantasy-vii-rebirth.jpg" alt=""><img src="/static/covers/split-fiction.jpg" alt=""><img src="/static/covers/cocoon.jpg" alt=""></div>
   <div class="wf-banner-text">
-    <h1>8 finds today.</h1>
-    <p><strong>One page instead of ten deal sites.</strong> We check every store every morning for the best-reviewed games since 2020 and give each a plain verdict — today 8 are Worth it, the other 60 can wait.</p>
+    <h1>11 finds today.</h1>
+    <p><strong>One page instead of ten deal sites.</strong> We check every store every morning for the best-reviewed games since 2020 and give each a plain verdict — today 11 are Worth it, the other 57 can wait.</p>
     <form class="wf-email wf-hero-email" data-game="*" autocomplete="off">
       <label for="em-hero">Get an email when the next one drops</label>
       <div class="wf-alert-row"><input id="em-hero" type="email" name="email" placeholder="you@example.com" required><input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button type="submit" class="wf-btn primary">Email me</button></div>
@@ -335,7 +337,7 @@ main{flex:1}
 </section>
 
 <section class="wf-now" aria-label="Worth it right now">
-  <div class="wf-now-head"><h2>Worth it right now</h2><span>8 of 68 best-reviewed games (Metascore 90+, 2020–) at their all-time low</span><a class="wf-alertlink" href="./feed.xml" id="alertAll">RSS and per-game alerts →</a></div>
+  <div class="wf-now-head"><h2>Worth it right now</h2><span>11 of 68 best-reviewed games (Metascore 90+, 2020–) at their all-time low</span><a class="wf-alertlink" href="./feed.xml" id="alertAll">RSS and per-game alerts →</a></div>
   <div class="wf-cards">
     
     <div class="wf-card" data-shop="PlayStation Store">
@@ -375,12 +377,30 @@ main{flex:1}
     </div>
     
     <div class="wf-card" data-shop="PlayStation Store">
+      <a href="./games/split-fiction/"><img src="/static/covers/split-fiction.jpg" alt="" loading="lazy"></a>
+      <strong><a href="./games/split-fiction/">Split Fiction</a></strong>
+      <span class="price">€29.97</span>
+      <span class="sub">PlayStation Store, PlayStation · −40 % · MC 91</span>
+      <span class="wf-stamp sm">Worth it</span>
+      <a class="wf-btn primary buy" href="https://store.playstation.com/en-fi/product/UP0006-PPSA08560_00-SPLITSTANDARDED0" target="_blank" rel="nofollow sponsored noopener">Buy · PlayStation Store</a>
+    </div>
+    
+    <div class="wf-card" data-shop="PlayStation Store">
       <a href="./games/cocoon/"><img src="/static/covers/cocoon.jpg" alt="" loading="lazy"></a>
       <strong><a href="./games/cocoon/">Cocoon</a></strong>
       <span class="price">€9.98</span>
       <span class="sub">PlayStation Store, PlayStation · −60 % · MC 90</span>
       <span class="wf-stamp sm">Worth it</span>
       <a class="wf-btn primary buy" href="https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000" target="_blank" rel="nofollow sponsored noopener">Buy · PlayStation Store</a>
+    </div>
+    
+    <div class="wf-card" data-shop="PlayStation Store">
+      <a href="./games/marvels-spider-man-2/"><img src="/static/covers/marvels-spider-man-2.jpg" alt="" loading="lazy"></a>
+      <strong><a href="./games/marvels-spider-man-2/">Marvel&#39;s Spider-Man 2</a></strong>
+      <span class="price">€39.97</span>
+      <span class="sub">PlayStation Store, PlayStation · −50 % · MC 90</span>
+      <span class="wf-stamp sm">Worth it</span>
+      <a class="wf-btn primary buy" href="https://store.playstation.com/en-fi/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2" target="_blank" rel="nofollow sponsored noopener">Buy · PlayStation Store</a>
     </div>
     
     <div class="wf-card" data-shop="GOG">
@@ -390,6 +410,15 @@ main{flex:1}
       <span class="sub">GOG, PC · −50 % · MC 90</span>
       <span class="wf-stamp sm">Worth it</span>
       <a class="wf-btn primary buy" href="https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb" target="_blank" rel="nofollow sponsored noopener">Buy · GOG</a>
+    </div>
+    
+    <div class="wf-card" data-shop="PlayStation Store">
+      <a href="./games/animal-well/"><img src="/static/covers/animal-well.jpg" alt="" loading="lazy"></a>
+      <strong><a href="./games/animal-well/">Animal Well</a></strong>
+      <span class="price">€17.46</span>
+      <span class="sub">PlayStation Store, PlayStation · −30 % · MC 90</span>
+      <span class="wf-stamp sm">Worth it</span>
+      <a class="wf-btn primary buy" href="https://store.playstation.com/en-fi/product/EP8684-PPSA22519_00-0609771001653426" target="_blank" rel="nofollow sponsored noopener">Buy · PlayStation Store</a>
     </div>
     
     <div class="wf-card" data-shop="Microsoft Store">
@@ -445,7 +474,7 @@ main{flex:1}
   <div class="wf-head"><span>#</span><span>Cover</span><span>Game</span><span>Metascore</span><span>Best price today · where it sits between the all-time low and the regular price</span><span>Verdict</span><span>Open</span></div>
   <div id="rows">
   
-<article class="wf-row low" id="god-of-war-ragnar-k" data-platforms="pc playstation" data-tier="worth" data-rank="10" data-kind="new" data-year="2022" data-price="29.37" data-cut="58" data-deals='[{"a": 50.34, "c": 8, "l": 32.46, "p": "PC", "r": 54.42, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 53.99, "c": 10, "l": 32.46, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018ff4c5-b68e-72ca-a36a-7b367a49aa2b/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 53.99, "c": 10, "l": 32.46, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 54.01, "c": 10, "l": 32.46, "p": "PC", "r": 60.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 54.41, "c": 0, "l": 32.46, "p": "PC", "r": 54.41, "s": "IndieGala Store", "t": true, "tier": "wait", "u": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 56.39, "c": 6, "l": 32.46, "p": "PC", "r": 59.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/01920b3f-30da-70ac-b8f0-c301f7ff67a8/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 29.37, "c": 58, "l": 29.37, "p": "PlayStation", "r": 69.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP9000-CUSA34386_00-GOWRAGNAROK00000", "w": "2-year low is \u20ac29.37"}]'>
+<article class="wf-row low" id="god-of-war-ragnar-k" data-platforms="pc playstation" data-tier="worth" data-rank="10" data-kind="new" data-year="2022" data-price="29.37" data-cut="58" data-deals='[{"a": 50.39, "c": 8, "l": 32.46, "p": "PC", "r": 54.48, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 53.92, "c": 10, "l": 32.46, "p": "PC", "r": 59.91, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 53.99, "c": 10, "l": 32.46, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018ff4c5-b68e-72ca-a36a-7b367a49aa2b/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 53.99, "c": 10, "l": 32.46, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 54.41, "c": 0, "l": 32.46, "p": "PC", "r": 54.41, "s": "IndieGala Store", "t": true, "tier": "wait", "u": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 56.39, "c": 6, "l": 32.46, "p": "PC", "r": 59.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/01920b3f-30da-70ac-b8f0-c301f7ff67a8/?app=w5ppeb", "w": "2-year low is \u20ac32.46"}, {"a": 29.37, "c": 58, "l": 29.37, "p": "PlayStation", "r": 69.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP9000-CUSA34386_00-GOWRAGNAROK00000", "w": "2-year low is \u20ac29.37"}]'>
   <span class="rank">10</span>
   <img class="cover" src="/static/covers/god-of-war-ragnar-k.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -456,7 +485,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€29.37</span><span class="reg">€69.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €29.37 (now)</span><span>regular €69.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -481,7 +510,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€49.66</span><span class="reg">€69.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:24%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €49.66 (now)</span><span>regular €69.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -506,7 +535,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€19.99</span><span class="reg">€39.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €19.99 (now)</span><span>regular €39.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -531,7 +560,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€7.49</span><span class="reg">€49.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €7.49 (now)</span><span>regular €49.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -545,7 +574,32 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row low" id="cocoon" data-platforms="pc playstation" data-tier="worth" data-rank="60" data-kind="new" data-year="2023" data-price="9.98" data-cut="60" data-deals='[{"a": 11.49, "c": 50, "l": 7.26, "p": "PC", "r": 22.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d9477432b/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 19.27, "c": 15, "l": 7.26, "p": "PC", "r": 22.67, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d919e78b8/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 19.54, "c": 15, "l": 7.26, "p": "PC", "r": 22.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d979f607f/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 19.54, "c": 15, "l": 7.26, "p": "PC", "r": 22.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d97046387/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 20.4, "c": 15, "l": 7.26, "p": "PC", "r": 24.0, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d96d2e72c/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 21.49, "c": 7, "l": 7.26, "p": "PC", "r": 22.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019edab6-627e-7399-8fd7-7f141c671a58/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 9.98, "c": 60, "l": 9.98, "p": "PlayStation", "r": 24.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000", "w": "2-year low is \u20ac9.98"}]'>
+<article class="wf-row low" id="split-fiction" data-platforms="pc playstation xbox" data-tier="worth" data-rank="50" data-kind="new" data-year="2025" data-price="29.97" data-cut="40" data-deals='[{"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "EA Store", "t": true, "tier": "wait", "u": "https://itad.link/019b6763-4c14-72f7-b78c-be56f8509cd5/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/0193be2f-289c-707d-be08-7c2a5d04e09a/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/01956c30-7295-7026-a86a-999d0fe9d73b/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 29.97, "c": 40, "l": 32.46, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/UP0006-PPSA08560_00-SPLITSTANDARDED0", "w": "2-year low is \u20ac32.46"}, {"a": 44.99, "c": 10, "l": 32.49, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D", "w": "only 16 days of price history, verdicts start after 60"}]'>
+  <span class="rank">50</span>
+  <img class="cover" src="/static/covers/split-fiction.jpg" alt="" loading="lazy" width="96" height="45">
+  <div class="title">
+    <span><a href="./games/split-fiction/">Split Fiction</a><span class="wf-stamp title-stamp">Worth it</span></span>
+    <span class="sub">2025 · PC / PS5 / Xbox</span>
+  </div>
+  <div class="wf-meta"><span class="box">91</span><span class="sub">PC / PS5 / Xbox</span></div>
+  
+  <div class="wf-price">
+    <div class="now"><span class="amt">€29.97</span><span class="reg">€49.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:19%"></s><b style="left:0%"></b></div>
+    <div class="ends"><span>low €32.46 (now)</span><span>regular €49.95</span></div>
+  </div>
+  <div class="wf-verdict">
+    
+    <span class="sub gold">New all-time low, €2.49 under the previous €32.46</span>
+  </div>
+  <div class="wf-openbox">
+    <a class="wf-btn primary" href="https://store.playstation.com/en-fi/product/UP0006-PPSA08560_00-SPLITSTANDARDED0" target="_blank" rel="nofollow sponsored noopener">Buy at PlayStation Store</a>
+    <a class="wf-open" href="./games/split-fiction/">Details</a>
+    <button type="button" class="wf-alert-btn" data-slug="split-fiction" data-title="Split Fiction" aria-expanded="false">Alert me</button>
+  </div>
+  
+</article>
+<article class="wf-row low" id="cocoon" data-platforms="pc playstation" data-tier="worth" data-rank="60" data-kind="new" data-year="2023" data-price="9.98" data-cut="60" data-deals='[{"a": 19.29, "c": 15, "l": 7.26, "p": "PC", "r": 22.69, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d919e78b8/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 19.54, "c": 15, "l": 7.26, "p": "PC", "r": 22.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d979f607f/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 19.54, "c": 15, "l": 7.26, "p": "PC", "r": 22.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d97046387/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 20.36, "c": 15, "l": 7.26, "p": "PC", "r": 23.96, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d96d2e72c/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 21.49, "c": 7, "l": 7.26, "p": "PC", "r": 22.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019edab6-627e-7399-8fd7-7f141c671a58/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 21.61, "c": 6, "l": 7.26, "p": "PC", "r": 22.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-3e9e-7264-9e13-578d9aabcfa7/?app=w5ppeb", "w": "2-year low is \u20ac7.26"}, {"a": 9.98, "c": 60, "l": 9.98, "p": "PlayStation", "r": 24.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP2333-PPSA08766_00-COCOONSIEE000000", "w": "2-year low is \u20ac9.98"}]'>
   <span class="rank">60</span>
   <img class="cover" src="/static/covers/cocoon.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -556,7 +610,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€9.98</span><span class="reg">€24.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €9.98 (now)</span><span>regular €24.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -570,7 +624,32 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row low" id="sea-of-stars" data-platforms="pc switch" data-tier="worth" data-rank="63" data-kind="new" data-year="2023" data-price="16.99" data-cut="50" data-deals='[{"a": 16.99, "c": 50, "l": 16.99, "p": "PC", "r": 33.99, "s": "GOG", "t": true, "tier": "worth", "u": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb", "w": "2-year low is \u20ac16.99"}, {"a": 33.99, "c": 0, "l": 16.99, "p": "PC", "r": 33.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-c294-720d-9964-41245ff228bb/?app=w5ppeb", "w": "2-year low is \u20ac16.99"}, {"a": 33.99, "c": 0, "l": 33.99, "p": "Switch", "r": 33.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Sea-of-Stars-2090490.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row low" id="marvels-spider-man-2" data-platforms="pc playstation" data-tier="worth" data-rank="62" data-kind="new" data-year="2023" data-price="39.97" data-cut="50" data-deals='[{"a": 51.3, "c": 6, "l": 32.51, "p": "PC", "r": 54.48, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 53.92, "c": 10, "l": 32.51, "p": "PC", "r": 59.91, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/0194b80c-e8ad-704b-bca3-80d5157e8459/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 53.99, "c": 10, "l": 32.51, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/0194b80d-0344-72bf-85e7-a813bef74adc/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 53.99, "c": 10, "l": 32.51, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/0194b80d-3089-70c0-aa46-23b80113c03a/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 56.39, "c": 6, "l": 32.51, "p": "PC", "r": 59.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/0194b868-2900-71a9-85e6-6212acb961ee/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 59.99, "c": 0, "l": 32.51, "p": "PC", "r": 59.99, "s": "Gamesload", "t": true, "tier": "wait", "u": "https://itad.link/0194db46-d81f-70ba-b770-63392e9e7687/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 39.97, "c": 50, "l": 39.97, "p": "PlayStation", "r": 79.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2", "w": "2-year low is \u20ac39.97"}]'>
+  <span class="rank">62</span>
+  <img class="cover" src="/static/covers/marvels-spider-man-2.jpg" alt="" loading="lazy" width="96" height="45">
+  <div class="title">
+    <span><a href="./games/marvels-spider-man-2/">Marvel&#39;s Spider-Man 2</a><span class="wf-stamp title-stamp">Worth it</span></span>
+    <span class="sub">2023 · PS5 (PC 2025)</span>
+  </div>
+  <div class="wf-meta"><span class="box">90</span><span class="sub">PS5 (PC 2025)</span></div>
+  
+  <div class="wf-price">
+    <div class="now"><span class="amt">€39.97</span><span class="reg">€79.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
+    <div class="ends"><span>low €39.97 (now)</span><span>regular €79.95</span></div>
+  </div>
+  <div class="wf-verdict">
+    
+    <span class="sub gold">Matches the all-time low</span>
+  </div>
+  <div class="wf-openbox">
+    <a class="wf-btn primary" href="https://store.playstation.com/en-fi/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2" target="_blank" rel="nofollow sponsored noopener">Buy at PlayStation Store</a>
+    <a class="wf-open" href="./games/marvels-spider-man-2/">Details</a>
+    <button type="button" class="wf-alert-btn" data-slug="marvels-spider-man-2" data-title="Marvel&#39;s Spider-Man 2" aria-expanded="false">Alert me</button>
+  </div>
+  
+</article>
+<article class="wf-row low" id="sea-of-stars" data-platforms="pc switch" data-tier="worth" data-rank="63" data-kind="new" data-year="2023" data-price="16.99" data-cut="50" data-deals='[{"a": 16.99, "c": 50, "l": 16.99, "p": "PC", "r": 33.99, "s": "GOG", "t": true, "tier": "worth", "u": "https://itad.link/019ea7a8-b8ea-729b-9543-c87907e074d2/?app=w5ppeb", "w": "2-year low is \u20ac16.99"}, {"a": 33.99, "c": 0, "l": 16.99, "p": "PC", "r": 33.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-c294-720d-9964-41245ff228bb/?app=w5ppeb", "w": "2-year low is \u20ac16.99"}, {"a": 33.99, "c": 0, "l": 33.99, "p": "Switch", "r": 33.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Sea-of-Stars-2090490.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">63</span>
   <img class="cover" src="/static/covers/sea-of-stars.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -581,7 +660,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€16.99</span><span class="reg">€33.99</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:10%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €16.99 (now)</span><span>regular €33.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -595,7 +674,32 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row low" id="forza-horizon-6" data-platforms="pc xbox" data-tier="worth" data-rank="69" data-kind="new" data-year="2026" data-price="52.49" data-cut="25" data-deals='[{"a": 52.49, "c": 25, "l": 52.49, "p": "PC", "r": 69.99, "s": "Microsoft Store", "t": true, "tier": "worth", "u": "https://itad.link/019e467e-58fe-7380-837d-abd2d2fb7391/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 60.49, "c": 14, "l": 52.49, "p": "PC", "r": 69.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e3-d2b8-70c4-9bd0-66477b911871/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.53, "c": 0, "l": 52.49, "p": "PC", "r": 62.53, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-088b-726e-a62b-ba0aeb81088f/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.99, "c": 10, "l": 52.49, "p": "PC", "r": 69.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea1-0452-70ce-9dab-a4f7d0a9b84b/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.99, "c": 10, "l": 52.49, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea0-bfa6-705e-ab61-b0aa74c9043e/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 64.81, "c": 10, "l": 52.49, "p": "PC", "r": 72.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea0-7932-735c-a261-8270bf1538c5/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}]'>
+<article class="wf-row low" id="animal-well" data-platforms="pc playstation" data-tier="worth" data-rank="65" data-kind="new" data-year="2024" data-price="17.46" data-cut="30" data-deals='[{"a": 24.5, "c": 0, "l": 16.41, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb", "w": "2-year low is \u20ac16.41"}, {"a": 17.46, "c": 30, "l": 17.46, "p": "PlayStation", "r": 24.95, "s": "PlayStation Store", "t": true, "tier": "worth", "u": "https://store.playstation.com/en-fi/product/EP8684-PPSA22519_00-0609771001653426", "w": "2-year low is \u20ac17.46"}]'>
+  <span class="rank">65</span>
+  <img class="cover" src="/static/covers/animal-well.jpg" alt="" loading="lazy" width="96" height="45">
+  <div class="title">
+    <span><a href="./games/animal-well/">Animal Well</a><span class="wf-stamp title-stamp">Worth it</span></span>
+    <span class="sub">2024 · PC / PS5</span>
+  </div>
+  <div class="wf-meta"><span class="box">90</span><span class="sub">PC / PS5</span></div>
+  
+  <div class="wf-price">
+    <div class="now"><span class="amt">€17.46</span><span class="reg">€24.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:23%"></s><b style="left:0%"></b></div>
+    <div class="ends"><span>low €17.46 (now)</span><span>regular €24.95</span></div>
+  </div>
+  <div class="wf-verdict">
+    
+    <span class="sub gold">Matches the all-time low</span>
+  </div>
+  <div class="wf-openbox">
+    <a class="wf-btn primary" href="https://store.playstation.com/en-fi/product/EP8684-PPSA22519_00-0609771001653426" target="_blank" rel="nofollow sponsored noopener">Buy at PlayStation Store</a>
+    <a class="wf-open" href="./games/animal-well/">Details</a>
+    <button type="button" class="wf-alert-btn" data-slug="animal-well" data-title="Animal Well" aria-expanded="false">Alert me</button>
+  </div>
+  
+</article>
+<article class="wf-row low" id="forza-horizon-6" data-platforms="pc xbox" data-tier="worth" data-rank="69" data-kind="new" data-year="2026" data-price="52.49" data-cut="25" data-deals='[{"a": 52.49, "c": 25, "l": 52.49, "p": "PC", "r": 69.99, "s": "Microsoft Store", "t": true, "tier": "worth", "u": "https://itad.link/019e467e-58fe-7380-837d-abd2d2fb7391/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 60.49, "c": 14, "l": 52.49, "p": "PC", "r": 69.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e3-d2b8-70c4-9bd0-66477b911871/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.53, "c": 0, "l": 52.49, "p": "PC", "r": 62.53, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-088b-726e-a62b-ba0aeb81088f/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.99, "c": 10, "l": 52.49, "p": "PC", "r": 69.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea1-0452-70ce-9dab-a4f7d0a9b84b/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 62.99, "c": 10, "l": 52.49, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea0-bfa6-705e-ab61-b0aa74c9043e/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}, {"a": 64.71, "c": 10, "l": 52.49, "p": "PC", "r": 71.9, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/019e3ea0-7932-735c-a261-8270bf1538c5/?app=w5ppeb", "w": "2-year low is \u20ac52.49"}]'>
   <span class="rank">69</span>
   <img class="cover" src="/static/covers/forza-horizon-6.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -606,7 +710,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€52.49</span><span class="reg">€69.99</span><span class="sub">Microsoft Store · PC</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:30%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €52.49 (now)</span><span>regular €69.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -631,7 +735,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€45.51</span><span class="reg">€47.90</span><span class="sub">Muve · PC</span></div>
-    <div class="wf-scale low"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale low"><i style="width:100%"></i><s style="width:100%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €45.51 (now)</span><span>regular €47.90</span></div>
   </div>
   <div class="wf-verdict">
@@ -645,7 +749,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="disco-elysium-the-final-cut" data-platforms="pc" data-tier="wait" data-rank="1" data-kind="other" data-year="2021" data-price="7.59" data-cut="80" data-deals='[{"a": 7.59, "c": 80, "l": 3.59, "p": "PC", "r": 37.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 9.49, "c": 75, "l": 3.59, "p": "PC", "r": 37.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15778fe1472a/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 29.19, "c": 23, "l": 3.59, "p": "PC", "r": 37.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-cde1-7010-b1c7-f0a365f42a48/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 32.65, "c": 10, "l": 3.59, "p": "PC", "r": 36.28, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779d67d618/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 35.99, "c": 10, "l": 3.59, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779c09ba8e/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 35.99, "c": 10, "l": 3.59, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779c910c14/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}]'>
+<article class="wf-row" id="disco-elysium-the-final-cut" data-platforms="pc" data-tier="wait" data-rank="1" data-kind="other" data-year="2021" data-price="7.59" data-cut="80" data-deals='[{"a": 7.59, "c": 80, "l": 3.59, "p": "PC", "r": 37.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/019fa453-3b7d-7310-8748-1c6f3966d3b7/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 9.49, "c": 75, "l": 3.59, "p": "PC", "r": 37.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15778fe1472a/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 29.19, "c": 23, "l": 3.59, "p": "PC", "r": 37.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-cde1-7010-b1c7-f0a365f42a48/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 32.68, "c": 10, "l": 3.59, "p": "PC", "r": 36.32, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779d67d618/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 35.99, "c": 10, "l": 3.59, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779c09ba8e/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}, {"a": 35.99, "c": 10, "l": 3.59, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-4e5d-715f-a47b-15779c910c14/?app=w5ppeb", "w": "2-year low is \u20ac3.59"}]'>
   <span class="rank">1</span>
   <img class="cover" src="/static/covers/disco-elysium-the-final-cut.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -656,7 +760,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€7.59</span><span class="reg">€37.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:88%"></i><b style="left:12%"></b></div>
+    <div class="wf-scale"><i style="width:88%"></i><s style="width:10%"></s><b style="left:12%"></b></div>
     <div class="ends"><span>low €3.59</span><span>regular €37.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -681,7 +785,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€22.99</span><span class="sub">Humble Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €10.39</span><span>regular €22.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -695,7 +799,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="elden-ring" data-platforms="pc playstation xbox" data-tier="wait" data-rank="3" data-kind="new" data-year="2022" data-price="50.89" data-cut="5" data-deals='[{"a": 52.61, "c": 3, "l": 27.99, "p": "PC", "r": 54.42, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.57, "c": 0, "l": 27.99, "p": "PC", "r": 53.57, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.88, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5634-71ca-ac17-8fff41b3730d/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.99, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b0bdf0db/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.99, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b174890d/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 54.01, "c": 10, "l": 27.99, "p": "PC", "r": 60.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b1231da5/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 59.95, "c": 0, "l": 35.97, "p": "PlayStation", "r": 59.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0700-PPSA04609_00-ELDENRING0000000", "w": "2-year low is \u20ac35.97"}, {"a": 59.99, "c": 0, "l": 59.99, "p": "Xbox", "r": 59.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P3J32CTXLRZ", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="elden-ring" data-platforms="pc playstation xbox" data-tier="wait" data-rank="3" data-kind="new" data-year="2022" data-price="50.89" data-cut="5" data-deals='[{"a": 52.66, "c": 3, "l": 27.99, "p": "PC", "r": 54.48, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.57, "c": 0, "l": 27.99, "p": "PC", "r": 53.57, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-f834-73b8-a15d-38d19a513110/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.88, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5634-71ca-ac17-8fff41b3730d/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.92, "c": 10, "l": 27.99, "p": "PC", "r": 59.91, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b1231da5/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.99, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b0bdf0db/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 53.99, "c": 10, "l": 27.99, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-5633-7086-a2fa-f903b174890d/?app=w5ppeb", "w": "2-year low is \u20ac27.99"}, {"a": 59.95, "c": 0, "l": 35.97, "p": "PlayStation", "r": 59.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0700-PPSA04609_00-ELDENRING0000000", "w": "2-year low is \u20ac35.97"}, {"a": 59.99, "c": 0, "l": 59.99, "p": "Xbox", "r": 59.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P3J32CTXLRZ", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">3</span>
   <img class="cover" src="/static/covers/elden-ring.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -706,7 +810,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€50.89</span><span class="reg">€53.57</span><span class="sub">Muve · PC</span></div>
-    <div class="wf-scale"><i style="width:10%"></i><b style="left:90%"></b></div>
+    <div class="wf-scale"><i style="width:10%"></i><s style="width:11%"></s><b style="left:90%"></b></div>
     <div class="ends"><span>low €27.99</span><span>regular €53.57</span></div>
   </div>
   <div class="wf-verdict">
@@ -720,7 +824,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="baldurs-gate-3" data-platforms="pc playstation xbox" data-tier="wait" data-rank="4" data-kind="new" data-year="2023" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 41.99, "p": "PC", "r": 59.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-2caa-7166-99c3-53160e69d7c5/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 59.99, "c": 0, "l": 41.99, "p": "PC", "r": 59.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-2caa-7166-99c3-53160d559490/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 69.99, "c": 0, "l": 41.99, "p": "PC", "r": 69.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/019645ee-5f6c-70b0-a024-5989a172c2cc/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 69.95, "c": 0, "l": 48.96, "p": "PlayStation", "r": 69.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP3383-PPSA14002_00-0872837811678079", "w": "2-year low is \u20ac48.96"}, {"a": 69.99, "c": 0, "l": 69.99, "p": "Xbox", "r": 69.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9ND58LQTG09T", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="baldurs-gate-3" data-platforms="pc playstation xbox" data-tier="wait" data-rank="4" data-kind="new" data-year="2023" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 41.99, "p": "PC", "r": 59.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-2caa-7166-99c3-53160e69d7c5/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 59.99, "c": 0, "l": 41.99, "p": "PC", "r": 59.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-2caa-7166-99c3-53160d559490/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 69.99, "c": 0, "l": 41.99, "p": "PC", "r": 69.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/019645ee-5f6c-70b0-a024-5989a172c2cc/?app=w5ppeb", "w": "2-year low is \u20ac41.99"}, {"a": 69.95, "c": 0, "l": 48.96, "p": "PlayStation", "r": 69.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP3383-PPSA14002_00-0872837811678079", "w": "2-year low is \u20ac48.96"}, {"a": 69.99, "c": 0, "l": 69.99, "p": "Xbox", "r": 69.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9ND58LQTG09T", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">4</span>
   <img class="cover" src="/static/covers/baldurs-gate-3.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -731,7 +835,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€59.99</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:23%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €41.99 (Nov 2026)</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -745,7 +849,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="the-legend-of-zelda-tears-of-the-kingdom" data-platforms="switch" data-tier="wait" data-rank="5" data-kind="new" data-year="2023" data-price="69.99" data-cut="0" data-deals='[{"a": 69.99, "c": 0, "l": 69.99, "p": "Switch", "r": 69.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="the-legend-of-zelda-tears-of-the-kingdom" data-platforms="switch" data-tier="wait" data-rank="5" data-kind="new" data-year="2023" data-price="69.99" data-cut="0" data-deals='[{"a": 69.99, "c": 0, "l": 69.99, "p": "Switch", "r": 69.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">5</span>
   <img class="cover" src="/static/covers/the-legend-of-zelda-tears-of-the-kingdom.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -756,12 +860,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€69.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €69.99 (Nov 2026)</span><span>regular €69.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -770,7 +874,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="persona-5-royal" data-platforms="pc playstation" data-tier="wait" data-rank="6" data-kind="other" data-year="2020" data-price="16.79" data-cut="72" data-deals='[{"a": 16.79, "c": 72, "l": 9.94, "p": "PC", "r": 59.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61040420/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 48.98, "c": 10, "l": 9.94, "p": "PC", "r": 54.42, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 49.89, "c": 8, "l": 9.94, "p": "PC", "r": 54.42, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 53.99, "c": 10, "l": 9.94, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62b4b97b/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 53.99, "c": 10, "l": 9.94, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62f64699/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 54.01, "c": 10, "l": 9.94, "p": "PC", "r": 60.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea627197c2/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 59.95, "c": 0, "l": 17.98, "p": "PlayStation", "r": 59.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0177-PPSA05110_00-P5RGAME000000000", "w": "2-year low is \u20ac17.98"}]'>
+<article class="wf-row" id="persona-5-royal" data-platforms="pc playstation" data-tier="wait" data-rank="6" data-kind="other" data-year="2020" data-price="49.03" data-cut="10" data-deals='[{"a": 49.03, "c": 10, "l": 9.94, "p": "PC", "r": 54.48, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 49.94, "c": 8, "l": 9.94, "p": "PC", "r": 54.48, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 53.92, "c": 10, "l": 9.94, "p": "PC", "r": 59.91, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea627197c2/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 53.99, "c": 10, "l": 9.94, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62b4b97b/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 53.99, "c": 10, "l": 9.94, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea62f64699/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 56.39, "c": 6, "l": 9.94, "p": "PC", "r": 59.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea5ca91bf1/?app=w5ppeb", "w": "2-year low is \u20ac9.94"}, {"a": 59.95, "c": 0, "l": 17.98, "p": "PlayStation", "r": 59.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0177-PPSA05110_00-P5RGAME000000000", "w": "2-year low is \u20ac17.98"}]'>
   <span class="rank">6</span>
   <img class="cover" src="/static/covers/persona-5-royal.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -780,9 +884,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">95</span><span class="sub">PS4 (PC 2022)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€16.79</span><span class="reg">€59.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:86%"></i><b style="left:14%"></b></div>
-    <div class="ends"><span>low €9.94</span><span>regular €59.99</span></div>
+    <div class="now"><span class="amt">€49.03</span><span class="reg">€54.48</span><span class="sub">GamesPlanet US · PC</span></div>
+    <div class="wf-scale"><i style="width:12%"></i><s style="width:10%"></s><b style="left:88%"></b></div>
+    <div class="ends"><span>low €9.94</span><span>regular €54.48</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -795,7 +899,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="portal-companion-collection" data-platforms="switch" data-tier="wait" data-rank="7" data-kind="other" data-year="2022" data-price="18.99" data-cut="0" data-deals='[{"a": 18.99, "c": 0, "l": 18.99, "p": "Switch", "r": 18.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="portal-companion-collection" data-platforms="switch" data-tier="wait" data-rank="7" data-kind="other" data-year="2022" data-price="18.99" data-cut="0" data-deals='[{"a": 18.99, "c": 0, "l": 18.99, "p": "Switch", "r": 18.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Portal-Companion-Collection-2168991.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">7</span>
   <img class="cover" src="/static/covers/portal-companion-collection.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -806,12 +910,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€18.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €18.99 (Nov 2026)</span><span>regular €18.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -831,7 +935,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€28.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:23%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €20.29</span><span>regular €28.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -856,7 +960,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€31.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €15.99</span><span>regular €31.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -870,7 +974,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="the-witcher-3-wild-hunt-complete-edition" data-platforms="pc playstation xbox" data-tier="wait" data-rank="11" data-kind="other" data-year="2022" data-price="47.49" data-cut="5" data-deals='[{"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-f72d-7282-ba92-7e684ee17d0b/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-232f-706a-8e04-9b36cd6198f4/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/019645ee-5f65-739d-a64d-5c11b92ae956/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-f72d-7282-ba92-7e684d3fc418/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.95, "c": 0, "l": 9.99, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP4497-PPSA03977_00-00000000000GOTY8", "w": "2-year low is \u20ac9.99"}]'>
+<article class="wf-row" id="the-witcher-3-wild-hunt-complete-edition" data-platforms="pc playstation xbox" data-tier="wait" data-rank="11" data-kind="other" data-year="2022" data-price="19.98" data-cut="60" data-deals='[{"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-f72d-7282-ba92-7e684ee17d0b/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-232f-706a-8e04-9b36cd6198f4/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/019645ee-5f65-739d-a64d-5c11b92ae956/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-f72d-7282-ba92-7e684d3fc418/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 49.99, "c": 0, "l": 9.99, "p": "PC", "r": 49.99, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-ffc5-738a-bf22-c190076bf764/?app=w5ppeb", "w": "2-year low is \u20ac9.99"}, {"a": 19.98, "c": 60, "l": 9.99, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP4497-PPSA03977_00-00000000000GOTY8", "w": "2-year low is \u20ac9.99"}]'>
   <span class="rank">11</span>
   <img class="cover" src="/static/covers/the-witcher-3-wild-hunt-complete-edition.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -880,9 +984,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">94</span><span class="sub">PS5 / Xbox (PC 93)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€47.49</span><span class="reg">€49.99</span><span class="sub">Muve · PC</span></div>
-    <div class="wf-scale"><i style="width:6%"></i><b style="left:94%"></b></div>
-    <div class="ends"><span>low €9.99</span><span>regular €49.99</span></div>
+    <div class="now"><span class="amt">€19.98</span><span class="reg">€49.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale"><i style="width:75%"></i><s style="width:10%"></s><b style="left:25%"></b></div>
+    <div class="ends"><span>low €9.99</span><span>regular €49.95</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -895,7 +999,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="metroid-prime-remastered" data-platforms="switch" data-tier="wait" data-rank="12" data-kind="other" data-year="2023" data-price="39.99" data-cut="0" data-deals='[{"a": 39.99, "c": 0, "l": 39.99, "p": "Switch", "r": 39.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="metroid-prime-remastered" data-platforms="switch" data-tier="wait" data-rank="12" data-kind="other" data-year="2023" data-price="39.99" data-cut="0" data-deals='[{"a": 39.99, "c": 0, "l": 39.99, "p": "Switch", "r": 39.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Metroid-Prime-Remastered-2341668.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">12</span>
   <img class="cover" src="/static/covers/metroid-prime-remastered.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -906,12 +1010,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€39.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €39.99 (Nov 2026)</span><span>regular €39.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -920,7 +1024,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="elden-ring-shadow-of-the-erdtree" data-platforms="pc" data-tier="wait" data-rank="14" data-kind="other" data-year="2024" data-price="33.56" data-cut="8" data-deals='[{"a": 33.56, "c": 8, "l": 29.98, "p": "PC", "r": 36.28, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.19, "c": 12, "l": 29.98, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018dd5b6-3ac1-703b-8498-1b53532f3458/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.99, "c": 10, "l": 29.98, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-5f71-726f-9719-4f3c6b9fd57c/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.99, "c": 10, "l": 29.98, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-7930-70e4-89b8-18874f7f3a7b/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 37.8, "c": 10, "l": 29.98, "p": "PC", "r": 42.0, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-6c36-7058-958b-0c9ea83c1d2f/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 37.97, "c": 5, "l": 29.98, "p": "PC", "r": 39.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018de698-9ef0-70fc-aaf6-2f03b32cbcff/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}]'>
+<article class="wf-row" id="elden-ring-shadow-of-the-erdtree" data-platforms="pc" data-tier="wait" data-rank="14" data-kind="other" data-year="2024" data-price="33.59" data-cut="8" data-deals='[{"a": 33.59, "c": 8, "l": 29.98, "p": "PC", "r": 36.32, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.19, "c": 12, "l": 29.98, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018dd5b6-3ac1-703b-8498-1b53532f3458/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.99, "c": 10, "l": 29.98, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-5f71-726f-9719-4f3c6b9fd57c/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 35.99, "c": 10, "l": 29.98, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-7930-70e4-89b8-18874f7f3a7b/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 37.74, "c": 10, "l": 29.98, "p": "PC", "r": 41.94, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018dd1b5-6c36-7058-958b-0c9ea83c1d2f/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}, {"a": 37.97, "c": 5, "l": 29.98, "p": "PC", "r": 39.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018de698-9ef0-70fc-aaf6-2f03b32cbcff/?app=w5ppeb", "w": "2-year low is \u20ac29.98"}]'>
   <span class="rank">14</span>
   <img class="cover" src="/static/covers/elden-ring-shadow-of-the-erdtree.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -930,9 +1034,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">94</span><span class="sub">expansion</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€33.56</span><span class="reg">€36.28</span><span class="sub">WinGameStore · PC</span></div>
-    <div class="wf-scale"><i style="width:43%"></i><b style="left:57%"></b></div>
-    <div class="ends"><span>low €29.98</span><span>regular €36.28</span></div>
+    <div class="now"><span class="amt">€33.59</span><span class="reg">€36.32</span><span class="sub">WinGameStore · PC</span></div>
+    <div class="wf-scale"><i style="width:43%"></i><s style="width:47%"></s><b style="left:57%"></b></div>
+    <div class="ends"><span>low €29.98</span><span>regular €36.32</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -945,7 +1049,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="metaphor-refantazio" data-platforms="pc playstation" data-tier="good" data-rank="15" data-kind="new" data-year="2024" data-price="25.89" data-cut="63" data-deals='[{"a": 25.89, "c": 63, "l": 23.11, "p": "PC", "r": 69.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/019279ce-7640-70b0-88ef-79abaa40b2c3/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 39.99, "c": 0, "l": 23.11, "p": "PC", "r": 39.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/019279bc-3234-70b4-861e-331fd498d0f8/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 39.99, "c": 0, "l": 23.11, "p": "PC", "r": 39.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/01928c2c-297d-7036-8cfe-bd9828bd87eb/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 56.69, "c": 11, "l": 23.11, "p": "PC", "r": 63.49, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 57.14, "c": 10, "l": 23.11, "p": "PC", "r": 63.49, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018ff4fc-8d6b-726a-86c5-1d280f6bb356/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 62.99, "c": 10, "l": 23.11, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018ff4fc-663b-7265-b599-78eeeb58d890/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 39.95, "c": 0, "l": 27.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0177-PPSA20799_00-METAPHOREU000001", "w": "2-year low is \u20ac27.98"}]'>
+<article class="wf-row" id="metaphor-refantazio" data-platforms="pc playstation" data-tier="wait" data-rank="15" data-kind="new" data-year="2024" data-price="39.95" data-cut="0" data-deals='[{"a": 39.99, "c": 0, "l": 23.11, "p": "PC", "r": 39.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/019279bc-3234-70b4-861e-331fd498d0f8/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 39.99, "c": 0, "l": 23.11, "p": "PC", "r": 39.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/01928c2c-297d-7036-8cfe-bd9828bd87eb/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 56.75, "c": 11, "l": 23.11, "p": "PC", "r": 63.56, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 57.2, "c": 10, "l": 23.11, "p": "PC", "r": 63.56, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018ff4fc-8d6b-726a-86c5-1d280f6bb356/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 62.99, "c": 10, "l": 23.11, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018ff4fc-663b-7265-b599-78eeeb58d890/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 62.99, "c": 10, "l": 23.11, "p": "PC", "r": 69.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018ff4fc-8168-708e-b18e-e1e6be683426/?app=w5ppeb", "w": "2-year low is \u20ac23.11"}, {"a": 39.95, "c": 0, "l": 27.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0177-PPSA20799_00-METAPHOREU000001", "w": "2-year low is \u20ac27.98"}]'>
   <span class="rank">15</span>
   <img class="cover" src="/static/covers/metaphor-refantazio.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -955,13 +1059,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">94</span><span class="sub">PC / PS5</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€25.89</span><span class="reg">€69.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:94%"></i><b style="left:6%"></b></div>
-    <div class="ends"><span>low €23.11</span><span>regular €69.99</span></div>
+    <div class="now"><span class="amt">€39.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:23%"></s><b style="left:100%"></b></div>
+    <div class="ends"><span>low €27.98</span><span>regular €39.95</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word good">GOOD</span>
-    <span class="sub">€2.78 above the 2-year low of €23.11</span>
+    <span class="wf-word wait">WAIT</span>
+    <span class="sub">2-year low is €27.98</span>
   </div>
   <div class="wf-openbox">
     
@@ -970,7 +1074,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="hades" data-platforms="pc switch" data-tier="wait" data-rank="17" data-kind="new" data-year="2020" data-price="24.5" data-cut="0" data-deals='[{"a": 24.5, "c": 0, "l": 6.12, "p": "PC", "r": 24.5, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.5, "c": 0, "l": 6.12, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-712c-707d-bd4d-e2329c84b026/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.99, "c": 0, "l": 6.12, "p": "PC", "r": 24.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-712c-707d-bd4d-e2329d49666e/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.99, "c": 0, "l": 24.99, "p": "Switch", "r": 24.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Hades-1821819.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="hades" data-platforms="pc switch" data-tier="wait" data-rank="17" data-kind="new" data-year="2020" data-price="24.5" data-cut="0" data-deals='[{"a": 24.5, "c": 0, "l": 6.12, "p": "PC", "r": 24.5, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-7357-70d8-af21-b4f03553cae7/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.5, "c": 0, "l": 6.12, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-712c-707d-bd4d-e2329c84b026/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.99, "c": 0, "l": 6.12, "p": "PC", "r": 24.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-712c-707d-bd4d-e2329d49666e/?app=w5ppeb", "w": "2-year low is \u20ac6.12"}, {"a": 24.99, "c": 0, "l": 24.99, "p": "Switch", "r": 24.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Hades-1821819.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">17</span>
   <img class="cover" src="/static/covers/hades.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -981,7 +1085,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€24.50</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €6.12</span><span>regular €24.50</span></div>
   </div>
   <div class="wf-verdict">
@@ -1006,7 +1110,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€57.99</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €14.74</span><span>regular €57.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1020,7 +1124,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="ori-and-the-will-of-the-wisps" data-platforms="pc switch" data-tier="wait" data-rank="19" data-kind="new" data-year="2020" data-price="9.41" data-cut="5" data-deals='[{"a": 9.9, "c": 0, "l": 2.99, "p": "PC", "r": 9.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "GreenManGaming", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9ca04fbd36/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9c9f6411d8/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9ca11d3f2c/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "Switch", "r": 29.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Ori-and-the-Will-of-the-Wisps-1842518.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="ori-and-the-will-of-the-wisps" data-platforms="pc switch" data-tier="wait" data-rank="19" data-kind="new" data-year="2020" data-price="9.41" data-cut="5" data-deals='[{"a": 9.9, "c": 0, "l": 2.99, "p": "PC", "r": 9.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e4-e35a-7297-b911-f1e8875ee7d2/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "GreenManGaming", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9ca04fbd36/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9c9f6411d8/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 2.99, "p": "PC", "r": 29.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-a713-71cd-8575-bd9ca11d3f2c/?app=w5ppeb", "w": "2-year low is \u20ac2.99"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "Switch", "r": 29.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Ori-and-the-Will-of-the-Wisps-1842518.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">19</span>
   <img class="cover" src="/static/covers/ori-and-the-will-of-the-wisps.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1031,7 +1135,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€9.41</span><span class="reg">€9.90</span><span class="sub">Muve · PC</span></div>
-    <div class="wf-scale"><i style="width:7%"></i><b style="left:93%"></b></div>
+    <div class="wf-scale"><i style="width:7%"></i><s style="width:10%"></s><b style="left:93%"></b></div>
     <div class="ends"><span>low €2.99</span><span>regular €9.90</span></div>
   </div>
   <div class="wf-verdict">
@@ -1045,7 +1149,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="the-last-of-us-part-ii" data-platforms="pc playstation" data-tier="wait" data-rank="20" data-kind="new" data-year="2020" data-price="39.95" data-cut="0" data-deals='[{"a": 42.9, "c": 5, "l": 27.15, "p": "PC", "r": 45.35, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 43.2, "c": 10, "l": 27.15, "p": "PC", "r": 48.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 44.99, "c": 10, "l": 27.15, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-320f-7355-b800-b2f454d33932/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 44.99, "c": 10, "l": 27.15, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-4758-70fa-ba97-b00da82afa86/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 46.99, "c": 6, "l": 27.15, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/0194acf2-744e-7307-b262-538fc986ae4e/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 49.99, "c": 0, "l": 27.15, "p": "PC", "r": 49.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/0195059c-68df-715a-9b70-32dc2d59d1c0/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 39.95, "c": 0, "l": 9.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP9000-CUSA10249_00-THELASTOFUSPART2", "w": "2-year low is \u20ac9.98"}]'>
+<article class="wf-row" id="the-last-of-us-part-ii" data-platforms="pc playstation" data-tier="wait" data-rank="20" data-kind="new" data-year="2020" data-price="39.95" data-cut="0" data-deals='[{"a": 42.95, "c": 5, "l": 27.15, "p": "PC", "r": 45.4, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 43.13, "c": 10, "l": 27.15, "p": "PC", "r": 47.93, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 44.99, "c": 10, "l": 27.15, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-320f-7355-b800-b2f454d33932/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 44.99, "c": 10, "l": 27.15, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01948e7a-4758-70fa-ba97-b00da82afa86/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 46.99, "c": 6, "l": 27.15, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/0194acf2-744e-7307-b262-538fc986ae4e/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 49.99, "c": 0, "l": 27.15, "p": "PC", "r": 49.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/0195059c-68df-715a-9b70-32dc2d59d1c0/?app=w5ppeb", "w": "2-year low is \u20ac27.15"}, {"a": 39.95, "c": 0, "l": 9.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP9000-CUSA10249_00-THELASTOFUSPART2", "w": "2-year low is \u20ac9.98"}]'>
   <span class="rank">20</span>
   <img class="cover" src="/static/covers/the-last-of-us-part-ii.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1056,7 +1160,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€39.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €9.98</span><span>regular €39.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -1081,12 +1185,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€24.39</span><span class="reg">€30.49</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:84%"></i><b style="left:16%"></b></div>
+    <div class="wf-scale"><i style="width:84%"></i><s style="width:32%"></s><b style="left:16%"></b></div>
     <div class="ends"><span>low €23.19</span><span>regular €30.49</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.20 above the 2-year low of €23.19</span>
+    <span class="sub">€1.20 (5%) above the 2-year low of €23.19</span>
   </div>
   <div class="wf-openbox">
     
@@ -1095,7 +1199,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="god-of-war-2018" data-platforms="pc" data-tier="wait" data-rank="22" data-kind="other" data-year="2022" data-price="40.81" data-cut="10" data-deals='[{"a": 40.81, "c": 10, "l": 15.76, "p": "PC", "r": 45.35, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 42.45, "c": 6, "l": 15.76, "p": "PC", "r": 45.35, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e690ecf07b/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 43.2, "c": 10, "l": 15.76, "p": "PC", "r": 48.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 44.99, "c": 10, "l": 15.76, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6874f53ec/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 44.99, "c": 10, "l": 15.76, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e688479c7e/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 46.99, "c": 6, "l": 15.76, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6952eaac7/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}]'>
+<article class="wf-row" id="god-of-war-2018" data-platforms="pc" data-tier="wait" data-rank="22" data-kind="other" data-year="2022" data-price="40.86" data-cut="10" data-deals='[{"a": 40.86, "c": 10, "l": 15.76, "p": "PC", "r": 45.4, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 42.49, "c": 6, "l": 15.76, "p": "PC", "r": 45.4, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e690ecf07b/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 43.13, "c": 10, "l": 15.76, "p": "PC", "r": 47.93, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 44.99, "c": 10, "l": 15.76, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6874f53ec/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 44.99, "c": 10, "l": 15.76, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e688479c7e/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}, {"a": 46.99, "c": 6, "l": 15.76, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-6c96-73a3-8151-d9e6952eaac7/?app=w5ppeb", "w": "2-year low is \u20ac15.76"}]'>
   <span class="rank">22</span>
   <img class="cover" src="/static/covers/god-of-war-2018.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1105,9 +1209,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">93</span><span class="sub">PC port</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€40.81</span><span class="reg">€45.35</span><span class="sub">GamesPlanet US · PC</span></div>
-    <div class="wf-scale"><i style="width:15%"></i><b style="left:85%"></b></div>
-    <div class="ends"><span>low €15.76</span><span>regular €45.35</span></div>
+    <div class="now"><span class="amt">€40.86</span><span class="reg">€45.40</span><span class="sub">GamesPlanet US · PC</span></div>
+    <div class="wf-scale"><i style="width:15%"></i><s style="width:10%"></s><b style="left:85%"></b></div>
+    <div class="ends"><span>low €15.76</span><span>regular €45.40</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -1131,7 +1235,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€21.99</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €7.69</span><span>regular €21.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1145,7 +1249,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="resident-evil-4" data-platforms="pc playstation xbox" data-tier="wait" data-rank="24" data-kind="new" data-year="2023" data-price="19.95" data-cut="0" data-deals='[{"a": 33.99, "c": 15, "l": 2.49, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8db-71f7-ad8c-f142c65fd025/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 35.99, "c": 10, "l": 2.49, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd352b3c5c9/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 35.99, "c": 10, "l": 2.49, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd352932a37/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 36.28, "c": 0, "l": 2.49, "p": "PC", "r": 36.28, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd364dc225d/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 37.59, "c": 6, "l": 2.49, "p": "PC", "r": 39.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8db-71f7-ad8c-f142bed2148c/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 37.8, "c": 10, "l": 2.49, "p": "PC", "r": 42.0, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd351964d51/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 19.95, "c": 0, "l": 4.98, "p": "PlayStation", "r": 19.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0102-CUSA04704_00-BH4HD00000000001", "w": "2-year low is \u20ac4.98"}, {"a": 39.99, "c": 0, "l": 9.99, "p": "Xbox", "r": 39.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9N7JCPPCPN37", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="resident-evil-4" data-platforms="pc playstation xbox" data-tier="wait" data-rank="24" data-kind="new" data-year="2023" data-price="19.95" data-cut="0" data-deals='[{"a": 33.99, "c": 15, "l": 2.49, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8db-71f7-ad8c-f142c65fd025/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 35.99, "c": 10, "l": 2.49, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd352b3c5c9/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 35.99, "c": 10, "l": 2.49, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd352932a37/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 36.32, "c": 0, "l": 2.49, "p": "PC", "r": 36.32, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd364dc225d/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 37.59, "c": 6, "l": 2.49, "p": "PC", "r": 39.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8db-71f7-ad8c-f142bed2148c/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 37.74, "c": 10, "l": 2.49, "p": "PC", "r": 41.94, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b8da-7127-8f10-5bd351964d51/?app=w5ppeb", "w": "2-year low is \u20ac2.49"}, {"a": 19.95, "c": 0, "l": 4.98, "p": "PlayStation", "r": 19.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0102-CUSA04704_00-BH4HD00000000001", "w": "2-year low is \u20ac4.98"}, {"a": 39.99, "c": 0, "l": 9.99, "p": "Xbox", "r": 39.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9N7JCPPCPN37", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">24</span>
   <img class="cover" src="/static/covers/resident-evil-4.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1156,7 +1260,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€19.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €4.98</span><span>regular €19.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -1181,7 +1285,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€79.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €39.97</span><span>regular €79.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -1206,12 +1310,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€27.99</span><span class="reg">€69.99</span><span class="sub">Microsoft Store · PC</span></div>
-    <div class="wf-scale"><i style="width:91%"></i><b style="left:9%"></b></div>
+    <div class="wf-scale"><i style="width:91%"></i><s style="width:10%"></s><b style="left:9%"></b></div>
     <div class="ends"><span>low €23.99</span><span>regular €69.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word good">GOOD</span>
-    <span class="sub">€4.00 above the 2-year low of €23.99</span>
+    <span class="sub">€4.00 (17%) above the 2-year low of €23.99</span>
   </div>
   <div class="wf-openbox">
     
@@ -1231,7 +1335,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€7.99</span><span class="sub">Microsoft Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:15%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €4.79</span><span>regular €7.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1245,7 +1349,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="street-fighter-6" data-platforms="pc playstation xbox" data-tier="wait" data-rank="29" data-kind="new" data-year="2023" data-price="17.39" data-cut="57" data-deals='[{"a": 17.39, "c": 57, "l": 12.66, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d551-7173-84ae-808714445068/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 18.26, "c": 54, "l": 12.66, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da8ebb7e5/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 18.26, "c": 54, "l": 12.66, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da84f62b0/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 19.2, "c": 54, "l": 12.66, "p": "PC", "r": 42.0, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da9172ba2/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 19.99, "c": 50, "l": 12.66, "p": "PC", "r": 39.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da70df4cb/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 32.01, "c": 20, "l": 12.66, "p": "PC", "r": 39.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-cc56-7289-b9f0-698dd8ca8670/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 39.95, "c": 0, "l": 15.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0102-PPSA02633_00-SF600000STANDARD", "w": "2-year low is \u20ac15.98"}]'>
+<article class="wf-row" id="street-fighter-6" data-platforms="pc playstation xbox" data-tier="wait" data-rank="29" data-kind="new" data-year="2023" data-price="18.26" data-cut="54" data-deals='[{"a": 18.26, "c": 54, "l": 12.66, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da8ebb7e5/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 18.26, "c": 54, "l": 12.66, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da84f62b0/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 19.16, "c": 54, "l": 12.66, "p": "PC", "r": 41.94, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da9172ba2/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 19.99, "c": 50, "l": 12.66, "p": "PC", "r": 39.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4da70df4cb/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 32.01, "c": 20, "l": 12.66, "p": "PC", "r": 39.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-cc56-7289-b9f0-698dd8ca8670/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 32.32, "c": 11, "l": 12.66, "p": "PC", "r": 36.32, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-d550-72b1-872a-5f4db5715721/?app=w5ppeb", "w": "2-year low is \u20ac12.66"}, {"a": 39.95, "c": 0, "l": 15.98, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0102-PPSA02633_00-SF600000STANDARD", "w": "2-year low is \u20ac15.98"}]'>
   <span class="rank">29</span>
   <img class="cover" src="/static/covers/street-fighter-6.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1255,8 +1359,8 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">PC / PS5 / Xbox</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€17.39</span><span class="reg">€39.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:83%"></i><b style="left:17%"></b></div>
+    <div class="now"><span class="amt">€18.26</span><span class="reg">€39.99</span><span class="sub">GamesPlanet FR · PC</span></div>
+    <div class="wf-scale"><i style="width:80%"></i><s style="width:10%"></s><b style="left:20%"></b></div>
     <div class="ends"><span>low €12.66</span><span>regular €39.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1270,7 +1374,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="super-mario-bros-wonder" data-platforms="switch" data-tier="wait" data-rank="30" data-kind="new" data-year="2023" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 59.99, "p": "Switch", "r": 59.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="super-mario-bros-wonder" data-platforms="switch" data-tier="wait" data-rank="30" data-kind="new" data-year="2023" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 59.99, "p": "Switch", "r": 59.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Super-Mario-Bros-Wonder-2404150.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">30</span>
   <img class="cover" src="/static/covers/super-mario-bros-wonder.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1281,12 +1385,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€59.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €59.99 (Nov 2026)</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -1295,7 +1399,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="like-a-dragon-infinite-wealth" data-platforms="pc xbox" data-tier="good" data-rank="33" data-kind="new" data-year="2024" data-price="16.44" data-cut="77" data-deals='[{"a": 16.44, "c": 77, "l": 14.55, "p": "PC", "r": 69.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/018d9386-8d1a-713d-be96-784fa4b4d272/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 19.9, "c": 0, "l": 14.55, "p": "PC", "r": 19.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-04b7-733f-9738-e8a7dcb6ee3c/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 57.14, "c": 10, "l": 14.55, "p": "PC", "r": 63.49, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99ed8984/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 62.99, "c": 10, "l": 14.55, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99205169/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 62.99, "c": 10, "l": 14.55, "p": "PC", "r": 69.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99eb6f2c/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 63.49, "c": 0, "l": 14.55, "p": "PC", "r": 63.49, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f9b971f15/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 55.99, "c": 20, "l": 55.99, "p": "Xbox", "r": 69.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P00SVGWDJCP", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="like-a-dragon-infinite-wealth" data-platforms="pc xbox" data-tier="wait" data-rank="33" data-kind="new" data-year="2024" data-price="18.91" data-cut="5" data-deals='[{"a": 19.9, "c": 0, "l": 14.55, "p": "PC", "r": 19.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-04b7-733f-9738-e8a7dcb6ee3c/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 57.2, "c": 10, "l": 14.55, "p": "PC", "r": 63.56, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99ed8984/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 62.99, "c": 10, "l": 14.55, "p": "PC", "r": 69.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99205169/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 62.99, "c": 10, "l": 14.55, "p": "PC", "r": 69.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f99eb6f2c/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 63.56, "c": 0, "l": 14.55, "p": "PC", "r": 63.56, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f9b971f15/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 64.71, "c": 10, "l": 14.55, "p": "PC", "r": 71.89, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-8d1a-713d-be96-784f98a99a75/?app=w5ppeb", "w": "2-year low is \u20ac14.55"}, {"a": 55.99, "c": 20, "l": 55.99, "p": "Xbox", "r": 69.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P00SVGWDJCP", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">33</span>
   <img class="cover" src="/static/covers/like-a-dragon-infinite-wealth.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1305,13 +1409,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">Xbox (PC 89)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€16.44</span><span class="reg">€69.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:97%"></i><b style="left:3%"></b></div>
-    <div class="ends"><span>low €14.55</span><span>regular €69.99</span></div>
+    <div class="now"><span class="amt">€18.91</span><span class="reg">€19.90</span><span class="sub">Muve · PC</span></div>
+    <div class="wf-scale"><i style="width:19%"></i><s style="width:27%"></s><b style="left:81%"></b></div>
+    <div class="ends"><span>low €14.55</span><span>regular €19.90</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.89 above the 2-year low of €14.55</span>
+    <span class="wf-word wait">WAIT</span>
+    <span class="sub">2-year low is €14.55</span>
   </div>
   <div class="wf-openbox">
     
@@ -1320,7 +1424,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="shin-megami-tensei-v-vengeance" data-platforms="pc xbox" data-tier="good" data-rank="34" data-kind="other" data-year="2024" data-price="16.79" data-cut="72" data-deals='[{"a": 16.79, "c": 72, "l": 14.93, "p": "PC", "r": 59.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/019038fd-1818-70fe-a21d-20d521210225/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 19.9, "c": 0, "l": 14.93, "p": "PC", "r": 19.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/01a03375-5b36-7399-86e2-c5e9006d8f16/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 48.98, "c": 10, "l": 14.93, "p": "PC", "r": 54.42, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018defbf-b96b-7112-ae68-75a25afc581d/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 50.7, "c": 7, "l": 14.93, "p": "PC", "r": 54.42, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 53.99, "c": 10, "l": 14.93, "p": "PC", "r": 59.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019c0b72-80be-7009-ad0e-b56cea8fa084/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 53.99, "c": 10, "l": 14.93, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018defbf-aad9-70b1-9156-6f794d705870/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 59.95, "c": 0, "l": 59.95, "p": "Xbox", "r": 59.95, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PF2Q5NMRDQF", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="shin-megami-tensei-v-vengeance" data-platforms="pc xbox" data-tier="wait" data-rank="34" data-kind="other" data-year="2024" data-price="18.91" data-cut="5" data-deals='[{"a": 19.9, "c": 0, "l": 14.93, "p": "PC", "r": 19.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/01a03375-5b36-7399-86e2-c5e9006d8f16/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 49.03, "c": 10, "l": 14.93, "p": "PC", "r": 54.48, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018defbf-b96b-7112-ae68-75a25afc581d/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 50.76, "c": 7, "l": 14.93, "p": "PC", "r": 54.48, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 53.99, "c": 10, "l": 14.93, "p": "PC", "r": 59.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019c0b72-80be-7009-ad0e-b56cea8fa084/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 53.99, "c": 10, "l": 14.93, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018defbf-aad9-70b1-9156-6f794d705870/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 53.99, "c": 10, "l": 14.93, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018defbf-bff6-723d-b7be-2bbbe3e53264/?app=w5ppeb", "w": "2-year low is \u20ac14.93"}, {"a": 59.95, "c": 0, "l": 59.95, "p": "Xbox", "r": 59.95, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PF2Q5NMRDQF", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">34</span>
   <img class="cover" src="/static/covers/shin-megami-tensei-v-vengeance.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1330,13 +1434,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">Xbox (PC 91)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€16.79</span><span class="reg">€59.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:96%"></i><b style="left:4%"></b></div>
-    <div class="ends"><span>low €14.93</span><span>regular €59.99</span></div>
+    <div class="now"><span class="amt">€18.91</span><span class="reg">€19.90</span><span class="sub">Muve · PC</span></div>
+    <div class="wf-scale"><i style="width:20%"></i><s style="width:30%"></s><b style="left:80%"></b></div>
+    <div class="ends"><span>low €14.93</span><span>regular €19.90</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.86 above the 2-year low of €14.93</span>
+    <span class="wf-word wait">WAIT</span>
+    <span class="sub">2-year low is €14.93</span>
   </div>
   <div class="wf-openbox">
     
@@ -1345,7 +1449,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="blue-prince" data-platforms="pc playstation xbox" data-tier="good" data-rank="35" data-kind="new" data-year="2025" data-price="14.69" data-cut="51" data-deals='[{"a": 14.69, "c": 51, "l": 13.55, "p": "PC", "r": 29.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/01962434-dd53-7141-ae4b-ff59234ec870/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 22.69, "c": 24, "l": 13.55, "p": "PC", "r": 29.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-d9b2-71bb-b0af-cd9e0612a61d/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 24.48, "c": 10, "l": 13.55, "p": "PC", "r": 27.21, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0196210e-6c55-724f-a1c1-8c95f55ac188/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 24.49, "c": 10, "l": 13.55, "p": "PC", "r": 27.21, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/01962021-0e48-727c-a562-0e465398066c/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 26.99, "c": 10, "l": 13.55, "p": "PC", "r": 29.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01962020-e6b1-7335-bf48-2bb43d52ccff/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 26.99, "c": 10, "l": 13.55, "p": "PC", "r": 29.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01962020-fbdb-7114-acb0-de78a74cf7f2/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 29.95, "c": 0, "l": 17.97, "p": "PlayStation", "r": 29.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP2187-PPSA25009_00-BLUEPRINCE000000", "w": "2-year low is \u20ac17.97"}, {"a": 23.99, "c": 20, "l": 23.99, "p": "Xbox", "r": 29.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PFRTPRQ569Q", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="blue-prince" data-platforms="pc playstation xbox" data-tier="wait" data-rank="35" data-kind="new" data-year="2025" data-price="22.69" data-cut="24" data-deals='[{"a": 22.69, "c": 24, "l": 13.55, "p": "PC", "r": 29.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-d9b2-71bb-b0af-cd9e0612a61d/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 24.5, "c": 10, "l": 13.55, "p": "PC", "r": 27.24, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0196210e-6c55-724f-a1c1-8c95f55ac188/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 24.51, "c": 10, "l": 13.55, "p": "PC", "r": 27.24, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/01962021-0e48-727c-a562-0e465398066c/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 26.95, "c": 10, "l": 13.55, "p": "PC", "r": 29.95, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/01962020-d062-7203-910e-844ad007ec28/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 26.99, "c": 10, "l": 13.55, "p": "PC", "r": 29.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01962020-e6b1-7335-bf48-2bb43d52ccff/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 26.99, "c": 10, "l": 13.55, "p": "PC", "r": 29.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01962020-fbdb-7114-acb0-de78a74cf7f2/?app=w5ppeb", "w": "2-year low is \u20ac13.55"}, {"a": 29.95, "c": 0, "l": 17.97, "p": "PlayStation", "r": 29.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP2187-PPSA25009_00-BLUEPRINCE000000", "w": "2-year low is \u20ac17.97"}, {"a": 23.99, "c": 20, "l": 23.99, "p": "Xbox", "r": 29.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PFRTPRQ569Q", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">35</span>
   <img class="cover" src="/static/covers/blue-prince.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1355,13 +1459,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">PC / PS5 / Xbox</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€14.69</span><span class="reg">€29.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:93%"></i><b style="left:7%"></b></div>
+    <div class="now"><span class="amt">€22.69</span><span class="reg">€29.99</span><span class="sub">Zapagames · PC</span></div>
+    <div class="wf-scale"><i style="width:44%"></i><s style="width:10%"></s><b style="left:56%"></b></div>
     <div class="ends"><span>low €13.55</span><span>regular €29.99</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.14 above the 2-year low of €13.55</span>
+    <span class="wf-word wait">WAIT</span>
+    <span class="sub">2-year low is €13.55</span>
   </div>
   <div class="wf-openbox">
     
@@ -1370,7 +1474,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="clair-obscur-expedition-33" data-platforms="pc playstation xbox" data-tier="wait" data-rank="36" data-kind="new" data-year="2025" data-price="36.49" data-cut="27" data-deals='[{"a": 36.49, "c": 27, "l": 30.48, "p": "PC", "r": 49.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/0196429e-c92d-7282-9251-ced3ba873f69/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 39.99, "c": 20, "l": 30.48, "p": "PC", "r": 49.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/01998108-2234-73ba-87a1-b9cc12966eeb/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 40.06, "c": 20, "l": 30.48, "p": "PC", "r": 49.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-da51-7371-847c-534f6791df31/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 42.18, "c": 7, "l": 30.48, "p": "PC", "r": 45.35, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/019642c3-b653-70f2-9b7b-11d9abd96515/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 42.63, "c": 6, "l": 30.48, "p": "PC", "r": 45.35, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/019639f7-a1cb-72c0-9e3b-bc5f9caa4ebc/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 46.49, "c": 7, "l": 30.48, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019642c3-a149-7193-95ed-30294a2bb9a7/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 49.95, "c": 0, "l": 37.46, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP7579-PPSA17599_00-EXP33000000PS5EU", "w": "2-year low is \u20ac37.46"}, {"a": 49.99, "c": 0, "l": 49.99, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PPT8K6GQHRZ", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="clair-obscur-expedition-33" data-platforms="pc playstation xbox" data-tier="good" data-rank="36" data-kind="new" data-year="2025" data-price="39.96" data-cut="20" data-deals='[{"a": 39.99, "c": 20, "l": 30.48, "p": "PC", "r": 49.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/01998108-2234-73ba-87a1-b9cc12966eeb/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 40.06, "c": 20, "l": 30.48, "p": "PC", "r": 49.99, "s": "Zapagames", "t": true, "tier": "wait", "u": "https://itad.link/01a08df7-da51-7371-847c-534f6791df31/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 42.22, "c": 7, "l": 30.48, "p": "PC", "r": 45.4, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/019642c3-b653-70f2-9b7b-11d9abd96515/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 42.67, "c": 6, "l": 30.48, "p": "PC", "r": 45.4, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/019639f7-a1cb-72c0-9e3b-bc5f9caa4ebc/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 46.49, "c": 7, "l": 30.48, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019642c3-a149-7193-95ed-30294a2bb9a7/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 46.49, "c": 7, "l": 30.48, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/019642c3-c9af-70f0-a068-5176ad6182b9/?app=w5ppeb", "w": "2-year low is \u20ac30.48"}, {"a": 39.96, "c": 20, "l": 37.46, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "good", "u": "https://store.playstation.com/en-fi/product/EP7579-PPSA17599_00-EXP33000000PS5EU", "w": "2-year low is \u20ac37.46"}, {"a": 49.99, "c": 0, "l": 49.99, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PPT8K6GQHRZ", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">36</span>
   <img class="cover" src="/static/covers/clair-obscur-expedition-33.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1380,13 +1484,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">92</span><span class="sub">PC / PS5 / Xbox</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€36.49</span><span class="reg">€49.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:69%"></i><b style="left:31%"></b></div>
-    <div class="ends"><span>low €30.48</span><span>regular €49.99</span></div>
+    <div class="now"><span class="amt">€39.96</span><span class="reg">€49.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale"><i style="width:80%"></i><s style="width:30%"></s><b style="left:20%"></b></div>
+    <div class="ends"><span>low €37.46</span><span>regular €49.95</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word wait">WAIT</span>
-    <span class="sub">2-year low is €30.48</span>
+    <span class="wf-word good">GOOD</span>
+    <span class="sub">€2.50 (7%) above the 2-year low of €37.46</span>
   </div>
   <div class="wf-openbox">
     
@@ -1395,7 +1499,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="crusader-kings-iii" data-platforms="pc" data-tier="wait" data-rank="37" data-kind="new" data-year="2020" data-price="40.81" data-cut="10" data-deals='[{"a": 40.81, "c": 10, "l": 11.08, "p": "PC", "r": 45.35, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 43.49, "c": 13, "l": 11.08, "p": "PC", "r": 49.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dbb95512de/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 44.99, "c": 10, "l": 11.08, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dba00f557d/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 44.99, "c": 10, "l": 11.08, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dba058d270/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 45.37, "c": 10, "l": 11.08, "p": "PC", "r": 50.41, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20db9f5e4b50/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 46.99, "c": 6, "l": 11.08, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dbb5f93ced/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}]'>
+<article class="wf-row" id="crusader-kings-iii" data-platforms="pc" data-tier="wait" data-rank="37" data-kind="new" data-year="2020" data-price="40.86" data-cut="10" data-deals='[{"a": 40.86, "c": 10, "l": 11.08, "p": "PC", "r": 45.4, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 43.49, "c": 13, "l": 11.08, "p": "PC", "r": 49.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dbb95512de/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 44.99, "c": 10, "l": 11.08, "p": "PC", "r": 49.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dba00f557d/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 44.99, "c": 10, "l": 11.08, "p": "PC", "r": 49.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dba058d270/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 45.29, "c": 10, "l": 11.08, "p": "PC", "r": 50.32, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20db9f5e4b50/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}, {"a": 46.99, "c": 6, "l": 11.08, "p": "PC", "r": 49.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-448e-7241-9acb-20dbb5f93ced/?app=w5ppeb", "w": "2-year low is \u20ac11.08"}]'>
   <span class="rank">37</span>
   <img class="cover" src="/static/covers/crusader-kings-iii.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1405,9 +1509,9 @@ main{flex:1}
   <div class="wf-meta"><span class="box">91</span><span class="sub">PC</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€40.81</span><span class="reg">€45.35</span><span class="sub">GamesPlanet US · PC</span></div>
-    <div class="wf-scale"><i style="width:13%"></i><b style="left:87%"></b></div>
-    <div class="ends"><span>low €11.08</span><span>regular €45.35</span></div>
+    <div class="now"><span class="amt">€40.86</span><span class="reg">€45.40</span><span class="sub">GamesPlanet US · PC</span></div>
+    <div class="wf-scale"><i style="width:13%"></i><s style="width:10%"></s><b style="left:87%"></b></div>
+    <div class="ends"><span>low €11.08</span><span>regular €45.40</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
@@ -1431,7 +1535,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€69.99</span><span class="sub">GreenManGaming · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:40%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €55.99</span><span>regular €69.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1456,7 +1560,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€16.79</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €5.87</span><span>regular €16.79</span></div>
   </div>
   <div class="wf-verdict">
@@ -1470,7 +1574,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="psychonauts-2" data-platforms="pc xbox" data-tier="wait" data-rank="41" data-kind="new" data-year="2021" data-price="47.99" data-cut="20" data-deals='[{"a": 52.9, "c": 0, "l": 5.99, "p": "PC", "r": 52.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-0531-7176-8b0f-12590733df9a/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 53.99, "c": 10, "l": 5.99, "p": "PC", "r": 59.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019c0b72-81f0-72ca-9a82-056e3d602eed/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f57c4737/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f49650ca/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f42089bb/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f6363112/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 47.99, "c": 20, "l": 47.99, "p": "Xbox", "r": 59.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9NBR2VXT87SJ", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="psychonauts-2" data-platforms="pc xbox" data-tier="wait" data-rank="41" data-kind="new" data-year="2021" data-price="47.99" data-cut="20" data-deals='[{"a": 52.9, "c": 0, "l": 5.99, "p": "PC", "r": 52.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/019eb6e5-0531-7176-8b0f-12590733df9a/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 53.99, "c": 10, "l": 5.99, "p": "PC", "r": 59.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019c0b72-81f0-72ca-9a82-056e3d602eed/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f57c4737/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f49650ca/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f42089bb/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 59.99, "c": 0, "l": 5.99, "p": "PC", "r": 59.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-b276-7290-91a1-7017f6363112/?app=w5ppeb", "w": "2-year low is \u20ac5.99"}, {"a": 47.99, "c": 20, "l": 47.99, "p": "Xbox", "r": 59.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9NBR2VXT87SJ", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">41</span>
   <img class="cover" src="/static/covers/psychonauts-2.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1481,12 +1585,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€47.99</span><span class="reg">€59.99</span><span class="sub">Microsoft Store · Xbox</span></div>
-    <div class="wf-scale"><i style="width:100%"></i><b style="left:0%"></b></div>
+    <div class="wf-scale"><i style="width:100%"></i><s style="width:40%"></s><b style="left:0%"></b></div>
     <div class="ends"><span>low €47.99 (Nov 2026)</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -1506,7 +1610,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€24.99</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €7.49 (Nov 2026)</span><span>regular €24.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1520,7 +1624,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="against-the-storm" data-platforms="pc" data-tier="good" data-rank="43" data-kind="new" data-year="2023" data-price="8.99" data-cut="70" data-deals='[{"a": 8.99, "c": 70, "l": 7.49, "p": "PC", "r": 29.99, "s": "GOG", "t": true, "tier": "good", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 27.21, "c": 0, "l": 7.49, "p": "PC", "r": 27.21, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478aa7f9cf/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478b0c3e68/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478bace319/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5479358df32/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478a5b8b6a/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}]'>
+<article class="wf-row" id="against-the-storm" data-platforms="pc" data-tier="good" data-rank="43" data-kind="new" data-year="2023" data-price="8.99" data-cut="70" data-deals='[{"a": 8.99, "c": 70, "l": 7.49, "p": "PC", "r": 29.99, "s": "GOG", "t": true, "tier": "good", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 27.24, "c": 0, "l": 7.49, "p": "PC", "r": 27.24, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478aa7f9cf/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.95, "c": 0, "l": 7.49, "p": "PC", "r": 29.95, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478ab20cb2/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478b0c3e68/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5478bace319/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}, {"a": 29.99, "c": 0, "l": 7.49, "p": "PC", "r": 29.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-171b-71b4-a5ac-f5479358df32/?app=w5ppeb", "w": "2-year low is \u20ac7.49"}]'>
   <span class="rank">43</span>
   <img class="cover" src="/static/covers/against-the-storm.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1531,12 +1635,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€8.99</span><span class="reg">€29.99</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:93%"></i><b style="left:7%"></b></div>
+    <div class="wf-scale"><i style="width:93%"></i><s style="width:10%"></s><b style="left:7%"></b></div>
     <div class="ends"><span>low €7.49</span><span>regular €29.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word good">GOOD</span>
-    <span class="sub">€1.50 above the 2-year low of €7.49</span>
+    <span class="sub">€1.50 (20%) above the 2-year low of €7.49</span>
   </div>
   <div class="wf-openbox">
     
@@ -1556,7 +1660,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€49.99</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €12.49</span><span>regular €49.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1581,7 +1685,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€9.59</span><span class="reg">€17.49</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:74%"></i><b style="left:26%"></b></div>
+    <div class="wf-scale"><i style="width:74%"></i><s style="width:10%"></s><b style="left:26%"></b></div>
     <div class="ends"><span>low €6.79 (Nov 2026)</span><span>regular €17.49</span></div>
   </div>
   <div class="wf-verdict">
@@ -1606,7 +1710,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€23.19</span><span class="reg">€28.99</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:28%"></i><b style="left:72%"></b></div>
+    <div class="wf-scale"><i style="width:28%"></i><s style="width:10%"></s><b style="left:72%"></b></div>
     <div class="ends"><span>low €8.02</span><span>regular €28.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1620,7 +1724,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="satisfactory" data-platforms="pc" data-tier="wait" data-rank="47" data-kind="new" data-year="2024" data-price="33.14" data-cut="15" data-deals='[{"a": 34.46, "c": 5, "l": 14.99, "p": "PC", "r": 36.28, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 34.65, "c": 5, "l": 14.99, "p": "PC", "r": 36.28, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 36.65, "c": 6, "l": 14.99, "p": "PC", "r": 38.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/01a0c2ae-21ab-724f-b0e5-1456d0af6885/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-95e5-7092-b9ff-c72567d83f4c/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-2fee-70d9-a506-3b26ebbbc3ed/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "PlanetPlay", "t": true, "tier": "wait", "u": "https://itad.link/01a08446-9513-73b5-bc9f-c91e12bf9adc/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}]'>
+<article class="wf-row" id="satisfactory" data-platforms="pc" data-tier="wait" data-rank="47" data-kind="new" data-year="2024" data-price="33.14" data-cut="15" data-deals='[{"a": 34.5, "c": 5, "l": 14.99, "p": "PC", "r": 36.32, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 34.68, "c": 5, "l": 14.99, "p": "PC", "r": 36.32, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 36.65, "c": 6, "l": 14.99, "p": "PC", "r": 38.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/01a0c2ae-21ab-724f-b0e5-1456d0af6885/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-95e5-7092-b9ff-c72567d83f4c/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/01a084d8-2fee-70d9-a506-3b26ebbbc3ed/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}, {"a": 37.04, "c": 5, "l": 14.99, "p": "PC", "r": 38.99, "s": "PlanetPlay", "t": true, "tier": "wait", "u": "https://itad.link/01a08446-9513-73b5-bc9f-c91e12bf9adc/?app=w5ppeb", "w": "2-year low is \u20ac14.99"}]'>
   <span class="rank">47</span>
   <img class="cover" src="/static/covers/satisfactory.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1631,7 +1735,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€33.14</span><span class="reg">€38.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:24%"></i><b style="left:76%"></b></div>
+    <div class="wf-scale"><i style="width:24%"></i><s style="width:10%"></s><b style="left:76%"></b></div>
     <div class="ends"><span>low €14.99</span><span>regular €38.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1656,7 +1760,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€24.50</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:23%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €17.15</span><span>regular €24.50</span></div>
   </div>
   <div class="wf-verdict">
@@ -1670,7 +1774,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="donkey-kong-bananza" data-platforms="switch" data-tier="wait" data-rank="49" data-kind="new" data-year="2025" data-price="69.99" data-cut="0" data-deals='[{"a": 69.99, "c": 0, "l": 69.99, "p": "Switch", "r": 69.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="donkey-kong-bananza" data-platforms="switch" data-tier="wait" data-rank="49" data-kind="new" data-year="2025" data-price="69.99" data-cut="0" data-deals='[{"a": 69.99, "c": 0, "l": 69.99, "p": "Switch", "r": 69.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Donkey-Kong-Bananza-2785804.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">49</span>
   <img class="cover" src="/static/covers/donkey-kong-bananza.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1681,12 +1785,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€69.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €69.99 (Nov 2026)</span><span>regular €69.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -1695,32 +1799,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="split-fiction" data-platforms="pc playstation xbox" data-tier="wait" data-rank="50" data-kind="new" data-year="2025" data-price="44.99" data-cut="10" data-deals='[{"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "EA Store", "t": true, "tier": "wait", "u": "https://itad.link/019b6763-4c14-72f7-b78c-be56f8509cd5/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/0193be2f-289c-707d-be08-7c2a5d04e09a/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 49.99, "c": 0, "l": 32.49, "p": "PC", "r": 49.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/01956c30-7295-7026-a86a-999d0fe9d73b/?app=w5ppeb", "w": "2-year low is \u20ac32.49"}, {"a": 49.95, "c": 0, "l": 32.46, "p": "PlayStation", "r": 49.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/UP0006-PPSA08560_00-SPLITSTANDARDED0", "w": "2-year low is \u20ac32.46"}, {"a": 44.99, "c": 10, "l": 32.49, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9N1WXXD1RL8D", "w": "only 15 days of price history, verdicts start after 60"}]'>
-  <span class="rank">50</span>
-  <img class="cover" src="/static/covers/split-fiction.jpg" alt="" loading="lazy" width="96" height="45">
-  <div class="title">
-    <span><a href="./games/split-fiction/">Split Fiction</a></span>
-    <span class="sub">2025 · PC / PS5 / Xbox</span>
-  </div>
-  <div class="wf-meta"><span class="box">91</span><span class="sub">PC / PS5 / Xbox</span></div>
-  
-  <div class="wf-price">
-    <div class="now"><span class="amt">€44.99</span><span class="reg">€49.99</span><span class="sub">Microsoft Store · Xbox</span></div>
-    <div class="wf-scale"><i style="width:29%"></i><b style="left:71%"></b></div>
-    <div class="ends"><span>low €32.49 (Nov 2026)</span><span>regular €49.99</span></div>
-  </div>
-  <div class="wf-verdict">
-    <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
-  </div>
-  <div class="wf-openbox">
-    
-    <a class="wf-open" href="./games/split-fiction/">Details</a>
-    <button type="button" class="wf-alert-btn" data-slug="split-fiction" data-title="Split Fiction" aria-expanded="false">Alert me</button>
-  </div>
-  
-</article>
-<article class="wf-row" id="big-walk" data-platforms="pc switch playstation" data-tier="wait" data-rank="51" data-kind="new" data-year="2026" data-price="18.95" data-cut="0" data-deals='[{"a": 18.99, "c": 0, "l": 14.24, "p": "PC", "r": 18.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb", "w": "2-year low is \u20ac14.24"}, {"a": 18.99, "c": 0, "l": 18.99, "p": "Switch", "r": 18.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Big-Walk-3132961.html", "w": "only 15 days of price history, verdicts start after 60"}, {"a": 18.95, "c": 0, "l": 15.16, "p": "PlayStation", "r": 18.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/UP3971-PPSA33764_00-WALKWALKWALKWALK", "w": "2-year low is \u20ac15.16"}]'>
+<article class="wf-row" id="big-walk" data-platforms="pc switch playstation" data-tier="wait" data-rank="51" data-kind="new" data-year="2026" data-price="18.95" data-cut="0" data-deals='[{"a": 18.99, "c": 0, "l": 14.24, "p": "PC", "r": 18.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/019fccdc-3da9-71dc-a545-509a8147a934/?app=w5ppeb", "w": "2-year low is \u20ac14.24"}, {"a": 18.99, "c": 0, "l": 18.99, "p": "Switch", "r": 18.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Big-Walk-3132961.html", "w": "only 16 days of price history, verdicts start after 60"}, {"a": 18.95, "c": 0, "l": 15.16, "p": "PlayStation", "r": 18.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/UP3971-PPSA33764_00-WALKWALKWALKWALK", "w": "2-year low is \u20ac15.16"}]'>
   <span class="rank">51</span>
   <img class="cover" src="/static/covers/big-walk.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1731,7 +1810,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€18.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:40%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €15.16</span><span>regular €18.95</span></div>
   </div>
   <div class="wf-verdict">
@@ -1745,7 +1824,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="doom-the-dark-ages-revelations" data-platforms="pc" data-tier="wait" data-rank="52" data-kind="other" data-year="2026" data-price="12.59" data-cut="37" data-deals='[{"a": 12.59, "c": 37, "l": 8.02, "p": "PC", "r": 19.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 16.32, "c": 10, "l": 8.02, "p": "PC", "r": 18.13, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/019f3d8a-4442-73bd-8503-183c83a4a513/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 17.99, "c": 10, "l": 8.02, "p": "PC", "r": 19.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019f3d89-e225-733e-8106-16ae98a6cd76/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 17.99, "c": 10, "l": 8.02, "p": "PC", "r": 19.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/019f3daa-6c53-700d-b65e-c057563e4181/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 19.44, "c": 10, "l": 8.02, "p": "PC", "r": 21.6, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/019f3d8a-22ec-72de-990f-fb1f990c84d1/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 19.49, "c": 3, "l": 8.02, "p": "PC", "r": 19.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019f37aa-4a1f-7080-a117-bb8ef183af8f/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}]'>
+<article class="wf-row" id="doom-the-dark-ages-revelations" data-platforms="pc" data-tier="wait" data-rank="52" data-kind="other" data-year="2026" data-price="12.59" data-cut="37" data-deals='[{"a": 12.59, "c": 37, "l": 8.02, "p": "PC", "r": 19.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/019f1944-3335-726e-a444-f3688b8f6856/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 16.34, "c": 10, "l": 8.02, "p": "PC", "r": 18.15, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/019f3d8a-4442-73bd-8503-183c83a4a513/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 17.99, "c": 10, "l": 8.02, "p": "PC", "r": 19.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/019f3d89-e225-733e-8106-16ae98a6cd76/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 17.99, "c": 10, "l": 8.02, "p": "PC", "r": 19.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/019f3daa-6c53-700d-b65e-c057563e4181/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 19.4, "c": 10, "l": 8.02, "p": "PC", "r": 21.56, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/019f3d8a-22ec-72de-990f-fb1f990c84d1/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}, {"a": 19.49, "c": 3, "l": 8.02, "p": "PC", "r": 19.99, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019f37aa-4a1f-7080-a117-bb8ef183af8f/?app=w5ppeb", "w": "2-year low is \u20ac8.02"}]'>
   <span class="rank">52</span>
   <img class="cover" src="/static/covers/doom-the-dark-ages-revelations.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1756,7 +1835,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€12.59</span><span class="reg">€19.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:62%"></i><b style="left:38%"></b></div>
+    <div class="wf-scale"><i style="width:62%"></i><s style="width:10%"></s><b style="left:38%"></b></div>
     <div class="ends"><span>low €8.02</span><span>regular €19.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1770,7 +1849,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="animal-crossing-new-horizons" data-platforms="switch" data-tier="wait" data-rank="53" data-kind="new" data-year="2020" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 59.99, "p": "Switch", "r": 59.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="animal-crossing-new-horizons" data-platforms="switch" data-tier="wait" data-rank="53" data-kind="new" data-year="2020" data-price="59.99" data-cut="0" data-deals='[{"a": 59.99, "c": 0, "l": 59.99, "p": "Switch", "r": 59.99, "s": "Nintendo eShop", "t": false, "tier": "wait", "u": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">53</span>
   <img class="cover" src="/static/covers/animal-crossing-new-horizons.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1781,12 +1860,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€59.99</span><span class="sub">Nintendo eShop · Switch</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:0%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €59.99 (Nov 2026)</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">Only 15 days of price history, verdicts start after 60</span>
+    <span class="sub">Only 16 days of price history, verdicts start after 60</span>
   </div>
   <div class="wf-openbox">
     
@@ -1795,7 +1874,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="tony-hawks-pro-skater-1-2" data-platforms="playstation" data-tier="wait" data-rank="54" data-kind="new" data-year="2020" data-price="44.95" data-cut="0" data-deals='[{"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-13d9-73c4-9ced-331b03618e13/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-e2fa-70db-ac06-190b825c2a51/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 44.95, "c": 0, "l": 15.73, "p": "PlayStation", "r": 44.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0002-CUSA20464_00-TH12RSTANDARD001", "w": "2-year low is \u20ac15.73"}]'>
+<article class="wf-row" id="tony-hawks-pro-skater-1-2" data-platforms="playstation" data-tier="good" data-rank="54" data-kind="new" data-year="2020" data-price="17.98" data-cut="60" data-deals='[{"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Microsoft Store", "t": true, "tier": "wait", "u": "https://itad.link/01901cb3-e8ec-73dc-a1be-db0f3677ed6d/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-13d9-73c4-9ced-331b03618e13/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 44.99, "c": 0, "l": 8.99, "p": "PC", "r": 44.99, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-e2fa-70db-ac06-190b825c2a51/?app=w5ppeb", "w": "2-year low is \u20ac8.99"}, {"a": 17.98, "c": 60, "l": 15.73, "p": "PlayStation", "r": 44.95, "s": "PlayStation Store", "t": true, "tier": "good", "u": "https://store.playstation.com/en-fi/product/EP0002-CUSA20464_00-TH12RSTANDARD001", "w": "2-year low is \u20ac15.73"}]'>
   <span class="rank">54</span>
   <img class="cover" src="/static/covers/tony-hawks-pro-skater-1-2.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1805,13 +1884,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">90</span><span class="sub">PS5 (remake)</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€44.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="now"><span class="amt">€17.98</span><span class="reg">€44.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale"><i style="width:92%"></i><s style="width:10%"></s><b style="left:8%"></b></div>
     <div class="ends"><span>low €15.73</span><span>regular €44.95</span></div>
   </div>
   <div class="wf-verdict">
-    <span class="wf-word wait">WAIT</span>
-    <span class="sub">2-year low is €15.73</span>
+    <span class="wf-word good">GOOD</span>
+    <span class="sub">€2.25 (14%) above the 2-year low of €15.73</span>
   </div>
   <div class="wf-openbox">
     
@@ -1820,7 +1899,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="yakuza-0" data-platforms="xbox" data-tier="wait" data-rank="55" data-kind="other" data-year="2020" data-price="19.99" data-cut="0" data-deals='[{"a": 19.99, "c": 0, "l": 1.0, "p": "PC", "r": 19.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb", "w": "2-year low is \u20ac1.00"}, {"a": 49.99, "c": 0, "l": 49.99, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9NRKLTWN2ZQ7", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="yakuza-0" data-platforms="xbox" data-tier="wait" data-rank="55" data-kind="other" data-year="2020" data-price="19.99" data-cut="0" data-deals='[{"a": 19.99, "c": 0, "l": 1.0, "p": "PC", "r": 19.99, "s": "GOG", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-fa5c-700b-a7ea-7eaa07844855/?app=w5ppeb", "w": "2-year low is \u20ac1.00"}, {"a": 49.99, "c": 0, "l": 49.99, "p": "Xbox", "r": 49.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9NRKLTWN2ZQ7", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">55</span>
   <img class="cover" src="/static/covers/yakuza-0.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1831,7 +1910,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€19.99</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €1.00</span><span>regular €19.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1856,7 +1935,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€15.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:11%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €8.49</span><span>regular €15.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1881,7 +1960,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€59.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €4.79</span><span>regular €59.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1895,7 +1974,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="rogue-legacy-2" data-platforms="pc xbox" data-tier="wait" data-rank="58" data-kind="new" data-year="2022" data-price="19.99" data-cut="0" data-deals='[{"a": 19.99, "c": 0, "l": 7.99, "p": "PC", "r": 19.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 21.99, "c": 0, "l": 7.99, "p": "PC", "r": 21.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-bcad-730d-9d7b-a607cc1dc78a/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 24.5, "c": 0, "l": 7.99, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-bcad-730d-9d7b-a607cbfa5123/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 24.99, "c": 0, "l": 24.99, "p": "Xbox", "r": 24.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P2688LZXW86", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="rogue-legacy-2" data-platforms="pc xbox" data-tier="wait" data-rank="58" data-kind="new" data-year="2022" data-price="19.99" data-cut="0" data-deals='[{"a": 19.99, "c": 0, "l": 7.99, "p": "PC", "r": 19.99, "s": "Epic Game Store", "t": true, "tier": "wait", "u": "https://itad.link/018d959f-13fb-7070-8be4-03921f5d0c23/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 21.99, "c": 0, "l": 7.99, "p": "PC", "r": 21.99, "s": "Humble Store", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-bcad-730d-9d7b-a607cc1dc78a/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 24.5, "c": 0, "l": 7.99, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-bcad-730d-9d7b-a607cbfa5123/?app=w5ppeb", "w": "2-year low is \u20ac7.99"}, {"a": 24.99, "c": 0, "l": 24.99, "p": "Xbox", "r": 24.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9P2688LZXW86", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">58</span>
   <img class="cover" src="/static/covers/rogue-legacy-2.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1906,7 +1985,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€19.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:10%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €7.99</span><span>regular €19.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1931,7 +2010,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€39.99</span><span class="sub">Epic Game Store · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:23%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €27.99</span><span>regular €39.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -1945,7 +2024,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="dave-the-diver" data-platforms="pc" data-tier="good" data-rank="61" data-kind="new" data-year="2023" data-price="7.79" data-cut="61" data-deals='[{"a": 7.79, "c": 61, "l": 7.38, "p": "PC", "r": 19.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 16.32, "c": 10, "l": 7.38, "p": "PC", "r": 18.13, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-93c9-70a8-b447-2384934ab130/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 17.99, "c": 10, "l": 7.38, "p": "PC", "r": 19.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-865e-717a-a88e-aba9746a8766/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 17.99, "c": 10, "l": 7.38, "p": "PC", "r": 19.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-9981-72f9-bdea-b117bd285608/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 18.13, "c": 0, "l": 7.38, "p": "PC", "r": 18.13, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0194707d-5ee1-7140-9dda-06bac430ded0/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 18.35, "c": 10, "l": 7.38, "p": "PC", "r": 20.4, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-7965-73fc-8daf-c91d4dc9467f/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}]'>
+<article class="wf-row" id="dave-the-diver" data-platforms="pc" data-tier="good" data-rank="61" data-kind="new" data-year="2023" data-price="7.79" data-cut="61" data-deals='[{"a": 7.79, "c": 61, "l": 7.38, "p": "PC", "r": 19.99, "s": "Fanatical", "t": true, "tier": "good", "u": "https://itad.link/01939c4a-7b0d-73de-ace4-14a89058a467/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 16.34, "c": 10, "l": 7.38, "p": "PC", "r": 18.15, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-93c9-70a8-b447-2384934ab130/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 17.99, "c": 10, "l": 7.38, "p": "PC", "r": 19.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-865e-717a-a88e-aba9746a8766/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 17.99, "c": 10, "l": 7.38, "p": "PC", "r": 19.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-9981-72f9-bdea-b117bd285608/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 18.15, "c": 0, "l": 7.38, "p": "PC", "r": 18.15, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0194707d-5ee1-7140-9dda-06bac430ded0/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}, {"a": 18.32, "c": 10, "l": 7.38, "p": "PC", "r": 20.36, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018eada6-7965-73fc-8daf-c91d4dc9467f/?app=w5ppeb", "w": "2-year low is \u20ac7.38"}]'>
   <span class="rank">61</span>
   <img class="cover" src="/static/covers/dave-the-diver.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -1956,42 +2035,17 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€7.79</span><span class="reg">€19.99</span><span class="sub">Fanatical · PC</span></div>
-    <div class="wf-scale"><i style="width:97%"></i><b style="left:3%"></b></div>
+    <div class="wf-scale"><i style="width:97%"></i><s style="width:10%"></s><b style="left:3%"></b></div>
     <div class="ends"><span>low €7.38</span><span>regular €19.99</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word good">GOOD</span>
-    <span class="sub">€0.41 above the 2-year low of €7.38</span>
+    <span class="sub">€0.41 (6%) above the 2-year low of €7.38</span>
   </div>
   <div class="wf-openbox">
     
     <a class="wf-open" href="./games/dave-the-diver/">Details</a>
     <button type="button" class="wf-alert-btn" data-slug="dave-the-diver" data-title="Dave the Diver" aria-expanded="false">Alert me</button>
-  </div>
-  
-</article>
-<article class="wf-row" id="marvels-spider-man-2" data-platforms="pc playstation" data-tier="wait" data-rank="62" data-kind="new" data-year="2023" data-price="51.25" data-cut="6" data-deals='[{"a": 51.25, "c": 6, "l": 32.51, "p": "PC", "r": 54.42, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 53.99, "c": 10, "l": 32.51, "p": "PC", "r": 59.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/0194b80d-0344-72bf-85e7-a813bef74adc/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 53.99, "c": 10, "l": 32.51, "p": "PC", "r": 59.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/0194b80d-3089-70c0-aa46-23b80113c03a/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 54.01, "c": 10, "l": 32.51, "p": "PC", "r": 60.01, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/0194b80c-e8ad-704b-bca3-80d5157e8459/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 56.39, "c": 6, "l": 32.51, "p": "PC", "r": 59.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/0194b868-2900-71a9-85e6-6212acb961ee/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 59.99, "c": 0, "l": 32.51, "p": "PC", "r": 59.99, "s": "Gamesload", "t": true, "tier": "wait", "u": "https://itad.link/0194db46-d81f-70ba-b770-63392e9e7687/?app=w5ppeb", "w": "2-year low is \u20ac32.51"}, {"a": 79.95, "c": 0, "l": 39.97, "p": "PlayStation", "r": 79.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2", "w": "2-year low is \u20ac39.97"}]'>
-  <span class="rank">62</span>
-  <img class="cover" src="/static/covers/marvels-spider-man-2.jpg" alt="" loading="lazy" width="96" height="45">
-  <div class="title">
-    <span><a href="./games/marvels-spider-man-2/">Marvel&#39;s Spider-Man 2</a></span>
-    <span class="sub">2023 · PS5 (PC 2025)</span>
-  </div>
-  <div class="wf-meta"><span class="box">90</span><span class="sub">PS5 (PC 2025)</span></div>
-  
-  <div class="wf-price">
-    <div class="now"><span class="amt">€51.25</span><span class="reg">€54.42</span><span class="sub">WinGameStore · PC</span></div>
-    <div class="wf-scale"><i style="width:14%"></i><b style="left:86%"></b></div>
-    <div class="ends"><span>low €32.51</span><span>regular €54.42</span></div>
-  </div>
-  <div class="wf-verdict">
-    <span class="wf-word wait">WAIT</span>
-    <span class="sub">2-year low is €32.51</span>
-  </div>
-  <div class="wf-openbox">
-    
-    <a class="wf-open" href="./games/marvels-spider-man-2/">Details</a>
-    <button type="button" class="wf-alert-btn" data-slug="marvels-spider-man-2" data-title="Marvel&#39;s Spider-Man 2" aria-expanded="false">Alert me</button>
   </div>
   
 </article>
@@ -2006,12 +2060,12 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€5.75</span><span class="reg">€12.79</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:93%"></i><b style="left:7%"></b></div>
+    <div class="wf-scale"><i style="width:93%"></i><s style="width:10%"></s><b style="left:7%"></b></div>
     <div class="ends"><span>low €5.26 (Nov 2026)</span><span>regular €12.79</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word good">GOOD</span>
-    <span class="sub">€0.49 above the 2-year low of €5.26</span>
+    <span class="sub">€0.49 (9%) above the 2-year low of €5.26</span>
   </div>
   <div class="wf-openbox">
     
@@ -2020,32 +2074,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="animal-well" data-platforms="pc playstation" data-tier="wait" data-rank="65" data-kind="new" data-year="2024" data-price="24.5" data-cut="0" data-deals='[{"a": 24.5, "c": 0, "l": 16.41, "p": "PC", "r": 24.5, "s": "Steam", "t": true, "tier": "wait", "u": "https://itad.link/018f5d7e-6b40-72ab-82a7-06f150c0a246/?app=w5ppeb", "w": "2-year low is \u20ac16.41"}, {"a": 24.95, "c": 0, "l": 17.46, "p": "PlayStation", "r": 24.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP8684-PPSA22519_00-0609771001653426", "w": "2-year low is \u20ac17.46"}]'>
-  <span class="rank">65</span>
-  <img class="cover" src="/static/covers/animal-well.jpg" alt="" loading="lazy" width="96" height="45">
-  <div class="title">
-    <span><a href="./games/animal-well/">Animal Well</a></span>
-    <span class="sub">2024 · PC / PS5</span>
-  </div>
-  <div class="wf-meta"><span class="box">90</span><span class="sub">PC / PS5</span></div>
-  
-  <div class="wf-price">
-    <div class="now"><span class="amt">€24.50</span><span class="sub">Steam · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
-    <div class="ends"><span>low €16.41</span><span>regular €24.50</span></div>
-  </div>
-  <div class="wf-verdict">
-    <span class="wf-word wait">WAIT</span>
-    <span class="sub">2-year low is €16.41</span>
-  </div>
-  <div class="wf-openbox">
-    
-    <a class="wf-open" href="./games/animal-well/">Details</a>
-    <button type="button" class="wf-alert-btn" data-slug="animal-well" data-title="Animal Well" aria-expanded="false">Alert me</button>
-  </div>
-  
-</article>
-<article class="wf-row" id="balatro" data-platforms="pc" data-tier="wait" data-rank="66" data-kind="new" data-year="2024" data-price="11.19" data-cut="20" data-deals='[{"a": 11.19, "c": 20, "l": 9.57, "p": "PC", "r": 13.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 11.89, "c": 15, "l": 9.57, "p": "PC", "r": 13.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018dc7ad-451d-702f-a514-9a39a43e2ebc/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.24, "c": 10, "l": 9.57, "p": "PC", "r": 13.6, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018dc708-d7bb-70ce-95fe-f7bcc9f17eb3/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.59, "c": 10, "l": 9.57, "p": "PC", "r": 13.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018dc72d-308d-7132-b203-eb92d8bb98f6/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.59, "c": 10, "l": 9.57, "p": "PC", "r": 13.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018dc72d-4f3a-7168-93ba-b39b75933944/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.9, "c": 0, "l": 9.57, "p": "PC", "r": 12.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/01a0d3fe-8f96-7125-9405-19532c89d693/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}]'>
+<article class="wf-row" id="balatro" data-platforms="pc" data-tier="wait" data-rank="66" data-kind="new" data-year="2024" data-price="11.19" data-cut="20" data-deals='[{"a": 11.19, "c": 20, "l": 9.57, "p": "PC", "r": 13.99, "s": "GameBillet", "t": true, "tier": "wait", "u": "https://itad.link/018dd6b7-9c57-731f-8779-626d9d4ed3e8/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.25, "c": 10, "l": 9.57, "p": "PC", "r": 13.61, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018dc708-d7bb-70ce-95fe-f7bcc9f17eb3/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.59, "c": 10, "l": 9.57, "p": "PC", "r": 13.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018dc72d-308d-7132-b203-eb92d8bb98f6/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.59, "c": 10, "l": 9.57, "p": "PC", "r": 13.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018dc72d-4f3a-7168-93ba-b39b75933944/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.9, "c": 0, "l": 9.57, "p": "PC", "r": 12.9, "s": "Muve", "t": true, "tier": "wait", "u": "https://itad.link/01a0d3fe-8f96-7125-9405-19532c89d693/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}, {"a": 12.99, "c": 7, "l": 9.57, "p": "PC", "r": 14.0, "s": "PlayerLand", "t": true, "tier": "wait", "u": "https://itad.link/019bfb09-3efa-73fb-b0fe-f96025b34951/?app=w5ppeb", "w": "2-year low is \u20ac9.57"}]'>
   <span class="rank">66</span>
   <img class="cover" src="/static/covers/balatro.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -2056,7 +2085,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€11.19</span><span class="reg">€13.99</span><span class="sub">GameBillet · PC</span></div>
-    <div class="wf-scale"><i style="width:63%"></i><b style="left:37%"></b></div>
+    <div class="wf-scale"><i style="width:63%"></i><s style="width:22%"></s><b style="left:37%"></b></div>
     <div class="ends"><span>low €9.57</span><span>regular €13.99</span></div>
   </div>
   <div class="wf-verdict">
@@ -2070,7 +2099,7 @@ main{flex:1}
   </div>
   
 </article>
-<article class="wf-row" id="tekken-8" data-platforms="pc playstation xbox" data-tier="wait" data-rank="67" data-kind="new" data-year="2024" data-price="32.65" data-cut="10" data-deals='[{"a": 32.65, "c": 10, "l": 18.48, "p": "PC", "r": 36.28, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779e43f1b4/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.89, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779bf28893/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.99, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779db64003/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.99, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779e53dafd/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 36.28, "c": 0, "l": 18.48, "p": "PC", "r": 36.28, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779fb0f88b/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 37.8, "c": 10, "l": 18.48, "p": "PC", "r": 42.0, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779d1c9241/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 39.95, "c": 0, "l": 19.97, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0700-PPSA10594_00-TEKKEN8000000000", "w": "2-year low is \u20ac19.97"}, {"a": 39.99, "c": 0, "l": 39.99, "p": "Xbox", "r": 39.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PPSM14VKCLW", "w": "only 15 days of price history, verdicts start after 60"}]'>
+<article class="wf-row" id="tekken-8" data-platforms="pc playstation xbox" data-tier="wait" data-rank="67" data-kind="new" data-year="2024" data-price="23.97" data-cut="40" data-deals='[{"a": 32.68, "c": 10, "l": 18.48, "p": "PC", "r": 36.32, "s": "GamesPlanet US", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779e43f1b4/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.89, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "Fanatical", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779bf28893/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.99, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "GamesPlanet FR", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779db64003/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 35.99, "c": 10, "l": 18.48, "p": "PC", "r": 39.99, "s": "GamesPlanet DE", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779e53dafd/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 36.32, "c": 0, "l": 18.48, "p": "PC", "r": 36.32, "s": "WinGameStore", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779fb0f88b/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 37.74, "c": 10, "l": 18.48, "p": "PC", "r": 41.94, "s": "GamesPlanet UK", "t": true, "tier": "wait", "u": "https://itad.link/018d9386-dbed-7395-965a-a9779d1c9241/?app=w5ppeb", "w": "2-year low is \u20ac18.48"}, {"a": 23.97, "c": 40, "l": 19.97, "p": "PlayStation", "r": 39.95, "s": "PlayStation Store", "t": true, "tier": "wait", "u": "https://store.playstation.com/en-fi/product/EP0700-PPSA10594_00-TEKKEN8000000000", "w": "2-year low is \u20ac19.97"}, {"a": 39.99, "c": 0, "l": 39.99, "p": "Xbox", "r": 39.99, "s": "Microsoft Store", "t": false, "tier": "wait", "u": "https://www.xbox.com/fi-FI/games/store/x/9PPSM14VKCLW", "w": "only 16 days of price history, verdicts start after 60"}]'>
   <span class="rank">67</span>
   <img class="cover" src="/static/covers/tekken-8.jpg" alt="" loading="lazy" width="96" height="45">
   <div class="title">
@@ -2080,13 +2109,13 @@ main{flex:1}
   <div class="wf-meta"><span class="box">90</span><span class="sub">PC / PS5 / Xbox</span></div>
   
   <div class="wf-price">
-    <div class="now"><span class="amt">€32.65</span><span class="reg">€36.28</span><span class="sub">GamesPlanet US · PC</span></div>
-    <div class="wf-scale"><i style="width:20%"></i><b style="left:80%"></b></div>
-    <div class="ends"><span>low €18.48</span><span>regular €36.28</span></div>
+    <div class="now"><span class="amt">€23.97</span><span class="reg">€39.95</span><span class="sub">PlayStation Store · PlayStation</span></div>
+    <div class="wf-scale"><i style="width:80%"></i><s style="width:10%"></s><b style="left:20%"></b></div>
+    <div class="ends"><span>low €19.97</span><span>regular €39.95</span></div>
   </div>
   <div class="wf-verdict">
     <span class="wf-word wait">WAIT</span>
-    <span class="sub">2-year low is €18.48</span>
+    <span class="sub">2-year low is €19.97</span>
   </div>
   <div class="wf-openbox">
     
@@ -2106,7 +2135,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€12.26</span><span class="reg">€12.90</span><span class="sub">Muve · PC</span></div>
-    <div class="wf-scale"><i style="width:32%"></i><b style="left:68%"></b></div>
+    <div class="wf-scale"><i style="width:32%"></i><s style="width:55%"></s><b style="left:68%"></b></div>
     <div class="ends"><span>low €10.90</span><span>regular €12.90</span></div>
   </div>
   <div class="wf-verdict">
@@ -2131,7 +2160,7 @@ main{flex:1}
   
   <div class="wf-price">
     <div class="now"><span class="amt">€20.49</span><span class="sub">GOG · PC</span></div>
-    <div class="wf-scale"><i style="width:0%"></i><b style="left:100%"></b></div>
+    <div class="wf-scale"><i style="width:0%"></i><s style="width:40%"></s><b style="left:100%"></b></div>
     <div class="ends"><span>low €16.39 (Nov 2026)</span><span>regular €20.49</span></div>
   </div>
   <div class="wf-verdict">
@@ -2275,8 +2304,9 @@ main{flex:1}
       if(!ok.length){price.innerHTML='<span class="sub">No price at the stores you keep</span>';verd.innerHTML='<span class="sub">–</span>';r.className=o.cls.replace(' low','');r.dataset.tier='wait';r.dataset.price='';r.dataset.cut='0';return;}
       var rank={worth:0,good:1,wait:2};ok.forEach(function(d){d.tier=tierOf(d);});ok.sort(function(a,b){return rank[a.tier]-rank[b.tier]||a.a-b.a;});
       var d=ok[0],fill=d.r>d.l+0.005?Math.max(0,Math.min(1,(d.r-d.a)/(d.r-d.l))):(d.a<d.r-0.005?1:0),fp=Math.round(fill*100);
-      var reason=d.tier==='worth'?'Matches the all-time low':d.tier==='good'?eur(d.a-d.l)+' above the 2-year low of '+eur(d.l):d.w.charAt(0).toUpperCase()+d.w.slice(1);
-      price.innerHTML='<div class="now"><span class="amt">'+eur(d.a)+'</span>'+(d.r>d.a?'<span class="reg">'+eur(d.r)+'</span>':'')+'<span class="sub">'+d.s+' · '+d.p+'</span></div><div class="wf-scale'+(d.tier==='worth'?' low':'')+'"><i style="width:'+fp+'%"></i><b style="left:'+(100-fp)+'%"></b></div><div class="ends"><span>low '+eur(d.l)+(d.tier==='worth'?' (now)':'')+'</span><span>regular '+eur(d.r)+'</span></div>';
+      var zone=d.r>d.l+0.005?Math.max(0,Math.min(1,(Math.max(d.l*1.1,d.l+0.1*(d.r-d.l))-d.l)/(d.r-d.l))):0,zp=Math.round(zone*100);
+      var reason=d.tier==='worth'?'Matches the all-time low':d.tier==='good'?eur(d.a-d.l)+' ('+Math.round((d.a-d.l)/d.l*100)+'%) above the 2-year low of '+eur(d.l):d.w.charAt(0).toUpperCase()+d.w.slice(1);
+      price.innerHTML='<div class="now"><span class="amt">'+eur(d.a)+'</span>'+(d.r>d.a?'<span class="reg">'+eur(d.r)+'</span>':'')+'<span class="sub">'+d.s+' · '+d.p+'</span></div><div class="wf-scale'+(d.tier==='worth'?' low':'')+'"><i style="width:'+fp+'%"></i><s style="width:'+zp+'%"></s><b style="left:'+(100-fp)+'%"></b></div><div class="ends"><span>low '+eur(d.l)+(d.tier==='worth'?' (now)':'')+'</span><span>regular '+eur(d.r)+'</span></div>';
       verd.innerHTML=(d.tier!=='worth'?'<span class="wf-word '+d.tier+'">'+(d.tier==='good'?'GOOD':'WAIT')+'</span>':'')+'<span class="sub'+(d.tier==='worth'?' gold':'')+'">'+reason+'</span>';
       if(d.tier==='worth'){var st=document.createElement('span');st.className='wf-stamp title-stamp';st.textContent='Worth it';title.appendChild(st);
         var b=document.createElement('a');b.className='wf-btn primary';b.href=d.u||'#';b.target='_blank';b.rel='nofollow sponsored noopener';b.textContent='Buy at '+d.s.replace('Epic Game Store','Epic').replace('Nintendo eShop','eShop').replace('Microsoft Store','Xbox');open.insertBefore(b,open.firstChild);}
