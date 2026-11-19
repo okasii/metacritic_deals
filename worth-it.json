@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:31:08.859000+00:00",
+ "updated": "2026-11-19T16:46:53.497000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -54,8 +54,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 32.73,
-     "regular": 36.36,
+     "amount": 32.74,
+     "regular": 36.38,
      "low": 3.59,
      "url": "https://itad.link/018d9386-4e5d-715f-a47b-15779d67d618/?app=w5ppeb",
      "tier": "wait"
@@ -137,7 +137,7 @@
    "year": 2022,
    "metascore": 96,
    "price": {
-    "amount": 50.89,
+    "amount": 49.28,
     "regular": 53.57,
     "shop": "Muve",
     "platform": "PC",
@@ -148,8 +148,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 52.73,
-     "regular": 54.55,
+     "amount": 52.75,
+     "regular": 54.57,
      "low": 27.99,
      "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=w5ppeb",
      "tier": "wait"
@@ -166,8 +166,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 53.83,
-     "regular": 59.82,
+     "amount": 53.78,
+     "regular": 59.75,
      "low": 27.99,
      "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b1231da5/?app=w5ppeb",
      "tier": "wait"
@@ -221,7 +221,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.89,
+     "amount": 49.28,
      "regular": 53.57,
      "shop": "Muve",
      "low": 27.99,
@@ -402,8 +402,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 49.09,
-     "regular": 54.55,
+     "amount": 49.11,
+     "regular": 54.57,
      "low": 9.94,
      "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=w5ppeb",
      "tier": "wait"
@@ -411,8 +411,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 50.0,
-     "regular": 54.55,
+     "amount": 50.02,
+     "regular": 54.57,
      "low": 9.94,
      "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=w5ppeb",
      "tier": "wait"
@@ -420,8 +420,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 53.83,
-     "regular": 59.82,
+     "amount": 53.78,
+     "regular": 59.75,
      "low": 9.94,
      "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea627197c2/?app=w5ppeb",
      "tier": "wait"
@@ -652,8 +652,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 50.46,
-     "regular": 54.55,
+     "amount": 50.47,
+     "regular": 54.57,
      "low": 32.46,
      "url": "https://itad.link/01921f59-5049-73b2-a0be-b6f4c40cb79a/?app=w5ppeb",
      "tier": "wait"
@@ -661,8 +661,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 53.83,
-     "regular": 59.82,
+     "amount": 53.78,
+     "regular": 59.75,
      "low": 32.46,
      "url": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=w5ppeb",
      "tier": "wait"
@@ -688,8 +688,8 @@
     {
      "shop": "IndieGala Store",
      "platform": "PC",
-     "amount": 54.65,
-     "regular": 54.65,
+     "amount": 54.56,
+     "regular": 54.56,
      "low": 32.46,
      "url": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=w5ppeb",
      "tier": "wait"
@@ -789,7 +789,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 47.49,
+     "amount": 45.99,
      "regular": 49.99,
      "shop": "Muve",
      "low": 9.99,
@@ -890,8 +890,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 33.64,
-    "regular": 36.36,
+    "amount": 33.65,
+    "regular": 36.38,
     "shop": "WinGameStore",
     "platform": "PC",
     "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb"
@@ -901,8 +901,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 33.64,
-     "regular": 36.36,
+     "amount": 33.65,
+     "regular": 36.38,
      "low": 29.98,
      "url": "https://itad.link/018dd75b-5f81-71f4-82ae-e24e27ba702a/?app=w5ppeb",
      "tier": "wait"
@@ -937,8 +937,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 37.68,
-     "regular": 41.87,
+     "amount": 37.64,
+     "regular": 41.82,
      "low": 29.98,
      "url": "https://itad.link/018dd1b5-6c36-7058-958b-0c9ea83c1d2f/?app=w5ppeb",
      "tier": "wait"
@@ -956,8 +956,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 33.64,
-     "regular": 36.36,
+     "amount": 33.65,
+     "regular": 36.38,
      "shop": "WinGameStore",
      "low": 29.98,
      "verdict": "wait"
@@ -973,8 +973,8 @@
    "year": 2024,
    "metascore": 94,
    "price": {
-    "amount": 34.54,
-    "regular": 36.36,
+    "amount": 34.56,
+    "regular": 36.38,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018ff4fc-8d6b-726a-86c5-1d280f6bb356/?app=w5ppeb"
@@ -984,8 +984,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 34.54,
-     "regular": 36.36,
+     "amount": 34.56,
+     "regular": 36.38,
      "low": 23.11,
      "url": "https://itad.link/018ff4fc-8d6b-726a-86c5-1d280f6bb356/?app=w5ppeb",
      "tier": "wait"
@@ -993,8 +993,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 34.54,
-     "regular": 36.36,
+     "amount": 34.56,
+     "regular": 36.38,
      "low": 23.11,
      "url": "https://itad.link/018ff9a2-d6c3-718d-9cc4-eb6b5dbaac9c/?app=w5ppeb",
      "tier": "wait"
@@ -1029,8 +1029,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 39.77,
-     "regular": 41.87,
+     "amount": 39.73,
+     "regular": 41.82,
      "low": 23.11,
      "url": "https://itad.link/018ff4fc-71ad-729d-981f-8b4fdb01142d/?app=w5ppeb",
      "tier": "wait"
@@ -1048,8 +1048,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 34.54,
-     "regular": 36.36,
+     "amount": 34.56,
+     "regular": 36.38,
      "shop": "GamesPlanet US",
      "low": 23.11,
      "verdict": "wait"
@@ -1239,7 +1239,7 @@
    "year": 2020,
    "metascore": 93,
    "price": {
-    "amount": 9.41,
+    "amount": 9.11,
     "regular": 9.9,
     "shop": "Muve",
     "platform": "PC",
@@ -1296,7 +1296,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 9.41,
+     "amount": 9.11,
      "regular": 9.9,
      "shop": "Muve",
      "low": 2.99,
@@ -1339,21 +1339,21 @@
      "tier": "wait"
     },
     {
-     "shop": "WinGameStore",
+     "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 43.0,
-     "regular": 45.46,
+     "amount": 43.02,
+     "regular": 47.8,
      "low": 27.15,
-     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb",
+     "url": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=w5ppeb",
      "tier": "wait"
     },
     {
-     "shop": "GamesPlanet UK",
+     "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 43.06,
-     "regular": 47.85,
+     "amount": 43.02,
+     "regular": 45.47,
      "low": 27.15,
-     "url": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=w5ppeb",
+     "url": "https://itad.link/01a044c3-bd11-7196-9279-b194f8f8d996/?app=w5ppeb",
      "tier": "wait"
     },
     {
@@ -1479,8 +1479,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 40.91,
-     "regular": 45.46,
+     "amount": 40.92,
+     "regular": 45.47,
      "low": 15.76,
      "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=w5ppeb",
      "tier": "wait"
@@ -1488,8 +1488,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 42.55,
-     "regular": 45.46,
+     "amount": 42.56,
+     "regular": 45.47,
      "low": 15.76,
      "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e690ecf07b/?app=w5ppeb",
      "tier": "wait"
@@ -1497,8 +1497,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 43.06,
-     "regular": 47.85,
+     "amount": 43.02,
+     "regular": 47.8,
      "low": 15.76,
      "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=w5ppeb",
      "tier": "wait"
@@ -1618,8 +1618,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 36.36,
-     "regular": 36.36,
+     "amount": 36.38,
+     "regular": 36.38,
      "low": 2.49,
      "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd364dc225d/?app=w5ppeb",
      "tier": "wait"
@@ -1636,8 +1636,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 37.68,
-     "regular": 41.87,
+     "amount": 37.64,
+     "regular": 41.82,
      "low": 2.49,
      "url": "https://itad.link/018d9386-b8da-7127-8f10-5bd351964d51/?app=w5ppeb",
      "tier": "wait"
@@ -1898,8 +1898,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 32.36,
-     "regular": 36.36,
+     "amount": 32.37,
+     "regular": 36.38,
      "low": 12.66,
      "url": "https://itad.link/018d9386-d550-72b1-872a-5f4db5715721/?app=w5ppeb",
      "tier": "wait"
@@ -2140,8 +2140,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 57.28,
-     "regular": 63.64,
+     "amount": 57.3,
+     "regular": 63.66,
      "low": 13.99,
      "url": "https://itad.link/018d9386-8d1a-713d-be96-784f99ed8984/?app=w5ppeb",
      "tier": "wait"
@@ -2240,8 +2240,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 49.09,
-     "regular": 54.55,
+     "amount": 49.11,
+     "regular": 54.57,
      "low": 14.93,
      "url": "https://itad.link/018defbf-b96b-7112-ae68-75a25afc581d/?app=w5ppeb",
      "tier": "wait"
@@ -2249,8 +2249,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 50.82,
-     "regular": 54.55,
+     "amount": 50.84,
+     "regular": 54.57,
      "low": 14.93,
      "url": "https://itad.link/018debbe-30be-73e6-98b4-f318a36c2a9f/?app=w5ppeb",
      "tier": "wait"
@@ -2349,8 +2349,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 24.53,
-     "regular": 27.27,
+     "amount": 24.54,
+     "regular": 27.28,
      "low": 13.55,
      "url": "https://itad.link/0196210e-6c55-724f-a1c1-8c95f55ac188/?app=w5ppeb",
      "tier": "wait"
@@ -2358,8 +2358,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 24.54,
-     "regular": 27.27,
+     "amount": 24.55,
+     "regular": 27.28,
      "low": 13.55,
      "url": "https://itad.link/01962021-0e48-727c-a562-0e465398066c/?app=w5ppeb",
      "tier": "wait"
@@ -2367,8 +2367,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 26.91,
-     "regular": 29.9,
+     "amount": 26.88,
+     "regular": 29.87,
      "low": 13.55,
      "url": "https://itad.link/01962020-d062-7203-910e-844ad007ec28/?app=w5ppeb",
      "tier": "wait"
@@ -2457,8 +2457,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 42.27,
-     "regular": 45.46,
+     "amount": 42.29,
+     "regular": 45.47,
      "low": 30.48,
      "url": "https://itad.link/019642c3-b653-70f2-9b7b-11d9abd96515/?app=w5ppeb",
      "tier": "wait"
@@ -2466,8 +2466,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 42.73,
-     "regular": 45.46,
+     "amount": 42.74,
+     "regular": 45.47,
      "low": 30.48,
      "url": "https://itad.link/019639f7-a1cb-72c0-9e3b-bc5f9caa4ebc/?app=w5ppeb",
      "tier": "wait"
@@ -2546,7 +2546,7 @@
    "metascore": 91,
    "price": {
     "amount": 12.97,
-    "regular": 45.46,
+    "regular": 45.47,
     "shop": "GamesPlanet US",
     "platform": "PC",
     "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb"
@@ -2557,7 +2557,7 @@
      "shop": "GamesPlanet US",
      "platform": "PC",
      "amount": 12.97,
-     "regular": 45.46,
+     "regular": 45.47,
      "low": 11.08,
      "url": "https://itad.link/018d9386-448e-7241-9acb-20db9e9a050f/?app=w5ppeb",
      "tier": "good"
@@ -2592,8 +2592,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 14.35,
-     "regular": 50.24,
+     "amount": 14.33,
+     "regular": 50.19,
      "low": 11.08,
      "url": "https://itad.link/018d9386-448e-7241-9acb-20db9f5e4b50/?app=w5ppeb",
      "tier": "good"
@@ -2612,7 +2612,7 @@
     {
      "platform": "pc",
      "amount": 12.97,
-     "regular": 45.46,
+     "regular": 45.47,
      "shop": "GamesPlanet US",
      "low": 11.08,
      "verdict": "good"
@@ -2792,7 +2792,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 50.26,
+     "amount": 48.67,
      "regular": 52.9,
      "shop": "Muve",
      "low": 5.99,
@@ -2884,8 +2884,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 27.27,
-     "regular": 27.27,
+     "amount": 27.28,
+     "regular": 27.28,
      "low": 7.49,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478aa7f9cf/?app=w5ppeb",
      "tier": "wait"
@@ -2893,8 +2893,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 29.9,
-     "regular": 29.9,
+     "amount": 29.87,
+     "regular": 29.87,
      "low": 7.49,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478ab20cb2/?app=w5ppeb",
      "tier": "wait"
@@ -3117,8 +3117,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 34.54,
-     "regular": 36.36,
+     "amount": 34.56,
+     "regular": 36.38,
      "low": 14.99,
      "url": "https://itad.link/01a084d8-be9e-71be-b4a8-d609c6e6ae22/?app=w5ppeb",
      "tier": "wait"
@@ -3126,8 +3126,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 34.73,
-     "regular": 36.36,
+     "amount": 34.74,
+     "regular": 36.38,
      "low": 14.99,
      "url": "https://itad.link/01a0817b-a513-7383-bcf7-9f8ed4126754/?app=w5ppeb",
      "tier": "wait"
@@ -3474,8 +3474,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 19.37,
-     "regular": 21.53,
+     "amount": 19.35,
+     "regular": 21.5,
      "low": 8.02,
      "url": "https://itad.link/019f3d8a-22ec-72de-990f-fb1f990c84d1/?app=w5ppeb",
      "tier": "wait"
@@ -3928,8 +3928,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 19.31,
-     "regular": 22.72,
+     "amount": 19.32,
+     "regular": 22.73,
      "low": 7.26,
      "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d919e78b8/?app=w5ppeb",
      "tier": "wait"
@@ -3955,8 +3955,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 20.33,
-     "regular": 23.92,
+     "amount": 20.31,
+     "regular": 23.89,
      "low": 7.26,
      "url": "https://itad.link/018d9386-3e9e-7264-9e13-578d96d2e72c/?app=w5ppeb",
      "tier": "wait"
@@ -3992,8 +3992,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 19.31,
-     "regular": 22.72,
+     "amount": 19.32,
+     "regular": 22.73,
      "shop": "GamesPlanet US",
      "low": 7.26,
      "verdict": "wait"
@@ -4073,8 +4073,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 18.3,
-     "regular": 20.33,
+     "amount": 18.28,
+     "regular": 20.31,
      "low": 7.38,
      "url": "https://itad.link/018eada6-7965-73fc-8daf-c91d4dc9467f/?app=w5ppeb",
      "tier": "wait"
@@ -4120,8 +4120,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 51.37,
-     "regular": 54.55,
+     "amount": 51.38,
+     "regular": 54.57,
      "low": 32.51,
      "url": "https://itad.link/0194dbbd-a122-7285-a6b3-f07bdcdcb7a8/?app=w5ppeb",
      "tier": "wait"
@@ -4129,8 +4129,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 53.83,
-     "regular": 59.82,
+     "amount": 53.78,
+     "regular": 59.75,
      "low": 32.51,
      "url": "https://itad.link/0194b80c-e8ad-704b-bca3-80d5157e8459/?app=w5ppeb",
      "tier": "wait"
@@ -4478,8 +4478,8 @@
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
-     "amount": 32.73,
-     "regular": 36.36,
+     "amount": 32.74,
+     "regular": 36.38,
      "low": 18.48,
      "url": "https://itad.link/018d9386-dbed-7395-965a-a9779e43f1b4/?app=w5ppeb",
      "tier": "wait"
@@ -4514,8 +4514,8 @@
     {
      "shop": "WinGameStore",
      "platform": "PC",
-     "amount": 36.36,
-     "regular": 36.36,
+     "amount": 36.38,
+     "regular": 36.38,
      "low": 18.48,
      "url": "https://itad.link/018d9386-dbed-7395-965a-a9779fb0f88b/?app=w5ppeb",
      "tier": "wait"
@@ -4551,8 +4551,8 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 32.73,
-     "regular": 36.36,
+     "amount": 32.74,
+     "regular": 36.38,
      "shop": "GamesPlanet US",
      "low": 18.48,
      "verdict": "wait"
@@ -4584,7 +4584,7 @@
    "year": 2025,
    "metascore": 90,
    "price": {
-    "amount": 12.26,
+    "amount": 11.87,
     "regular": 12.9,
     "shop": "Muve",
     "platform": "PC",
@@ -4650,16 +4650,16 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 12.26,
+     "amount": 11.87,
      "regular": 12.9,
      "shop": "Muve",
      "low": 10.9,
-     "verdict": "wait"
+     "verdict": "good"
     }
    ],
    "low": 10.9,
-   "verdict": "wait",
-   "reason": "2-year low is €10.90"
+   "verdict": "good",
+   "reason": "€0.97 (9%) above the 2-year low of €10.90"
   },
   {
    "slug": "forza-horizon-6",
@@ -4723,8 +4723,8 @@
     {
      "shop": "GamesPlanet UK",
      "platform": "PC",
-     "amount": 64.6,
-     "regular": 71.78,
+     "amount": 64.54,
+     "regular": 71.71,
      "low": 52.49,
      "url": "https://itad.link/019e3ea0-7932-735c-a261-8270bf1538c5/?app=w5ppeb",
      "tier": "wait"
@@ -4797,7 +4797,7 @@
    "year": 2026,
    "metascore": 90,
    "price": {
-    "amount": 45.51,
+    "amount": 44.07,
     "regular": 47.9,
     "shop": "Muve",
     "platform": "PC",
@@ -4827,7 +4827,7 @@
    "platforms": [
     {
      "platform": "pc",
-     "amount": 45.51,
+     "amount": 44.07,
      "regular": 47.9,
      "shop": "Muve",
      "low": 45.51,
@@ -4836,7 +4836,7 @@
    ],
    "low": 45.51,
    "verdict": "worth",
-   "reason": "matches the all-time low (Nov 2026)"
+   "reason": "new all-time low, €1.44 under the previous €45.51"
   }
  ]
 }
