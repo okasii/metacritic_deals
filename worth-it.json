@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:36:26.376000+00:00",
+ "updated": "2026-11-22T13:27:08.752000+00:00",
  "games": [
   {
    "slug": "disco-elysium-the-final-cut",
@@ -374,7 +374,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "persona-5-royal",
@@ -512,7 +512,7 @@
    ],
    "low": 18.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "hades-ii",
@@ -844,7 +844,7 @@
    ],
    "low": 39.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "astro-bot",
@@ -1796,7 +1796,7 @@
    ],
    "low": 23.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "cuphead-the-delicious-last-course",
@@ -2008,7 +2008,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "xenoblade-chronicles-3-future-redeemed",
@@ -2303,7 +2303,7 @@
    ],
    "low": 17.98,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "blue-prince",
@@ -2387,7 +2387,7 @@
      "platform": "Xbox",
      "amount": 16.49,
      "regular": 29.99,
-     "low": 23.99,
+     "low": 16.49,
      "url": "https://www.xbox.com/fi-FI/games/store/x/9PFRTPRQ569Q",
      "tier": "worth"
     }
@@ -2414,13 +2414,13 @@
      "amount": 16.49,
      "regular": 29.99,
      "shop": "Microsoft Store",
-     "low": 23.99,
+     "low": 16.49,
      "verdict": "worth"
     }
    ],
-   "low": 23.99,
+   "low": 16.49,
    "verdict": "worth",
-   "reason": "new all-time low, €7.50 under the previous €23.99"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "clair-obscur-expedition-33",
@@ -2504,7 +2504,7 @@
      "platform": "Xbox",
      "amount": 37.49,
      "regular": 49.99,
-     "low": 49.99,
+     "low": 37.49,
      "url": "https://www.xbox.com/fi-FI/games/store/x/9PPT8K6GQHRZ",
      "tier": "worth"
     }
@@ -2531,13 +2531,13 @@
      "amount": 37.49,
      "regular": 49.99,
      "shop": "Microsoft Store",
-     "low": 49.99,
+     "low": 37.49,
      "verdict": "worth"
     }
    ],
-   "low": 49.99,
+   "low": 37.49,
    "verdict": "worth",
-   "reason": "new all-time low, €12.50 under the previous €49.99"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "crusader-kings-iii",
@@ -2809,7 +2809,7 @@
    ],
    "low": 47.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "chained-echoes",
@@ -2864,82 +2864,82 @@
    "year": 2023,
    "metascore": 91,
    "price": {
-    "amount": 8.99,
+    "amount": 5.99,
     "regular": 29.99,
-    "shop": "GOG",
+    "shop": "Steam",
     "platform": "PC",
-    "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb"
+    "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478a5b8b6a/?app=w5ppeb"
    },
    "cover": "https://worthityet.com/static/covers/against-the-storm.jpg",
    "deals": [
+    {
+     "shop": "Steam",
+     "platform": "PC",
+     "amount": 5.99,
+     "regular": 29.99,
+     "low": 5.99,
+     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478a5b8b6a/?app=w5ppeb",
+     "tier": "worth"
+    },
     {
      "shop": "GOG",
      "platform": "PC",
      "amount": 8.99,
      "regular": 29.99,
-     "low": 7.49,
+     "low": 5.99,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f54788fe7410/?app=w5ppeb",
-     "tier": "good"
+     "tier": "wait"
     },
     {
      "shop": "Microsoft Store",
      "platform": "PC",
      "amount": 8.99,
      "regular": 29.99,
-     "low": 7.49,
+     "low": 5.99,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5479358df32/?app=w5ppeb",
-     "tier": "good"
+     "tier": "wait"
     },
     {
      "shop": "AllYouPlay",
      "platform": "PC",
      "amount": 9.0,
      "regular": 29.99,
-     "low": 7.49,
+     "low": 5.99,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478ff66f93/?app=w5ppeb",
-     "tier": "good"
+     "tier": "wait"
     },
     {
      "shop": "GreenManGaming",
      "platform": "PC",
      "amount": 9.0,
      "regular": 29.99,
-     "low": 7.49,
+     "low": 5.99,
      "url": "https://itad.link/01996170-765a-71be-995f-cd130e0896e8/?app=w5ppeb",
-     "tier": "good"
+     "tier": "wait"
     },
     {
      "shop": "GamesPlanet US",
      "platform": "PC",
      "amount": 27.34,
      "regular": 27.34,
-     "low": 7.49,
+     "low": 5.99,
      "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478aa7f9cf/?app=w5ppeb",
-     "tier": "wait"
-    },
-    {
-     "shop": "GamesPlanet UK",
-     "platform": "PC",
-     "amount": 29.8,
-     "regular": 29.8,
-     "low": 7.49,
-     "url": "https://itad.link/018d9386-171b-71b4-a5ac-f5478ab20cb2/?app=w5ppeb",
      "tier": "wait"
     }
    ],
    "platforms": [
     {
      "platform": "pc",
-     "amount": 8.99,
+     "amount": 5.99,
      "regular": 29.99,
-     "shop": "GOG",
-     "low": 7.49,
-     "verdict": "good"
+     "shop": "Steam",
+     "low": 5.99,
+     "verdict": "worth"
     }
    ],
-   "low": 7.49,
-   "verdict": "good",
-   "reason": "€1.50 (20%) above the 2-year low of €7.49"
+   "low": 5.99,
+   "verdict": "worth",
+   "reason": "matches the all-time low"
   },
   {
    "slug": "diablo-iv",
@@ -3248,7 +3248,7 @@
    ],
    "low": 69.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "split-fiction",
@@ -3531,7 +3531,7 @@
    ],
    "low": 59.99,
    "verdict": "wait",
-   "reason": "only 21 days of price history, verdicts start after 60"
+   "reason": "only 22 days of price history, verdicts start after 60"
   },
   {
    "slug": "tony-hawks-pro-skater-1-2",
@@ -3659,7 +3659,7 @@
    ],
    "low": 19.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "chicory-a-colorful-tale",
@@ -3801,7 +3801,7 @@
      "platform": "Xbox",
      "amount": 9.99,
      "regular": 24.99,
-     "low": 24.99,
+     "low": 9.99,
      "url": "https://www.xbox.com/fi-FI/games/store/x/9P2688LZXW86",
      "tier": "worth"
     }
@@ -3820,13 +3820,13 @@
      "amount": 9.99,
      "regular": 24.99,
      "shop": "Microsoft Store",
-     "low": 24.99,
+     "low": 9.99,
      "verdict": "worth"
     }
    ],
-   "low": 24.99,
+   "low": 9.99,
    "verdict": "worth",
-   "reason": "new all-time low, €15.00 under the previous €24.99"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "the-legend-of-heroes-trails-from-zero",
@@ -4576,7 +4576,7 @@
    ],
    "low": 23.99,
    "verdict": "worth",
-   "reason": "matches the all-time low"
+   "reason": "matches the all-time low (Nov 2026)"
   },
   {
    "slug": "hollow-knight-silksong",
